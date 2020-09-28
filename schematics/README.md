@@ -1,0 +1,1 @@
+# SCHEMATIC EDA FILES (eagle .sch) GO IN THIS FOLDER # 
