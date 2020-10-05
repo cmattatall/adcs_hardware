@@ -3,7 +3,7 @@ Hardware repository for ADCS
 
 # Harware Architecture Overview
 
-![ADCS Hardware Block Diagram 2020.09.08](https://)
+![ADCS Hardware Block Diagram 2020.09.08](https://github.com/cmattatall/adcs_hardware/blob/dev/docs/High%20Level%20Diagram%202020.09.08.png?raw=true)
 
 # VERSION CONTROL
 
@@ -29,7 +29,7 @@ Repo will then appear under projects tab of the 'Control Panel' window when Eagl
 ## Project Manager File
 *.epf is the eagle project manager file and contains all settings information for project. Contains all path references to all the libraries the have been used. *.epf is not crucial to project but can be useful to share with collaborators. 
 
-# Design Files 
+## Design Files 
 *.brd and *.sch files must have matching names and be contained in the same folder. Schematic files also copy all the information from the component libraries once the components are placed in a schematic, making the library files less necessary once used. The .brd files also copy the package information from the component libraries and don’t require libraries again unless you need to place a new component or replace a previous component. 
 
 ## Backup Files
