@@ -21,3 +21,5 @@
 *.b##
 *.scr
 *.epf
+*.epf
+eagle projects/ADCS Actuator Board/eagle.epf
