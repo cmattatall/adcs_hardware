@@ -3349,21 +3349,6 @@
 <text x="0" y="0" size="1.2" layer="51" font="vector" ratio="10">&gt;VALUE</text>
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 </package>
-<package name="REACTIONWHEEL" library_version="32" library_locally_modified="yes">
-<pad name="1" x="5.08" y="0" drill="0.6" shape="square"/>
-<pad name="2" x="7.62" y="0" drill="0.6"/>
-<pad name="3" x="10.16" y="0" drill="0.6"/>
-<pad name="4" x="12.7" y="0" drill="0.6"/>
-<pad name="5" x="15.24" y="0" drill="0.6"/>
-<pad name="6" x="17.78" y="0" drill="0.6"/>
-<pad name="7" x="20.32" y="0" drill="0.6"/>
-<pad name="8" x="22.86" y="0" drill="0.6"/>
-<wire x1="-1.5" y1="-1.5" x2="28.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="28.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="28.5" x2="28.5" y2="28.5" width="0.127" layer="21"/>
-<wire x1="28.5" y1="28.5" x2="28.5" y2="-1.5" width="0.127" layer="21"/>
-<text x="1.27" y="15.24" size="1.27" layer="21">PLACEHOLDER FOOTPRINT</text>
-</package>
 <package name="NCTR-M002" library_version="33" library_locally_modified="yes">
 <text x="-11.43" y="-1.27" size="1.27" layer="21">PLACEHOLDER MAGNETORQUER
 </text>
@@ -4167,6 +4152,21 @@
 <text x="0" y="0" size="1.2" layer="51" font="vector" ratio="10">&gt;VALUE</text>
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 </package>
+<package name="REACTIONWHEEL" urn="urn:adsk.eagle:footprint:24393516/1" library_version="34" library_locally_modified="yes">
+<pad name="1" x="5.08" y="0" drill="0.6" shape="square"/>
+<pad name="2" x="7.62" y="0" drill="0.6"/>
+<pad name="3" x="10.16" y="0" drill="0.6"/>
+<pad name="4" x="12.7" y="0" drill="0.6"/>
+<pad name="5" x="15.24" y="0" drill="0.6"/>
+<pad name="6" x="17.78" y="0" drill="0.6"/>
+<pad name="7" x="20.32" y="0" drill="0.6"/>
+<pad name="8" x="22.86" y="0" drill="0.6"/>
+<wire x1="-1.5" y1="-1.5" x2="28.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="28.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="28.5" x2="28.5" y2="28.5" width="0.127" layer="21"/>
+<wire x1="28.5" y1="28.5" x2="28.5" y2="-1.5" width="0.127" layer="21"/>
+<text x="1.27" y="15.24" size="1.27" layer="21">PLACEHOLDER FOOTPRINT</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="MOLEX_5034801000" urn="urn:adsk.eagle:package:23814316/2" type="model" library_version="22">
@@ -4217,6 +4217,11 @@
 <description>Small Outline IC (SOIC), 1.27 mm pitch; 14 pin, 8.65 mm L X 3.90 mm W X 1.75 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <packageinstances>
 <packageinstance name="SOIC14P127_865X600X175L83X41N_TLV9054IDR"/>
+</packageinstances>
+</package3d>
+<package3d name="REACTIONWHEEL" urn="urn:adsk.eagle:package:24393517/1" type="box" library_version="34" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="REACTIONWHEEL"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -4429,24 +4434,6 @@
 <text x="-10.16" y="22.86" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-10.16" y="25.4" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
-<symbol name="REACTION_WHEEL" urn="urn:adsk.eagle:symbol:23814314/1" library_version="32" library_locally_modified="yes">
-<circle x="0" y="0" radius="5.08" width="0.1524" layer="94"/>
-<text x="0" y="0" size="1.778" layer="94" align="center">M</text>
-<text x="-12.7" y="15.24" size="1.778" layer="95" align="center">&gt;NAME</text>
-<text x="-12.7" y="12.7" size="1.778" layer="96" align="center">&gt;VALUE</text>
-<wire x1="17.78" y1="10.16" x2="-17.78" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="-17.78" y1="10.16" x2="-17.78" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="-17.78" y1="-10.16" x2="17.78" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="17.78" y1="-10.16" x2="17.78" y2="10.16" width="0.1524" layer="94"/>
-<pin name="PHASE_C" x="-22.86" y="2.54" length="middle"/>
-<pin name="PHASE_B" x="-22.86" y="0" length="middle"/>
-<pin name="PHASE_A" x="-22.86" y="-2.54" length="middle"/>
-<pin name="GND" x="-22.86" y="-7.62" length="middle"/>
-<pin name="UDD_+5V" x="-22.86" y="7.62" length="middle"/>
-<pin name="HALL_C" x="22.86" y="2.54" length="middle" rot="R180"/>
-<pin name="HALL_B" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="HALL_A" x="22.86" y="-2.54" length="middle" rot="R180"/>
-</symbol>
 <symbol name="NCTR-M002" library_version="33" library_locally_modified="yes">
 <wire x1="0" y1="5.08" x2="0" y2="2.54" width="0.254" layer="94" curve="-180"/>
 <wire x1="0" y1="2.54" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
@@ -4476,6 +4463,24 @@
 <wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
 <text x="-12.7" y="15.24" size="1.778" layer="95" ratio="10">&gt;NAME</text>
 <text x="-12.7" y="12.7" size="1.778" layer="96" ratio="10">&gt;VALUE</text>
+</symbol>
+<symbol name="REACTION_WHEEL" urn="urn:adsk.eagle:symbol:23814314/1" library_version="34" library_locally_modified="yes">
+<circle x="0" y="0" radius="5.08" width="0.1524" layer="94"/>
+<text x="0" y="0" size="1.778" layer="94" align="center">M</text>
+<text x="-12.7" y="15.24" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="-12.7" y="12.7" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<wire x1="17.78" y1="10.16" x2="-17.78" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="10.16" x2="-17.78" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="-10.16" x2="17.78" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="-10.16" x2="17.78" y2="10.16" width="0.1524" layer="94"/>
+<pin name="PHASE_C" x="-22.86" y="2.54" length="middle"/>
+<pin name="PHASE_B" x="-22.86" y="0" length="middle"/>
+<pin name="PHASE_A" x="-22.86" y="-2.54" length="middle"/>
+<pin name="GND" x="-22.86" y="-7.62" length="middle"/>
+<pin name="UDD_+5V" x="-22.86" y="7.62" length="middle"/>
+<pin name="HALL_C" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="HALL_B" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="HALL_A" x="22.86" y="-2.54" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4743,28 +4748,6 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="REACTION_WHEEL" urn="urn:adsk.eagle:component:23814318/2" locally_modified="yes" prefix="A" library_version="32" library_locally_modified="yes">
-<gates>
-<gate name="G$1" symbol="REACTION_WHEEL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="REACTIONWHEEL">
-<connects>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="HALL_A" pad="8"/>
-<connect gate="G$1" pin="HALL_B" pad="7"/>
-<connect gate="G$1" pin="HALL_C" pad="6"/>
-<connect gate="G$1" pin="PHASE_A" pad="3"/>
-<connect gate="G$1" pin="PHASE_B" pad="2"/>
-<connect gate="G$1" pin="PHASE_C" pad="1"/>
-<connect gate="G$1" pin="UDD_+5V" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="NCTR-M002" prefix="M" library_version="33" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="NCTR-M002" x="0" y="0"/>
@@ -4797,6 +4780,31 @@
 <connect gate="G$1" pin="VCC_2" pad="3"/>
 <connect gate="G$1" pin="VREF" pad="6"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="REACTION_WHEEL" urn="urn:adsk.eagle:component:23814318/3" prefix="A" library_version="34" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="REACTION_WHEEL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="REACTIONWHEEL">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="HALL_A" pad="8"/>
+<connect gate="G$1" pin="HALL_B" pad="7"/>
+<connect gate="G$1" pin="HALL_C" pad="6"/>
+<connect gate="G$1" pin="PHASE_A" pad="3"/>
+<connect gate="G$1" pin="PHASE_B" pad="2"/>
+<connect gate="G$1" pin="PHASE_C" pad="1"/>
+<connect gate="G$1" pin="UDD_+5V" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24393517/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -14196,9 +14204,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="P+108" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="SUPPLY210" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U27" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9054IDR" device="" package3d_urn="urn:adsk.eagle:package:23088449/2"/>
-<part name="A1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="REACTION_WHEEL" device=""/>
-<part name="A2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="REACTION_WHEEL" device=""/>
-<part name="A3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="REACTION_WHEEL" device=""/>
 <part name="M1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="NCTR-M002" device=""/>
 <part name="M2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="NCTR-M002" device=""/>
 <part name="M3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="NCTR-M002" device=""/>
@@ -14226,6 +14231,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1Q" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 <part name="JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1Q" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 <part name="JP3" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1Q" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
+<part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
+<part name="A1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="REACTION_WHEEL" device="" package3d_urn="urn:adsk.eagle:package:24393517/1"/>
+<part name="A2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="REACTION_WHEEL" device="" package3d_urn="urn:adsk.eagle:package:24393517/1"/>
+<part name="A3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="REACTION_WHEEL" device="" package3d_urn="urn:adsk.eagle:package:24393517/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -14303,18 +14312,6 @@ Hbridge for Aircoil Magnetorquer (epoxied to bottom side)</text>
 <instance part="MH8" gate="G$1" x="157.48" y="50.8" smashed="yes">
 <attribute name="NAME" x="160.274" y="51.3842" size="1.778" layer="95"/>
 <attribute name="VALUE" x="160.274" y="48.3362" size="1.778" layer="96"/>
-</instance>
-<instance part="A1" gate="G$1" x="53.34" y="96.52" smashed="yes">
-<attribute name="NAME" x="38.1" y="111.76" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="48.26" y="109.22" size="1.778" layer="96" align="center"/>
-</instance>
-<instance part="A2" gate="G$1" x="53.34" y="68.58" smashed="yes">
-<attribute name="NAME" x="38.1" y="83.82" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="48.26" y="81.28" size="1.778" layer="96" align="center"/>
-</instance>
-<instance part="A3" gate="G$1" x="124.46" y="96.52" smashed="yes">
-<attribute name="NAME" x="109.22" y="111.76" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="119.38" y="109.22" size="1.778" layer="96" align="center"/>
 </instance>
 <instance part="M1" gate="G$1" x="251.46" y="162.56" smashed="yes">
 <attribute name="NAME" x="256.54" y="165.1" size="1.27" layer="95"/>
@@ -14710,14 +14707,14 @@ Hbridge for Aircoil Magnetorquer (epoxied to bottom side)</text>
 </net>
 <net name="OFF_PAGE_CONNECTION" class="0">
 <segment>
-<wire x1="-58.42" y1="121.92" x2="-38.1" y2="121.92" width="0.1524" layer="91"/>
-<label x="-38.1" y="121.92" size="1.778" layer="95" xref="yes"/>
+<wire x1="20.32" y1="106.68" x2="40.64" y2="106.68" width="0.1524" layer="91"/>
+<label x="40.64" y="106.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ON_PAGE_CONNECTION" class="0">
 <segment>
-<wire x1="-58.42" y1="116.84" x2="-38.1" y2="116.84" width="0.1524" layer="91"/>
-<label x="-55.88" y="116.84" size="1.778" layer="95"/>
+<wire x1="20.32" y1="101.6" x2="40.64" y2="101.6" width="0.1524" layer="91"/>
+<label x="22.86" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -14857,6 +14854,34 @@ Hbridge for Aircoil Magnetorquer (epoxied to bottom side)</text>
 <wire x1="246.38" y1="86.36" x2="251.46" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME3" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="A1" gate="G$1" x="93.98" y="147.32" smashed="yes">
+<attribute name="NAME" x="81.28" y="162.56" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="81.28" y="160.02" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="A2" gate="G$1" x="93.98" y="109.22" smashed="yes">
+<attribute name="NAME" x="81.28" y="124.46" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="81.28" y="121.92" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="A3" gate="G$1" x="93.98" y="68.58" smashed="yes">
+<attribute name="NAME" x="81.28" y="83.82" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="81.28" y="81.28" size="1.778" layer="96" align="center"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
 </nets>
 </sheet>
 <sheet>

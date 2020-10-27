@@ -3531,21 +3531,6 @@
 <text x="0" y="0" size="1.2" layer="51" font="vector" ratio="10">&gt;VALUE</text>
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 </package>
-<package name="REACTIONWHEEL" library_version="32" library_locally_modified="yes">
-<pad name="1" x="5.08" y="0" drill="0.6" shape="square"/>
-<pad name="2" x="7.62" y="0" drill="0.6"/>
-<pad name="3" x="10.16" y="0" drill="0.6"/>
-<pad name="4" x="12.7" y="0" drill="0.6"/>
-<pad name="5" x="15.24" y="0" drill="0.6"/>
-<pad name="6" x="17.78" y="0" drill="0.6"/>
-<pad name="7" x="20.32" y="0" drill="0.6"/>
-<pad name="8" x="22.86" y="0" drill="0.6"/>
-<wire x1="-1.5" y1="-1.5" x2="28.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="28.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="28.5" x2="28.5" y2="28.5" width="0.127" layer="21"/>
-<wire x1="28.5" y1="28.5" x2="28.5" y2="-1.5" width="0.127" layer="21"/>
-<text x="1.27" y="15.24" size="1.27" layer="21">PLACEHOLDER FOOTPRINT</text>
-</package>
 <package name="NCTR-M002" library_version="33" library_locally_modified="yes">
 <text x="-11.43" y="-1.27" size="1.27" layer="21">PLACEHOLDER MAGNETORQUER
 </text>
@@ -4349,6 +4334,21 @@
 <text x="0" y="0" size="1.2" layer="51" font="vector" ratio="10">&gt;VALUE</text>
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 </package>
+<package name="REACTIONWHEEL" urn="urn:adsk.eagle:footprint:24393516/1" library_version="34" library_locally_modified="yes">
+<pad name="1" x="5.08" y="0" drill="0.6" shape="square"/>
+<pad name="2" x="7.62" y="0" drill="0.6"/>
+<pad name="3" x="10.16" y="0" drill="0.6"/>
+<pad name="4" x="12.7" y="0" drill="0.6"/>
+<pad name="5" x="15.24" y="0" drill="0.6"/>
+<pad name="6" x="17.78" y="0" drill="0.6"/>
+<pad name="7" x="20.32" y="0" drill="0.6"/>
+<pad name="8" x="22.86" y="0" drill="0.6"/>
+<wire x1="-1.5" y1="-1.5" x2="28.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="28.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="28.5" x2="28.5" y2="28.5" width="0.127" layer="21"/>
+<wire x1="28.5" y1="28.5" x2="28.5" y2="-1.5" width="0.127" layer="21"/>
+<text x="1.27" y="15.24" size="1.27" layer="21">PLACEHOLDER FOOTPRINT</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="MOLEX_5034801000" urn="urn:adsk.eagle:package:23814316/2" type="model" library_version="22">
@@ -4389,6 +4389,11 @@
 <description>Small Outline IC (SOIC), 1.27 mm pitch; 14 pin, 8.65 mm L X 3.90 mm W X 1.75 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <packageinstances>
 <packageinstance name="SOIC14P127_865X600X175L83X41N_TLV9054IDR"/>
+</packageinstances>
+</package3d>
+<package3d name="REACTIONWHEEL" urn="urn:adsk.eagle:package:24393517/1" type="box" library_version="34" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="REACTIONWHEEL"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -6501,9 +6506,6 @@ design rules under a new name.</description>
 <element name="U27" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="SOIC14P127_865X600X175L83X41N_TLV9054IDR" package3d_urn="urn:adsk.eagle:package:23088449/2" value="TLV9054IDR" x="103.1875" y="120.65" smashed="yes" rot="R180">
 <attribute name="NAME" x="97.155" y="121.76125" size="1.27" layer="25" ratio="10" rot="R270"/>
 </element>
-<element name="A1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="REACTIONWHEEL" value="REACTION_WHEEL" x="41.91" y="21.2725" smashed="yes"/>
-<element name="A2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="REACTIONWHEEL" value="REACTION_WHEEL" x="-66.675" y="-62.865" smashed="yes"/>
-<element name="A3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="REACTIONWHEEL" value="REACTION_WHEEL" x="-66.675" y="-93.0275" smashed="yes"/>
 <element name="M1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="NCTR-M002" value="NCTR-M002" x="-56.515" y="-99.06" smashed="yes">
 <attribute name="NAME" x="-56.515" y="-96.52" size="1.27" layer="25"/>
 </element>
@@ -6579,6 +6581,9 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="15" x="-86.36" y="-165.735" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-83.439" y="-168.275" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
+<element name="A1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="REACTIONWHEEL" package3d_urn="urn:adsk.eagle:package:24393517/1" value="REACTION_WHEEL" x="-88.265" y="-197.485" smashed="yes"/>
+<element name="A2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="REACTIONWHEEL" package3d_urn="urn:adsk.eagle:package:24393517/1" value="REACTION_WHEEL" x="-88.265" y="-227.965" smashed="yes"/>
+<element name="A3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="REACTIONWHEEL" package3d_urn="urn:adsk.eagle:package:24393517/1" value="REACTION_WHEEL" x="-88.265" y="-258.445" smashed="yes"/>
 </elements>
 <signals>
 <signal name="!CS!_SUN_X+">
