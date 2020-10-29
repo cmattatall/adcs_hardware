@@ -3,7 +3,7 @@ Hardware repository for ADCS
 
 # Harware Architecture Overview
 
-![ADCS Hardware Block Diagram 2020.10.26](https://github.com/cmattatall/adcs_hardware/blob/master/docs/High%20Level%20Diagram%202020.09.08.png?raw=true)
+![ADCS Hardware Block Diagram 2020.10.26](https://github.com/cmattatall/adcs_hardware/blob/master/docs/2020.10.26ADCS%20Subsystem.png?raw=true)
 
 # VERSION CONTROL
 
