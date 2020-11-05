@@ -6617,7 +6617,7 @@
 <text x="0" y="0" size="1.2" layer="51" font="vector" ratio="10">&gt;VALUE</text>
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 </package>
-<package name="QFP80P50_1400X1400X160L60X22N" urn="urn:adsk.eagle:footprint:22927469/3" locally_modified="yes" library_version="49" library_locally_modified="yes">
+<package name="QFP80P50_1400X1400X160L60X22N" urn="urn:adsk.eagle:footprint:22927469/4" library_version="51">
 <description>Quad Flat Pack (QFP), 0.50 mm pitch; square, 20 pin X 20 pin, 12.00 mm L X 12.00 mm W X 1.60 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <smd name="1" x="-4.75" y="-6.63" dx="1.26" dy="0.3" layer="1" roundness="53" rot="R270" stop="no" cream="no"/>
 <smd name="2" x="-4.25" y="-6.63" dx="1.26" dy="0.3" layer="1" roundness="53" rot="R270" stop="no" cream="no"/>
@@ -15045,6 +15045,66 @@
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
 </package>
+<package name="1X03" urn="urn:adsk.eagle:footprint:24583853/1" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="square" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" rot="R90"/>
+<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+</package>
+<package name="1X03/90" urn="urn:adsk.eagle:footprint:22341/1" library_version="51">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="6.985" x2="-2.54" y2="1.27" width="0.762" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="6.985" x2="0" y2="1.27" width="0.762" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="6.985" x2="2.54" y2="1.27" width="0.762" layer="21"/>
+<pad name="1" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-4.445" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.921" y1="0.635" x2="-2.159" y2="1.143" layer="21"/>
+<rectangle x1="-0.381" y1="0.635" x2="0.381" y2="1.143" layer="21"/>
+<rectangle x1="2.159" y1="0.635" x2="2.921" y2="1.143" layer="21"/>
+<rectangle x1="-2.921" y1="-2.921" x2="-2.159" y2="-1.905" layer="21"/>
+<rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
+<rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="LCCS16P127_736X736X279L127X50N" urn="urn:adsk.eagle:package:22876506/2" type="model" library_version="5" library_locally_modified="yes">
@@ -15104,7 +15164,7 @@
 <packageinstance name="MTGP700H400"/>
 </packageinstances>
 </package3d>
-<package3d name="QFP80P50_1400X1400X160L60X22N" urn="urn:adsk.eagle:package:22927473/4" type="model" library_version="49" library_locally_modified="yes">
+<package3d name="QFP80P50_1400X1400X160L60X22N" urn="urn:adsk.eagle:package:22927473/5" type="model" library_version="51">
 <description>Quad Flat Pack (QFP), 0.50 mm pitch; square, 20 pin X 20 pin, 12.00 mm L X 12.00 mm W X 1.60 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <packageinstances>
 <packageinstance name="QFP80P50_1400X1400X160L60X22N"/>
@@ -15194,6 +15254,18 @@
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="1X02"/>
+</packageinstances>
+</package3d>
+<package3d name="1X03" urn="urn:adsk.eagle:package:24583855/1" type="model" library_version="51">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="1X03"/>
+</packageinstances>
+</package3d>
+<package3d name="1X03/90" urn="urn:adsk.eagle:package:22459/2" type="model" library_version="51">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X03/90"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -15625,6 +15697,17 @@
 <pin name="1" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="2" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
 </symbol>
+<symbol name="PINHD3" urn="urn:adsk.eagle:symbol:24583852/1" library_version="51">
+<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="HDR_10_EZFET_DEBUGGER" urn="urn:adsk.eagle:component:22941473/4" prefix="J" library_version="27">
@@ -15995,7 +16078,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MSP430F5529IPN" urn="urn:adsk.eagle:component:22927475/7" prefix="U" library_version="49" library_locally_modified="yes">
+<deviceset name="MSP430F5529IPN" urn="urn:adsk.eagle:component:22927475/8" prefix="U" library_version="51">
 <gates>
 <gate name="G$1" symbol="MSP430F552X" x="73.66" y="22.86"/>
 </gates>
@@ -16084,7 +16167,7 @@
 <connect gate="G$1" pin="VUSB" pad="66"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22927473/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22927473/5"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -16418,6 +16501,44 @@
 </package3dinstances>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINHD-1X3" urn="urn:adsk.eagle:component:24583856/1" prefix="JP" uservalue="yes" library_version="51">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="PINHD3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X03">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24583855/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="92" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="/90" package="1X03/90">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22459/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="17" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -41650,6 +41771,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <schematic_group name="EZFET_DEBUGGER_HEADER"/>
 <schematic_group name="POWER_CONNECTOR"/>
 <schematic_group name="PAYLOAD_CAMERAS"/>
+<schematic_group name="SPI_BUS_TEST"/>
 </groups>
 <parts>
 <part name="J5" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="HDR_10_EZFET_DEBUGGER" device="" package3d_urn="urn:adsk.eagle:package:22941472/2"/>
@@ -41782,7 +41904,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY31" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY32" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MSP430F5529IPN" device="" package3d_urn="urn:adsk.eagle:package:22927473/4"/>
+<part name="U1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MSP430F5529IPN" device="" package3d_urn="urn:adsk.eagle:package:22927473/5"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="JP4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="PINHD-2X6" device="" package3d_urn="urn:adsk.eagle:package:24524604/1"/>
@@ -41815,6 +41937,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="S1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:24526167/2" value="RST"/>
+<part name="JP6" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:24583855/1"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0R"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0R"/>
+<part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0R"/>
 </parts>
 <sheets>
 <sheet>
@@ -43986,6 +44112,22 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <instance part="+3V3" gate="G$1" x="86.36" y="60.96" smashed="yes" grouprefs="EZFET_DEBUGGER_HEADER">
 <attribute name="VALUE" x="88.9" y="63.5" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="JP6" gate="A" x="254" y="99.06" smashed="yes" grouprefs="SPI_BUS_TEST">
+<attribute name="NAME" x="247.65" y="104.775" size="1.778" layer="95"/>
+<attribute name="VALUE" x="247.65" y="91.44" size="1.778" layer="96"/>
+</instance>
+<instance part="R3" gate="G$1" x="231.14" y="91.44" smashed="yes" grouprefs="SPI_BUS_TEST">
+<attribute name="NAME" x="227.33" y="92.9386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="227.33" y="88.138" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="231.14" y="99.06" smashed="yes" grouprefs="SPI_BUS_TEST">
+<attribute name="NAME" x="227.33" y="100.5586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="227.33" y="95.758" size="1.778" layer="96"/>
+</instance>
+<instance part="R28" gate="G$1" x="231.14" y="106.68" smashed="yes" grouprefs="SPI_BUS_TEST">
+<attribute name="NAME" x="227.33" y="108.1786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="227.33" y="103.378" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -44093,6 +44235,11 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <wire x1="160.02" y1="134.62" x2="190.5" y2="134.62" width="0.1524" layer="91"/>
 <label x="190.5" y="134.62" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R28" gate="G$1" pin="1"/>
+<wire x1="226.06" y1="106.68" x2="205.74" y2="106.68" width="0.1524" layer="91" grouprefs="SPI_BUS_TEST"/>
+<label x="205.74" y="106.68" size="1.778" layer="95" grouprefs="SPI_BUS_TEST"/>
+</segment>
 </net>
 <net name="UCB0_SPI_MOSI" class="0">
 <segment>
@@ -44100,12 +44247,22 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <wire x1="160.02" y1="129.54" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
 <label x="190.5" y="129.54" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="91.44" x2="226.06" y2="91.44" width="0.1524" layer="91" grouprefs="SPI_BUS_TEST"/>
+<label x="205.74" y="91.44" size="1.778" layer="95" grouprefs="SPI_BUS_TEST"/>
+</segment>
 </net>
 <net name="UCB0_SPI_MISO" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="SPI_MISO"/>
 <wire x1="160.02" y1="132.08" x2="167.64" y2="132.08" width="0.1524" layer="91"/>
 <label x="167.64" y="132.08" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="99.06" x2="226.06" y2="99.06" width="0.1524" layer="91" grouprefs="SPI_BUS_TEST"/>
+<label x="205.74" y="99.06" size="1.778" layer="95" grouprefs="SPI_BUS_TEST"/>
 </segment>
 </net>
 <net name="!CS!_MTI" class="0">
@@ -44294,6 +44451,31 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <pinref part="JP5" gate="A" pin="3"/>
 <wire x1="246.38" y1="53.34" x2="241.3" y2="53.34" width="0.1524" layer="91" grouprefs="POWER_CONNECTOR"/>
 <label x="241.3" y="53.34" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="POWER_CONNECTOR"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R28" gate="G$1" pin="2"/>
+<pinref part="JP6" gate="A" pin="1"/>
+<wire x1="236.22" y1="106.68" x2="241.3" y2="106.68" width="0.1524" layer="91" grouprefs="SPI_BUS_TEST"/>
+<wire x1="241.3" y1="106.68" x2="241.3" y2="101.6" width="0.1524" layer="91" grouprefs="SPI_BUS_TEST"/>
+<wire x1="241.3" y1="101.6" x2="251.46" y2="101.6" width="0.1524" layer="91" grouprefs="SPI_BUS_TEST"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="JP6" gate="A" pin="2"/>
+<wire x1="236.22" y1="99.06" x2="251.46" y2="99.06" width="0.1524" layer="91" grouprefs="SPI_BUS_TEST"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="JP6" gate="A" pin="3"/>
+<wire x1="251.46" y1="96.52" x2="241.3" y2="96.52" width="0.1524" layer="91" grouprefs="SPI_BUS_TEST"/>
+<wire x1="241.3" y1="96.52" x2="241.3" y2="91.44" width="0.1524" layer="91" grouprefs="SPI_BUS_TEST"/>
+<wire x1="241.3" y1="91.44" x2="236.22" y2="91.44" width="0.1524" layer="91" grouprefs="SPI_BUS_TEST"/>
 </segment>
 </net>
 </nets>
