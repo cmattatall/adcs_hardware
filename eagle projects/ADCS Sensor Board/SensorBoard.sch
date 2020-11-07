@@ -2586,7 +2586,7 @@
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-3.175" size="1.27" layer="21">*</text>
 </package>
-<package name="DBQ16" urn="urn:adsk.eagle:footprint:23087505/2" library_version="16">
+<package name="DBQ16" urn="urn:adsk.eagle:footprint:23087505/3" library_version="55">
 <smd name="1" x="-2.5527" y="2.2225" dx="1.8034" dy="0.3556" layer="1"/>
 <smd name="2" x="-2.5527" y="1.5875" dx="1.8034" dy="0.3556" layer="1"/>
 <smd name="3" x="-2.5527" y="0.9525" dx="1.8034" dy="0.3556" layer="1"/>
@@ -2681,12 +2681,6 @@
 <text x="-4.6482" y="1.8034" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<polygon width="0.0254" layer="21">
-<vertex x="3.9624" y="-1.397"/>
-<vertex x="3.9624" y="-1.778"/>
-<vertex x="3.7084" y="-1.778"/>
-<vertex x="3.7084" y="-1.397"/>
-</polygon>
 </package>
 <package name="DBQ16-M" urn="urn:adsk.eagle:footprint:23087503/1" library_version="7">
 <smd name="1" x="-2.82575" y="2.2225" dx="1.6637" dy="0.3556" layer="1"/>
@@ -14644,7 +14638,7 @@
 <packageinstance name="HDRV10W66P254_10X1_2540X254H858"/>
 </packageinstances>
 </package3d>
-<package3d name="DBQ16" urn="urn:adsk.eagle:package:23087509/3" type="model" library_version="22">
+<package3d name="DBQ16" urn="urn:adsk.eagle:package:23087509/4" type="model" library_version="55">
 <packageinstances>
 <packageinstance name="DBQ16"/>
 </packageinstances>
@@ -15238,13 +15232,12 @@
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
-<symbol name="TP" urn="urn:adsk.eagle:symbol:24605430/1" library_version="53">
+<symbol name="TP" urn="urn:adsk.eagle:symbol:24605430/2" library_version="55">
 <wire x1="-0.762" y1="-0.762" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="0.762" y1="-0.762" x2="0" y2="-1.524" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.524" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
 <text x="-1.27" y="1.27" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.27" y="-1.27" size="1.778" layer="97">&gt;TP_SIGNAL_NAME</text>
 <pin name="TP" x="0" y="-2.54" visible="off" length="short" direction="in" rot="R90"/>
 </symbol>
 </symbols>
@@ -15360,7 +15353,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADS7841E_2K5" urn="urn:adsk.eagle:component:23087510/5" prefix="U" library_version="22">
+<deviceset name="ADS7841E_2K5" urn="urn:adsk.eagle:component:23087510/6" prefix="U" library_version="55">
 <gates>
 <gate name="A" symbol="ADS7841_DBQ_16" x="0" y="0"/>
 </gates>
@@ -15385,7 +15378,7 @@
 <connect gate="A" pin="VREF" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23087509/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23087509/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16079,7 +16072,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TESTPOINT" urn="urn:adsk.eagle:component:24605433/1" prefix="TP" library_version="53">
+<deviceset name="TESTPOINT" urn="urn:adsk.eagle:component:24605433/2" prefix="TP" library_version="55">
 <gates>
 <gate name="G$1" symbol="TP" x="0" y="0"/>
 </gates>
@@ -33529,7 +33522,7 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY55" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="Q2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="IRF7507TRPBF" device="" package3d_urn="urn:adsk.eagle:package:23087471/3"/>
 <part name="A1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="HMC1053" device="PA0242" package3d_urn="urn:adsk.eagle:package:24163034/3" value="HMC1053PA0242"/>
-<part name="U3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/3"/>
+<part name="U3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/4"/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1u"/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1u"/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1u"/>
