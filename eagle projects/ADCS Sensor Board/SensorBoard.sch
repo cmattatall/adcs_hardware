@@ -33681,6 +33681,8 @@ Source: www.kingbright.com</description>
 <part name="TP1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/1"/>
 <part name="TP2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/1"/>
 <part name="TP3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/1"/>
+<part name="TP4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/1"/>
+<part name="TP5" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -33782,9 +33784,9 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="27.813" y="119.6594" size="1.524" layer="95" rot="R180"/>
 <attribute name="VALUE" x="27.305" y="116.6114" size="1.524" layer="96" rot="R180"/>
 </instance>
-<instance part="R5" gate="G$1" x="195.58" y="129.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="193.04" y="133.1214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="199.39" y="132.842" size="1.778" layer="96" rot="R180"/>
+<instance part="R5" gate="G$1" x="208.28" y="129.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="205.74" y="133.1214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="212.09" y="132.842" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="Y2" gate="G$1" x="251.46" y="147.32" smashed="yes">
 <attribute name="NAME" x="248.92" y="153.67" size="1.778" layer="95"/>
@@ -33815,8 +33817,8 @@ Source: www.kingbright.com</description>
 <instance part="SUPPLY20" gate="GND" x="220.98" y="81.28" smashed="yes">
 <attribute name="VALUE" x="219.075" y="78.105" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY21" gate="GND" x="205.74" y="127" smashed="yes">
-<attribute name="VALUE" x="203.835" y="123.825" size="1.778" layer="96"/>
+<instance part="SUPPLY21" gate="GND" x="218.44" y="127" smashed="yes">
+<attribute name="VALUE" x="216.535" y="123.825" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY27" gate="GND" x="251.46" y="137.16" smashed="yes">
 <attribute name="VALUE" x="249.555" y="133.985" size="1.778" layer="96"/>
@@ -33884,8 +33886,8 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="49.53" y="196.215" size="1.778" layer="95"/>
 <attribute name="VALUE" x="49.53" y="180.34" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY11" gate="GND" x="210.82" y="132.08" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="212.725" y="128.905" size="1.778" layer="96" rot="MR0"/>
+<instance part="SUPPLY11" gate="GND" x="226.06" y="132.08" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="227.965" y="128.905" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="JP2" gate="A" x="58.42" y="48.26" smashed="yes" grouprefs="ACTUATOR_BOARD_CONNECTORS">
 <attribute name="NAME" x="52.07" y="59.055" size="1.778" layer="95"/>
@@ -34013,7 +34015,7 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="SUPPLY21" gate="GND" pin="GND"/>
-<wire x1="200.66" y1="129.54" x2="205.74" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="129.54" x2="213.36" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Y2" gate="G$1" pin="2"/>
@@ -34055,7 +34057,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VBUS"/>
-<wire x1="172.72" y1="134.62" x2="210.82" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="134.62" x2="226.06" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -34068,7 +34070,7 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="PUR"/>
-<wire x1="172.72" y1="129.54" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="129.54" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!CS!_HMC1053" class="0">
@@ -34790,6 +34792,13 @@ Source: www.kingbright.com</description>
 <wire x1="254" y1="43.18" x2="251.46" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="!RST!_MTI" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PU.1/DM"/>
+<wire x1="172.72" y1="132.08" x2="182.88" y2="132.08" width="0.1524" layer="91"/>
+<label x="182.88" y="132.08" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -34798,6 +34807,9 @@ Source: www.kingbright.com</description>
 !SHDN! - When LOW, devices enters LPM
 MODE - When LOW, device performs 12-bit conversion
 BUSY - Output high impedance when !CS! is HIGH</text>
+<text x="63.5" y="35.56" size="1.778" layer="97" rot="MR0">NC</text>
+<text x="63.5" y="35.56" size="1.778" layer="97" rot="MR0">NC</text>
+<text x="119.38" y="17.78" size="1.778" layer="97">NC</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -35095,11 +35107,8 @@ BUSY - Output high impedance when !CS! is HIGH</text>
 <instance part="TP1" gate="G$1" x="40.64" y="167.64" smashed="yes">
 <attribute name="NAME" x="39.37" y="168.91" size="1.778" layer="95"/>
 </instance>
-<instance part="TP2" gate="G$1" x="246.38" y="129.54" smashed="yes">
-<attribute name="NAME" x="245.11" y="130.81" size="1.778" layer="95"/>
-</instance>
-<instance part="TP3" gate="G$1" x="246.38" y="121.92" smashed="yes">
-<attribute name="NAME" x="245.11" y="123.19" size="1.778" layer="95"/>
+<instance part="TP2" gate="G$1" x="147.32" y="43.18" smashed="yes">
+<attribute name="NAME" x="146.05" y="44.45" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -35432,13 +35441,6 @@ BUSY - Output high impedance when !CS! is HIGH</text>
 <label x="40.64" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BRD_TEMP_MEAS" class="0">
-<segment>
-<wire x1="40.64" y1="35.56" x2="63.5" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="U3" gate="A" pin="CH0"/>
-<label x="40.64" y="35.56" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="UCB0_SPI_CLK" class="0">
 <segment>
 <wire x1="119.38" y1="40.64" x2="121.92" y2="40.64" width="0.1524" layer="91"/>
@@ -35448,9 +35450,13 @@ BUSY - Output high impedance when !CS! is HIGH</text>
 </net>
 <net name="!CS!_HMC1053" class="0">
 <segment>
-<wire x1="119.38" y1="38.1" x2="144.78" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="38.1" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U3" gate="A" pin="!CS"/>
-<label x="144.78" y="38.1" size="1.778" layer="95" xref="yes"/>
+<label x="149.86" y="38.1" size="1.778" layer="95" xref="yes"/>
+<pinref part="TP2" gate="G$1" pin="TP"/>
+<wire x1="147.32" y1="38.1" x2="149.86" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="40.64" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
+<junction x="147.32" y="38.1"/>
 </segment>
 </net>
 <net name="UCB0_SPI_MISO" class="0">
@@ -35715,6 +35721,9 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <text x="99.06" y="50.8" size="1.778" layer="97" grouprefs="EZFET_DEBUGGER_HEADER">&lt;&lt;</text>
 <text x="99.06" y="48.26" size="1.778" layer="97" grouprefs="EZFET_DEBUGGER_HEADER">&lt;&lt;</text>
 <text x="99.06" y="45.72" size="1.778" layer="97" grouprefs="EZFET_DEBUGGER_HEADER">&gt;&gt;</text>
+<text x="160.02" y="124.46" size="1.778" layer="97">NC</text>
+<text x="160.02" y="121.92" size="1.778" layer="97">NC</text>
+<text x="116.84" y="124.46" size="1.778" layer="97" rot="MR0">NC</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -35727,19 +35736,19 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <attribute name="VALUE" x="121.92" y="142.24" size="1.778" layer="96"/>
 <attribute name="NAME" x="121.92" y="144.78" size="1.778" layer="95"/>
 </instance>
-<instance part="R27" gate="G$1" x="91.44" y="137.16" smashed="yes">
-<attribute name="NAME" x="87.63" y="138.6586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="97.79" y="140.462" size="1.778" layer="96" rot="R180"/>
+<instance part="R27" gate="G$1" x="73.66" y="137.16" smashed="yes">
+<attribute name="NAME" x="69.85" y="138.6586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="80.01" y="140.462" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C28" gate="G$1" x="101.6" y="132.08" smashed="yes" rot="R180">
-<attribute name="NAME" x="103.124" y="135.001" size="1.778" layer="95"/>
-<attribute name="VALUE" x="103.124" y="129.921" size="1.778" layer="96"/>
+<instance part="C28" gate="G$1" x="83.82" y="132.08" smashed="yes" rot="R180">
+<attribute name="NAME" x="85.344" y="135.001" size="1.778" layer="95"/>
+<attribute name="VALUE" x="85.344" y="129.921" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V6" gate="G$1" x="81.28" y="142.24" smashed="yes">
-<attribute name="VALUE" x="83.82" y="144.78" size="1.778" layer="96" rot="R180"/>
+<instance part="+3V6" gate="G$1" x="63.5" y="142.24" smashed="yes">
+<attribute name="VALUE" x="66.04" y="144.78" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY14" gate="GND" x="101.6" y="127" smashed="yes">
-<attribute name="VALUE" x="99.695" y="123.825" size="1.778" layer="96"/>
+<instance part="SUPPLY14" gate="GND" x="83.82" y="127" smashed="yes">
+<attribute name="VALUE" x="81.915" y="123.825" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY15" gate="GND" x="96.52" y="99.06" smashed="yes">
 <attribute name="VALUE" x="94.615" y="95.885" size="1.778" layer="96"/>
@@ -35857,6 +35866,15 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <instance part="P+2" gate="1" x="170.18" y="55.88" smashed="yes">
 <attribute name="VALUE" x="172.72" y="58.42" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="TP3" gate="G$1" x="167.64" y="124.46" smashed="yes">
+<attribute name="NAME" x="166.37" y="125.73" size="1.778" layer="95"/>
+</instance>
+<instance part="TP4" gate="G$1" x="165.1" y="144.78" smashed="yes">
+<attribute name="NAME" x="163.83" y="146.05" size="1.778" layer="95"/>
+</instance>
+<instance part="TP5" gate="G$1" x="101.6" y="121.92" smashed="yes">
+<attribute name="NAME" x="100.33" y="123.19" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -35864,18 +35882,18 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="VDDIO"/>
-<wire x1="116.84" y1="134.62" x2="111.76" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="134.62" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="134.62" x2="93.98" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="134.62" x2="93.98" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="J6" gate="G$1" pin="PSEL1"/>
-<wire x1="111.76" y1="121.92" x2="111.76" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="114.3" x2="116.84" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="121.92" x2="81.28" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="121.92" x2="81.28" y2="137.16" width="0.1524" layer="91"/>
-<junction x="111.76" y="121.92"/>
+<wire x1="93.98" y1="121.92" x2="93.98" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="114.3" x2="116.84" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="121.92" x2="63.5" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="121.92" x2="63.5" y2="137.16" width="0.1524" layer="91"/>
+<junction x="93.98" y="121.92"/>
 <pinref part="R27" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="137.16" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="137.16" x2="81.28" y2="139.7" width="0.1524" layer="91"/>
-<junction x="81.28" y="137.16"/>
+<wire x1="63.5" y1="137.16" x2="68.58" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="137.16" x2="63.5" y2="139.7" width="0.1524" layer="91"/>
+<junction x="63.5" y="137.16"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
@@ -35961,17 +35979,21 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <segment>
 <pinref part="J6" gate="G$1" pin="DRDY/RE/CTS"/>
 <wire x1="160.02" y1="119.38" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
-<label x="167.64" y="119.38" size="1.778" layer="95" xref="yes"/>
+<label x="172.72" y="119.38" size="1.778" layer="95" xref="yes"/>
+<pinref part="TP3" gate="G$1" pin="TP"/>
+<wire x1="167.64" y1="119.38" x2="172.72" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="121.92" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
+<junction x="167.64" y="119.38"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R27" gate="G$1" pin="2"/>
 <pinref part="J6" gate="G$1" pin="VDDA"/>
-<wire x1="96.52" y1="137.16" x2="101.6" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="137.16" x2="83.82" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="C28" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="137.16" x2="116.84" y2="137.16" width="0.1524" layer="91"/>
-<junction x="101.6" y="137.16"/>
+<wire x1="83.82" y1="137.16" x2="116.84" y2="137.16" width="0.1524" layer="91"/>
+<junction x="83.82" y="137.16"/>
 </segment>
 </net>
 <net name="UCB0_SPI_CLK" class="0">
@@ -36013,8 +36035,12 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <net name="!CS!_MTI" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="SPI_!CS"/>
-<wire x1="160.02" y1="137.16" x2="167.64" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="137.16" x2="165.1" y2="137.16" width="0.1524" layer="91"/>
 <label x="167.64" y="137.16" size="1.778" layer="95" xref="yes"/>
+<pinref part="TP4" gate="G$1" pin="TP"/>
+<wire x1="165.1" y1="137.16" x2="167.64" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="142.24" x2="165.1" y2="137.16" width="0.1524" layer="91"/>
+<junction x="165.1" y="137.16"/>
 </segment>
 </net>
 <net name="!CS!_CAM_A" class="0">
@@ -36241,6 +36267,19 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <pinref part="R31" gate="G$1" pin="2"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
 <wire x1="185.42" y1="50.8" x2="187.96" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="!RST!_MTI" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="!RST"/>
+<wire x1="116.84" y1="129.54" x2="111.76" y2="129.54" width="0.1524" layer="91"/>
+<label x="109.22" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP5" gate="G$1" pin="TP"/>
+<wire x1="111.76" y1="129.54" x2="109.22" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="119.38" x2="101.6" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="116.84" x2="111.76" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="116.84" x2="111.76" y2="129.54" width="0.1524" layer="91"/>
+<junction x="111.76" y="129.54"/>
 </segment>
 </net>
 </nets>
