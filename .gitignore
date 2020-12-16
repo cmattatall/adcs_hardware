@@ -23,3 +23,21 @@
 *.epf
 *.epf
 eagle projects/ADCS Actuator Board/eagle.epf
+eagle projects/ADCS Actuator Board/eagle.epf
+*.l#2
+*.l#1
+*.l#3
+*.l#1
+*.l#1
+eagle projects/ADCS Sensor Board/SensorBoard_2020-11-14.zip
+eagle projects/ADCS Sensor Board/SensorBoard_2020-11-14_5-48PM.zip
+eagle projects/ADCS Sensor Board/SensorBoard_2020-11-14_6-15PM.zip
+eagle projects/ADCS Sensor Board/SensorBoard_2020-11-14_6-21.zip
+eagle projects/ADCS Sensor Board/SensorBoard_2020-11-14_6-30PM.zip
+*.l#5
+*.l#4
+*.l#1
+*.l#1
+eagle projects/ADCS Sensor Board/BOM.txt
+eagle projects/ADCS Sensor Board/BOM
+eagle projects/ADCS Sensor Board/drilegend.l#1
