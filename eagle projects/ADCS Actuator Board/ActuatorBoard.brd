@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -150,6 +150,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
+<fusionsync huburn="a.YnVzaW5lc3M6bXlkYWwyMA" projecturn="a.YnVzaW5lc3M6bXlkYWwyMCMyMDE5MDkwNjIxMzMzMjg1MQ" f3durn="urn:adsk.wipprod:dm.lineage:TddJq2YjQRWxD6AqqGnzRA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="d58c6b62-e3d5-4b7f-bc4a-61d92deceb06" lastsyncedrevisionid="d58c6b62-e3d5-4b7f-bc4a-61d92deceb06" lastboardhashguid="69256877-427e-00d7-3e9a-fab92e0b2d58" lastpushedtime="2020-12-30T19:39:18Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="0" x2="31.5" y2="0" width="0.1524" layer="20"/>
 <wire x1="31.5" y1="0" x2="31.5" y2="7" width="0.1524" layer="20"/>
@@ -616,6 +617,12 @@
 <dimension x1="161.925" y1="-231.775" x2="103.505" y2="-231.775" x3="132.715" y3="-228.5746" textsize="3.5" layer="47"/>
 <dimension x1="186.055" y1="-234.315" x2="186.055" y2="-307.975" x3="179.451" y3="-271.145" textsize="3.5" layer="47"/>
 <dimension x1="244.475" y1="-234.315" x2="186.055" y2="-234.315" x3="215.265" y3="-231.1146" textsize="3.5" layer="47"/>
+<wire x1="0" y1="27.5" x2="35.34" y2="27.5" width="0.1524" layer="150" style="shortdash"/>
+<wire x1="35.34" y1="27.5" x2="35.34" y2="63.5" width="0.1524" layer="150" style="shortdash" locked="yes"/>
+<wire x1="35.34" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="150" style="shortdash"/>
+<wire x1="27.5" y1="91" x2="27.5" y2="55.66" width="0.1524" layer="150" style="shortdash"/>
+<wire x1="27.5" y1="55.66" x2="63.5" y2="55.66" width="0.1524" layer="150" style="shortdash" locked="yes"/>
+<wire x1="63.5" y1="55.66" x2="63.5" y2="91" width="0.1524" layer="150" style="shortdash"/>
 </plain>
 <libraries>
 <library name="my_library" urn="urn:adsk.eagle:library:22876504">
@@ -666,7 +673,7 @@
 <text x="0" y="0" size="1.2" layer="51" font="vector" ratio="10">&gt;VALUE</text>
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 </package>
-<package name="DBQ16" urn="urn:adsk.eagle:footprint:23087505/2" library_version="16">
+<package name="DBQ16" urn="urn:adsk.eagle:footprint:23087505/3" library_version="73">
 <smd name="1" x="-2.5527" y="2.2225" dx="1.8034" dy="0.3556" layer="1"/>
 <smd name="2" x="-2.5527" y="1.5875" dx="1.8034" dy="0.3556" layer="1"/>
 <smd name="3" x="-2.5527" y="0.9525" dx="1.8034" dy="0.3556" layer="1"/>
@@ -761,12 +768,6 @@
 <text x="-4.6482" y="1.8034" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<polygon width="0.0254" layer="21">
-<vertex x="3.9624" y="-1.397"/>
-<vertex x="3.9624" y="-1.778"/>
-<vertex x="3.7084" y="-1.778"/>
-<vertex x="3.7084" y="-1.397"/>
-</polygon>
 </package>
 <package name="JP1Y_LED_SCREEN" urn="urn:adsk.eagle:footprint:23088444/2" library_version="14">
 <description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
@@ -2959,13 +2960,6 @@
 <text x="0" y="0" size="2" layer="51" font="vector" ratio="10">&gt;NAME</text>
 <text x="0" y="0" size="1.2" layer="51" font="vector" ratio="10">&gt;VALUE</text>
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
-</package>
-<package name="NCTR-M002" urn="urn:adsk.eagle:footprint:24418969/1" library_version="39">
-<text x="-11.43" y="-1.27" size="1.27" layer="21">PLACEHOLDER MAGNETORQUER
-</text>
-<text x="0" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<smd name="P$1" x="0" y="-1.27" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
-<smd name="P$2" x="2.54" y="-1.27" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
 </package>
 <package name="BD6221F-E2_SOIC8P127_500X620X171L30X42N" urn="urn:adsk.eagle:footprint:24418970/1" library_version="39">
 <description>Small Outline IC (SOIC), 1.27 mm pitch; 8 pin, 5.00 mm L X 4.00 mm W X 1.71 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
@@ -9593,6 +9587,99 @@
 <text x="0" y="0" size="1.2" layer="51" font="vector" ratio="10">&gt;VALUE</text>
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 </package>
+<package name="MAG_MOUNT_V2" urn="urn:adsk.eagle:footprint:25699426/2" library_version="73">
+<wire x1="0" y1="0" x2="5.1" y2="0" width="0.127" layer="21"/>
+<wire x1="5.1" y1="0" x2="5.1" y2="23" width="0.127" layer="21"/>
+<wire x1="5.1" y1="23" x2="0" y2="23" width="0.127" layer="21"/>
+<wire x1="0" y1="23" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="55" y1="0" x2="60.1" y2="0" width="0.127" layer="21"/>
+<wire x1="60.1" y1="0" x2="60.1" y2="23" width="0.127" layer="121"/>
+<wire x1="60.1" y1="23" x2="55" y2="23" width="0.127" layer="21"/>
+<wire x1="55" y1="23" x2="55" y2="0" width="0.127" layer="121"/>
+<wire x1="5.1" y1="10.63" x2="55" y2="10.63" width="0.127" layer="150" style="longdash"/>
+<wire x1="55" y1="19.42" x2="5.1" y2="19.42" width="0.127" layer="150" style="longdash"/>
+<hole x="2.55" y="4.52" drill="2.84" locked="yes"/>
+<hole x="57.55" y="4.52" drill="2.84" locked="yes"/>
+<rectangle x1="0" y1="0" x2="5.1" y2="23" layer="39"/>
+<rectangle x1="55" y1="0" x2="60.1" y2="23" layer="39"/>
+<smd name="P$1" x="53.34" y="7.62" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
+<smd name="P$2" x="50.8" y="7.62" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
+</package>
+<package name="RWA" urn="urn:adsk.eagle:footprint:25700688/1" library_version="73">
+<wire x1="0" y1="0" x2="1" y2="0" width="0.127" layer="21"/>
+<wire x1="1" y1="0" x2="1" y2="-4" width="0.127" layer="21"/>
+<wire x1="1" y1="-4" x2="3" y2="-6" width="0.127" layer="21"/>
+<wire x1="3" y1="-6" x2="7" y2="-6" width="0.127" layer="21"/>
+<wire x1="7" y1="-6" x2="9" y2="-4" width="0.127" layer="21"/>
+<wire x1="9" y1="-4" x2="9" y2="0" width="0.127" layer="21"/>
+<wire x1="9" y1="0" x2="27" y2="0" width="0.127" layer="21"/>
+<wire x1="27" y1="0" x2="27" y2="-4" width="0.127" layer="21"/>
+<wire x1="27" y1="-4" x2="29" y2="-6" width="0.127" layer="21"/>
+<wire x1="29" y1="-6" x2="33" y2="-6" width="0.127" layer="21"/>
+<wire x1="33" y1="-6" x2="35" y2="-4" width="0.127" layer="21"/>
+<wire x1="35" y1="-4" x2="35" y2="0" width="0.127" layer="21"/>
+<wire x1="35" y1="0" x2="36" y2="0" width="0.127" layer="21"/>
+<wire x1="36" y1="0" x2="36" y2="36" width="0.127" layer="21"/>
+<wire x1="36" y1="36" x2="35" y2="36" width="0.127" layer="21"/>
+<wire x1="35" y1="36" x2="35" y2="40" width="0.127" layer="21"/>
+<wire x1="35" y1="40" x2="33" y2="42" width="0.127" layer="21"/>
+<wire x1="33" y1="42" x2="29" y2="42" width="0.127" layer="21"/>
+<wire x1="29" y1="42" x2="27" y2="40" width="0.127" layer="21"/>
+<wire x1="27" y1="40" x2="27" y2="36" width="0.127" layer="21"/>
+<wire x1="27" y1="36" x2="9" y2="36" width="0.127" layer="21"/>
+<wire x1="9" y1="36" x2="9" y2="40" width="0.127" layer="21"/>
+<wire x1="9" y1="40" x2="7" y2="42" width="0.127" layer="21"/>
+<wire x1="7" y1="42" x2="3" y2="42" width="0.127" layer="21"/>
+<wire x1="3" y1="42" x2="1" y2="40" width="0.127" layer="21"/>
+<wire x1="1" y1="40" x2="1" y2="36" width="0.127" layer="21"/>
+<wire x1="1" y1="36" x2="0" y2="36" width="0.127" layer="21"/>
+<wire x1="0" y1="36" x2="0" y2="0" width="0.127" layer="21"/>
+<hole x="5" y="39" drill="2.5"/>
+<hole x="31" y="39" drill="2.5"/>
+<hole x="5" y="-3" drill="2.5"/>
+<hole x="31" y="-3" drill="2.5"/>
+<rectangle x1="0" y1="0" x2="36" y2="36" layer="39"/>
+<polygon width="0.127" layer="39">
+<vertex x="1" y="36"/>
+<vertex x="1" y="40"/>
+<vertex x="3" y="42"/>
+<vertex x="7" y="42"/>
+<vertex x="9" y="40"/>
+<vertex x="9" y="36"/>
+</polygon>
+<polygon width="0.127" layer="39">
+<vertex x="27" y="40"/>
+<vertex x="29" y="42"/>
+<vertex x="33" y="42"/>
+<vertex x="35" y="40"/>
+<vertex x="35" y="36"/>
+<vertex x="27" y="36"/>
+</polygon>
+<polygon width="0.127" layer="39">
+<vertex x="1" y="0"/>
+<vertex x="9" y="0"/>
+<vertex x="9" y="-4"/>
+<vertex x="7" y="-6"/>
+<vertex x="3" y="-6"/>
+<vertex x="1" y="-4"/>
+</polygon>
+<polygon width="0.127" layer="39">
+<vertex x="27" y="0"/>
+<vertex x="35" y="0"/>
+<vertex x="35" y="-4"/>
+<vertex x="33" y="-6"/>
+<vertex x="29" y="-6"/>
+<vertex x="27" y="-4"/>
+</polygon>
+<smd name="1" x="14.5" y="-2" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="2" x="15.5" y="-2" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="3" x="16.5" y="-2" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="4" x="17.5" y="-2" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="5" x="18.5" y="-2" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="6" x="19.5" y="-2" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="7" x="20.5" y="-2" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="8" x="21.5" y="-2" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="MOLEX_5034801000" urn="urn:adsk.eagle:package:23814316/2" type="model" library_version="22">
@@ -9606,7 +9693,7 @@
 <packageinstance name="MTGP700H400"/>
 </packageinstances>
 </package3d>
-<package3d name="DBQ16" urn="urn:adsk.eagle:package:23087509/3" type="model" library_version="22">
+<package3d name="DBQ16" urn="urn:adsk.eagle:package:23087509/4" type="model" library_version="73">
 <packageinstances>
 <packageinstance name="DBQ16"/>
 </packageinstances>
@@ -9637,11 +9724,6 @@
 <package3d name="SOT95P280X145-5N" urn="urn:adsk.eagle:package:24426275/1" type="box" library_version="39">
 <packageinstances>
 <packageinstance name="SOT95P280X145-5N"/>
-</packageinstances>
-</package3d>
-<package3d name="NCTR-M002" urn="urn:adsk.eagle:package:24418979/1" type="box" library_version="39">
-<packageinstances>
-<packageinstance name="NCTR-M002"/>
 </packageinstances>
 </package3d>
 <package3d name="BD6221F-E2_SOIC8P127_500X620X171L30X42N" urn="urn:adsk.eagle:package:24418978/1" type="box" library_version="39">
@@ -9684,6 +9766,16 @@
 <description>Small Outline Pkg (SOP), 0.65 mm pitch; 24 pin, 7.80 mm L X 4.40 mm W X 1.20 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <packageinstances>
 <packageinstance name="SOP24P65_780X640X120L60X24N_CD4514BM96"/>
+</packageinstances>
+</package3d>
+<package3d name="MAG_MOUNT_V2" urn="urn:adsk.eagle:package:25699427/3" type="model" library_version="73">
+<packageinstances>
+<packageinstance name="MAG_MOUNT_V2"/>
+</packageinstances>
+</package3d>
+<package3d name="RWA" urn="urn:adsk.eagle:package:25700689/1" type="box" library_version="73">
+<packageinstances>
+<packageinstance name="RWA"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -11311,7 +11403,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="73" x="-61.9125" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-61.9125" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="DBQ16" package3d_urn="urn:adsk.eagle:package:23087509/3" value="ADS7841E_2K5" x="-44.1325" y="69.215" smashed="yes">
+<element name="U1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="DBQ16" package3d_urn="urn:adsk.eagle:package:23087509/4" value="ADS7841E_2K5" x="-44.1325" y="69.215" smashed="yes">
 <attribute name="DATASHEET_URL" value="http://www.ti.com/lit/gpn/ADS7841" x="-44.1325" y="69.215" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="12-Bit, 4-Channel Serial Output Sampling Analog-to-Digital Converter" x="-44.1325" y="69.215" size="1.778" layer="27" display="off"/>
 <attribute name="FAMILY_NAME" value="PRECISION ADC (&lt;=10MSPS)" x="-44.1325" y="69.215" size="1.778" layer="27" display="off"/>
@@ -11469,7 +11561,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="73" x="-61.9125" y="129.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-61.9125" y="129.54" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U13" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="DBQ16" package3d_urn="urn:adsk.eagle:package:23087509/3" value="ADS7841E_2K5" x="-44.1325" y="120.015" smashed="yes">
+<element name="U13" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="DBQ16" package3d_urn="urn:adsk.eagle:package:23087509/4" value="ADS7841E_2K5" x="-44.1325" y="120.015" smashed="yes">
 <attribute name="DATASHEET_URL" value="http://www.ti.com/lit/gpn/ADS7841" x="-44.1325" y="120.015" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="12-Bit, 4-Channel Serial Output Sampling Analog-to-Digital Converter" x="-44.1325" y="120.015" size="1.778" layer="27" display="off"/>
 <attribute name="FAMILY_NAME" value="PRECISION ADC (&lt;=10MSPS)" x="-44.1325" y="120.015" size="1.778" layer="27" display="off"/>
@@ -11602,7 +11694,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="73" x="15.5575" y="129.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="15.5575" y="129.54" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U19" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="DBQ16" package3d_urn="urn:adsk.eagle:package:23087509/3" value="ADS7841E_2K5" x="33.3375" y="120.015" smashed="yes">
+<element name="U19" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="DBQ16" package3d_urn="urn:adsk.eagle:package:23087509/4" value="ADS7841E_2K5" x="33.3375" y="120.015" smashed="yes">
 <attribute name="DATASHEET_URL" value="http://www.ti.com/lit/gpn/ADS7841" x="33.3375" y="120.015" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="12-Bit, 4-Channel Serial Output Sampling Analog-to-Digital Converter" x="33.3375" y="120.015" size="1.778" layer="27" display="off"/>
 <attribute name="FAMILY_NAME" value="PRECISION ADC (&lt;=10MSPS)" x="33.3375" y="120.015" size="1.778" layer="27" display="off"/>
@@ -11735,7 +11827,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="73" x="98.1075" y="127" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="98.1075" y="127" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U25" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="DBQ16" package3d_urn="urn:adsk.eagle:package:23087509/3" value="ADS7841E_2K5" x="115.8875" y="117.475" smashed="yes">
+<element name="U25" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="DBQ16" package3d_urn="urn:adsk.eagle:package:23087509/4" value="ADS7841E_2K5" x="115.8875" y="117.475" smashed="yes">
 <attribute name="DATASHEET_URL" value="http://www.ti.com/lit/gpn/ADS7841" x="115.8875" y="117.475" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="12-Bit, 4-Channel Serial Output Sampling Analog-to-Digital Converter" x="115.8875" y="117.475" size="1.778" layer="27" display="off"/>
 <attribute name="FAMILY_NAME" value="PRECISION ADC (&lt;=10MSPS)" x="115.8875" y="117.475" size="1.778" layer="27" display="off"/>
@@ -11778,15 +11870,6 @@ design rules under a new name.</description>
 </element>
 <element name="U27" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="SOIC14P127_865X600X175L83X41N_TLV9054IDR" package3d_urn="urn:adsk.eagle:package:23088449/2" value="TLV9054IDR" x="103.1875" y="120.65" smashed="yes" rot="R180">
 <attribute name="NAME" x="97.155" y="121.76125" size="1.27" layer="25" ratio="10" rot="R270"/>
-</element>
-<element name="M1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="NCTR-M002" package3d_urn="urn:adsk.eagle:package:24418979/1" value="NCTR-M002" x="-56.515" y="-99.06" smashed="yes">
-<attribute name="NAME" x="-56.515" y="-96.52" size="1.27" layer="25"/>
-</element>
-<element name="M2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="NCTR-M002" package3d_urn="urn:adsk.eagle:package:24418979/1" value="NCTR-M002" x="-56.515" y="-106.045" smashed="yes">
-<attribute name="NAME" x="-56.515" y="-103.505" size="1.27" layer="25"/>
-</element>
-<element name="M3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="NCTR-M002" package3d_urn="urn:adsk.eagle:package:24418979/1" value="NCTR-M002" x="-56.515" y="-113.03" smashed="yes">
-<attribute name="NAME" x="-56.515" y="-110.49" size="1.27" layer="25"/>
 </element>
 <element name="U4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="BD6221F-E2_SOIC8P127_500X620X171L30X42N" package3d_urn="urn:adsk.eagle:package:24418978/1" value="BD621F-E2" x="-65.405" y="-119.38" smashed="yes">
 <attribute name="NAME" x="-65.405" y="-119.38" size="2" layer="51" font="vector" ratio="10"/>
@@ -12515,6 +12598,12 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-85.09" y="-728.98" size="1.27" layer="27"/>
 </element>
 <element name="A6" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="REACTIONWHEEL" package3d_urn="urn:adsk.eagle:package:24393517/1" value="REACTION_WHEEL" x="-124.46" y="-763.27" smashed="yes"/>
+<element name="MX" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="MAG_MOUNT_V2" package3d_urn="urn:adsk.eagle:package:25699427/3" value="NCTR-M002_MOUNT" x="28.575" y="17.78" smashed="yes" rot="R90"/>
+<element name="MY" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="MAG_MOUNT_V2" package3d_urn="urn:adsk.eagle:package:25699427/3" value="NCTR-M002_MOUNT" x="24.765" y="40.005" smashed="yes"/>
+<element name="MZ" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="MAG_MOUNT_V2" package3d_urn="urn:adsk.eagle:package:25699427/3" value="NCTR-M002_MOUNT" x="-127" y="-836.295" smashed="yes"/>
+<element name="A1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="RWA" package3d_urn="urn:adsk.eagle:package:25700689/1" value="REACTION_WHEELASSEMBLY" x="-182.245" y="-799.465" smashed="yes" rot="R180"/>
+<element name="A2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="RWA" package3d_urn="urn:adsk.eagle:package:25700689/1" value="REACTION_WHEELASSEMBLY" x="-177.8" y="-836.295" smashed="yes"/>
+<element name="A3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="RWA" package3d_urn="urn:adsk.eagle:package:25700689/1" value="REACTION_WHEELASSEMBLY" x="73.025" y="13.335" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="!CS!_SUN_X+">
@@ -14484,18 +14573,18 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$26">
 <contactref element="U4" pad="7"/>
-<contactref element="M1" pad="P$2"/>
-<wire x1="-53.975" y1="-100.33" x2="-66.04" y2="-116.48" width="0" layer="19" extent="1-1"/>
+<contactref element="MX" pad="P$2"/>
+<wire x1="20.955" y1="68.58" x2="-66.04" y2="-116.48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$28">
 <contactref element="U5" pad="7"/>
-<contactref element="M2" pad="P$2"/>
-<wire x1="-53.975" y1="-107.315" x2="-66.04" y2="-124.735" width="0" layer="19" extent="1-1"/>
+<contactref element="MY" pad="P$2"/>
+<wire x1="75.565" y1="47.625" x2="-66.04" y2="-124.735" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$32">
 <contactref element="U6" pad="7"/>
-<contactref element="M3" pad="P$2"/>
-<wire x1="-53.975" y1="-114.3" x2="-66.04" y2="-132.99" width="0" layer="19" extent="1-1"/>
+<contactref element="MZ" pad="P$2"/>
+<wire x1="-76.2" y1="-828.675" x2="-66.04" y2="-132.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="U5" pad="1"/>
@@ -14504,13 +14593,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$30">
 <contactref element="JP2" pad="1"/>
-<contactref element="M2" pad="P$1"/>
-<wire x1="-56.515" y1="-107.315" x2="-79.375" y2="-167.005" width="0" layer="19" extent="1-1"/>
+<contactref element="MY" pad="P$1"/>
+<wire x1="78.105" y1="47.625" x2="-79.375" y2="-167.005" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$31">
 <contactref element="JP1" pad="1"/>
-<contactref element="M1" pad="P$1"/>
-<wire x1="-56.515" y1="-100.33" x2="-72.39" y2="-167.005" width="0" layer="19" extent="1-1"/>
+<contactref element="MX" pad="P$1"/>
+<wire x1="20.955" y1="71.12" x2="-72.39" y2="-167.005" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$42">
 <contactref element="JP1" pad="2"/>
@@ -14524,8 +14613,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$44">
 <contactref element="JP3" pad="1"/>
-<contactref element="M3" pad="P$1"/>
-<wire x1="-56.515" y1="-114.3" x2="-86.36" y2="-167.005" width="0" layer="19" extent="1-1"/>
+<contactref element="MZ" pad="P$1"/>
+<wire x1="-73.66" y1="-828.675" x2="-86.36" y2="-167.005" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="X_SPEED">
 <contactref element="U10" pad="11"/>
@@ -15575,14 +15664,15 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
@@ -15593,6 +15683,10 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="8.5" severity="warning">
+Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
+The locking property on all objects of these types will not be understood in this version. 
 </note>
 </compatibility>
 </eagle>
