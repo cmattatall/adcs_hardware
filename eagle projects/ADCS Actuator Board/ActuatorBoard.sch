@@ -29347,16 +29347,17 @@ each magnetorquer</text>
 <segment>
 <wire x1="210.82" y1="142.24" x2="170.18" y2="142.24" width="0.1524" layer="91"/>
 <label x="170.18" y="142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="210.82" y1="162.56" x2="210.82" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="U18" gate="G$1" pin="V"/>
+<wire x1="210.82" y1="142.24" x2="210.82" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="Y_PHASE_A" class="0">
 <segment>
-<wire x1="215.9" y1="165.1" x2="210.82" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="165.1" x2="215.9" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="137.16" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
 <label x="170.18" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U18" gate="G$1" pin="U"/>
+<wire x1="215.9" y1="137.16" x2="215.9" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="165.1" x2="210.82" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$50" class="0">
@@ -29579,12 +29580,6 @@ each magnetorquer</text>
 <wire x1="109.22" y1="99.06" x2="111.76" y2="99.06" width="0.1524" layer="91"/>
 <label x="111.76" y="99.06" size="1.778" layer="95"/>
 <pinref part="U12" gate="A" pin="DOUT"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<wire x1="210.82" y1="162.56" x2="210.82" y2="161.3662" width="0.1524" layer="91"/>
-<pinref part="U18" gate="G$1" pin="V"/>
 </segment>
 </net>
 <net name="N$5" class="0">
