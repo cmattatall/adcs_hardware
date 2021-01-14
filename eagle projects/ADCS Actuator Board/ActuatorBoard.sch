@@ -23428,10 +23428,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="P+74" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+75" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="SUPPLY120" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="24K"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="+3V26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U12" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/2"/>
 <part name="C57" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1u"/>
 <part name="C58" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u"/>
@@ -23753,6 +23752,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -28732,9 +28732,6 @@ each magnetorquer</text>
 <instance part="SUPPLY27" gate="GND" x="22.86" y="68.58" smashed="yes">
 <attribute name="VALUE" x="20.955" y="65.405" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V26" gate="G$1" x="22.86" y="109.22" smashed="yes">
-<attribute name="VALUE" x="25.4" y="111.76" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="U12" gate="A" x="81.28" y="99.06" smashed="yes">
 <attribute name="NAME" x="76.5556" y="115.7986" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="75.9206" y="113.2586" size="2.0828" layer="96" ratio="6" rot="SR0"/>
@@ -28831,6 +28828,9 @@ each magnetorquer</text>
 </instance>
 <instance part="SUPPLY5" gate="GND" x="119.38" y="73.66" smashed="yes">
 <attribute name="VALUE" x="117.475" y="70.485" size="1.778" layer="96"/>
+</instance>
+<instance part="P+11" gate="1" x="22.86" y="121.92" smashed="yes">
+<attribute name="VALUE" x="25.4" y="124.46" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -29070,6 +29070,11 @@ each magnetorquer</text>
 <junction x="119.38" y="86.36"/>
 <wire x1="119.38" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="P+11" gate="1" pin="+5V"/>
+<wire x1="22.86" y1="101.6" x2="22.86" y2="119.38" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$19" class="0">
 <segment>
@@ -29141,11 +29146,6 @@ each magnetorquer</text>
 <segment>
 <pinref part="R133" gate="G$1" pin="1"/>
 <pinref part="+3V25" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="106.68" x2="22.86" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="+3V26" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="LED2" gate="G$1" pin="A"/>
