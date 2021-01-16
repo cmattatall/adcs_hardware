@@ -24689,7 +24689,7 @@ each magnetorquer</text>
 <label x="246.38" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="!CS!_CUR_SENS_MAG" class="0">
+<net name="!CS!_CUR_SENSE_MAG" class="0">
 <segment>
 <pinref part="U9" gate="A" pin="!CS"/>
 <wire x1="243.84" y1="114.3" x2="246.38" y2="114.3" width="0.1524" layer="91"/>
@@ -24712,9 +24712,6 @@ each magnetorquer</text>
 <plain>
 <text x="99.06" y="63.5" size="1.778" layer="97">Demultiplexer to reduce the amount of gpio pins needed for SPI chip selects
 
-!CS!_SPEED_X
-!CS!_SPEED_Y
-!CS!_SPEED_Z
 !CS!_CUR_SENSE_MAG
 !CS!_CUR_SENSE_RW
 !CS!_SUN_X+
@@ -24917,13 +24914,6 @@ each magnetorquer</text>
 <busses>
 </busses>
 <nets>
-<net name="!CS!_SPEED_X" class="0">
-<segment>
-<wire x1="154.94" y1="139.7" x2="162.56" y2="139.7" width="0.1524" layer="91"/>
-<label x="157.48" y="139.7" size="1.778" layer="95"/>
-<pinref part="U14" gate="G$1" pin="S0"/>
-</segment>
-</net>
 <net name="!CS!_CUR_SENSE_RW" class="0">
 <segment>
 <wire x1="162.56" y1="129.54" x2="154.94" y2="129.54" width="0.1524" layer="91"/>
@@ -24976,20 +24966,6 @@ each magnetorquer</text>
 <pinref part="SUPPLY36" gate="GND" pin="GND"/>
 <wire x1="119.38" y1="101.6" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U14" gate="G$1" pin="VSS"/>
-</segment>
-</net>
-<net name="!CS!_SPEED_Y" class="0">
-<segment>
-<wire x1="162.56" y1="137.16" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
-<label x="157.48" y="137.16" size="1.778" layer="95"/>
-<pinref part="U14" gate="G$1" pin="S1"/>
-</segment>
-</net>
-<net name="!CS!_SPEED_Z" class="0">
-<segment>
-<wire x1="162.56" y1="134.62" x2="154.94" y2="134.62" width="0.1524" layer="91"/>
-<label x="157.48" y="134.62" size="1.778" layer="95"/>
-<pinref part="U14" gate="G$1" pin="S2"/>
 </segment>
 </net>
 <net name="!CS!_CUR_SENSE_MAG" class="0">
