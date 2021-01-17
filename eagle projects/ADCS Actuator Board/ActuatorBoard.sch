@@ -27769,26 +27769,6 @@ each magnetorquer</text>
 <wire x1="88.9" y1="142.24" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
 <junction x="88.9" y="142.24"/>
 </segment>
-<segment>
-<wire x1="177.8" y1="154.94" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
-<label x="165.1" y="142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="177.8" y1="142.24" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="142.24" x2="167.64" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="7"/>
-<pinref part="TP4" gate="G$1" pin="TP"/>
-<wire x1="167.64" y1="142.24" x2="177.8" y2="142.24" width="0.1524" layer="91"/>
-<junction x="167.64" y="142.24"/>
-</segment>
-<segment>
-<wire x1="99.06" y1="81.28" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
-<label x="86.36" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="99.06" y1="68.58" x2="99.06" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="68.58" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="J6" gate="G$1" pin="7"/>
-<pinref part="TP21" gate="G$1" pin="TP"/>
-<wire x1="88.9" y1="68.58" x2="99.06" y2="68.58" width="0.1524" layer="91"/>
-<junction x="88.9" y="68.58"/>
-</segment>
 </net>
 <net name="X_HALL_C" class="0">
 <segment>
@@ -27801,15 +27781,30 @@ each magnetorquer</text>
 <pinref part="TP23" gate="G$1" pin="TP"/>
 <junction x="88.9" y="149.86"/>
 </segment>
+</net>
+<net name="Z_HALL_B" class="0">
 <segment>
-<label x="165.1" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="165.1" y1="149.86" x2="167.64" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="149.86" x2="172.72" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="149.86" x2="172.72" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="157.48" x2="190.5" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="6"/>
-<pinref part="TP2" gate="G$1" pin="TP"/>
-<junction x="167.64" y="149.86"/>
+<wire x1="195.58" y1="86.36" x2="198.12" y2="86.36" width="0.1524" layer="91"/>
+<label x="198.12" y="86.36" size="1.778" layer="95" xref="yes"/>
+<junction x="195.58" y="86.36"/>
+</segment>
+<segment>
+<wire x1="99.06" y1="81.28" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
+<label x="86.36" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="99.06" y1="68.58" x2="99.06" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="68.58" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="7"/>
+<pinref part="TP21" gate="G$1" pin="TP"/>
+<wire x1="88.9" y1="68.58" x2="99.06" y2="68.58" width="0.1524" layer="91"/>
+<junction x="88.9" y="68.58"/>
+</segment>
+</net>
+<net name="Z_HALL_C" class="0">
+<segment>
+<label x="198.12" y="91.44" size="1.778" layer="95" xref="yes"/>
+<wire x1="195.58" y1="88.9" x2="195.58" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="91.44" x2="198.12" y2="91.44" width="0.1524" layer="91"/>
+<junction x="195.58" y="88.9"/>
 </segment>
 <segment>
 <label x="86.36" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -27820,21 +27815,6 @@ each magnetorquer</text>
 <pinref part="J6" gate="G$1" pin="6"/>
 <pinref part="TP7" gate="G$1" pin="TP"/>
 <junction x="88.9" y="76.2"/>
-</segment>
-</net>
-<net name="Z_HALL_B" class="0">
-<segment>
-<wire x1="195.58" y1="86.36" x2="198.12" y2="86.36" width="0.1524" layer="91"/>
-<label x="198.12" y="86.36" size="1.778" layer="95" xref="yes"/>
-<junction x="195.58" y="86.36"/>
-</segment>
-</net>
-<net name="Z_HALL_C" class="0">
-<segment>
-<label x="198.12" y="91.44" size="1.778" layer="95" xref="yes"/>
-<wire x1="195.58" y1="88.9" x2="195.58" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="91.44" x2="198.12" y2="91.44" width="0.1524" layer="91"/>
-<junction x="195.58" y="88.9"/>
 </segment>
 </net>
 <net name="X_HALL_A" class="0">
@@ -27848,15 +27828,13 @@ each magnetorquer</text>
 <pinref part="TP25" gate="G$1" pin="TP"/>
 <junction x="88.9" y="134.62"/>
 </segment>
+</net>
+<net name="Z_HALL_A" class="0">
 <segment>
-<label x="165.1" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="165.1" y1="134.62" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="134.62" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="134.62" x2="182.88" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="152.4" x2="190.5" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="8"/>
-<pinref part="TP5" gate="G$1" pin="TP"/>
-<junction x="167.64" y="134.62"/>
+<label x="198.12" y="81.28" size="1.778" layer="95" xref="yes"/>
+<wire x1="195.58" y1="83.82" x2="195.58" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="81.28" x2="198.12" y2="81.28" width="0.1524" layer="91"/>
+<junction x="195.58" y="83.82"/>
 </segment>
 <segment>
 <label x="86.36" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -27869,12 +27847,40 @@ each magnetorquer</text>
 <junction x="88.9" y="60.96"/>
 </segment>
 </net>
-<net name="Z_HALL_A" class="0">
+<net name="Y_HALL_C" class="0">
 <segment>
-<label x="198.12" y="81.28" size="1.778" layer="95" xref="yes"/>
-<wire x1="195.58" y1="83.82" x2="195.58" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="81.28" x2="198.12" y2="81.28" width="0.1524" layer="91"/>
-<junction x="195.58" y="83.82"/>
+<label x="165.1" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="165.1" y1="149.86" x2="167.64" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="149.86" x2="172.72" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="149.86" x2="172.72" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="157.48" x2="190.5" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="6"/>
+<pinref part="TP2" gate="G$1" pin="TP"/>
+<junction x="167.64" y="149.86"/>
+</segment>
+</net>
+<net name="Y_HALL_B" class="0">
+<segment>
+<wire x1="177.8" y1="154.94" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
+<label x="165.1" y="142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="177.8" y1="142.24" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="142.24" x2="167.64" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="7"/>
+<pinref part="TP4" gate="G$1" pin="TP"/>
+<wire x1="167.64" y1="142.24" x2="177.8" y2="142.24" width="0.1524" layer="91"/>
+<junction x="167.64" y="142.24"/>
+</segment>
+</net>
+<net name="Y_HALL_A" class="0">
+<segment>
+<label x="165.1" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="165.1" y1="134.62" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="134.62" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="134.62" x2="182.88" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="152.4" x2="190.5" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="8"/>
+<pinref part="TP5" gate="G$1" pin="TP"/>
+<junction x="167.64" y="134.62"/>
 </segment>
 </net>
 </nets>
