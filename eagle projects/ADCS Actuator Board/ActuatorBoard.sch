@@ -22112,11 +22112,6 @@ each magnetorquer</text>
 </net>
 <net name="!CS!_SUN_X-" class="0">
 <segment>
-<wire x1="185.42" y1="119.38" x2="165.1" y2="119.38" width="0.1524" layer="91" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
-<pinref part="J2" gate="A" pin="16"/>
-<label x="172.72" y="119.38" size="1.778" layer="95" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
-</segment>
-<segment>
 <pinref part="J2" gate="A" pin="14"/>
 <wire x1="185.42" y1="121.92" x2="165.1" y2="121.92" width="0.1524" layer="91" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
 <label x="172.72" y="121.92" size="1.778" layer="95" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
@@ -22342,6 +22337,13 @@ each magnetorquer</text>
 <wire x1="165.1" y1="106.68" x2="185.42" y2="106.68" width="0.1524" layer="91" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
 <wire x1="187.96" y1="106.68" x2="165.1" y2="106.68" width="0.1524" layer="91" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
 <label x="172.72" y="106.68" size="1.778" layer="95" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
+</segment>
+</net>
+<net name="!CS!_SUN_X+" class="0">
+<segment>
+<wire x1="185.42" y1="119.38" x2="165.1" y2="119.38" width="0.1524" layer="91" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
+<pinref part="J2" gate="A" pin="16"/>
+<label x="172.72" y="119.38" size="1.778" layer="95" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
 </segment>
 </net>
 </nets>
