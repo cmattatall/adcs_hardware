@@ -6188,7 +6188,6 @@ design rules under a new name.</description>
 <via x="69.5325" y="76.5175" extent="1-16" drill="0.35"/>
 <wire x1="71.335" y1="76.24" x2="69.81" y2="76.24" width="0.1524" layer="16"/>
 <wire x1="69.81" y1="76.24" x2="69.5325" y2="76.5175" width="0.1524" layer="16"/>
-<wire x1="53.6655" y1="74.183" x2="53.6575" y2="74.175" width="0.1524" layer="1"/>
 <wire x1="47.5975" y1="74.37" x2="47.64875" y2="74.31875" width="0.1524" layer="1"/>
 <wire x1="47.95125" y1="80.31875" x2="47.95" y2="80.3175" width="0.1524" layer="1"/>
 <wire x1="44.4275" y1="64.4623" x2="44.4275" y2="64.5950875" width="0.1524" layer="1"/>
@@ -6294,7 +6293,6 @@ design rules under a new name.</description>
 <via x="26.035" y="16.51" extent="1-16" drill="0.35"/>
 <wire x1="24.765" y1="18.0825" x2="24.765" y2="16.51" width="0.1524" layer="16"/>
 <via x="24.765" y="16.51" extent="1-16" drill="0.35"/>
-<wire x1="55.2325" y1="74.44" x2="54.9675" y2="74.175" width="0.1524" layer="1"/>
 <wire x1="55.2325" y1="74.44" x2="56.3575" y2="75.565" width="0.1524" layer="1"/>
 <wire x1="56.3575" y1="75.565" x2="56.515" y2="75.565" width="0.1524" layer="1"/>
 <via x="56.515" y="75.565" extent="1-16" drill="0.35"/>
@@ -6384,6 +6382,57 @@ design rules under a new name.</description>
 <vertex x="3.81" y="71.12"/>
 <vertex x="24.13" y="71.12"/>
 <vertex x="34.29" y="60.96"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="-0.635" y="91.44"/>
+<vertex x="-0.635" y="-0.635"/>
+<vertex x="91.44" y="-0.635"/>
+<vertex x="91.44" y="91.44"/>
+</polygon>
+<polygon width="0.1524" layer="1" pour="cutout">
+<vertex x="3.81" y="71.12"/>
+<vertex x="3.81" y="69.215"/>
+<vertex x="22.86" y="69.215"/>
+<vertex x="32.385" y="59.69"/>
+<vertex x="32.385" y="51.435"/>
+<vertex x="32.385" y="47.625"/>
+<vertex x="29.845" y="45.085"/>
+<vertex x="29.21" y="44.45"/>
+<vertex x="29.21" y="18.415"/>
+<vertex x="24.765" y="13.97"/>
+<vertex x="24.765" y="0"/>
+<vertex x="26.67" y="0"/>
+<vertex x="26.67" y="12.7"/>
+<vertex x="31.115" y="17.145"/>
+<vertex x="31.115" y="44.45"/>
+<vertex x="34.29" y="47.625"/>
+<vertex x="34.29" y="60.96"/>
+<vertex x="33.655" y="61.595"/>
+<vertex x="24.13" y="71.12"/>
+</polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="-0.635" y="-0.635"/>
+<vertex x="-0.635" y="91.44"/>
+<vertex x="91.44" y="91.44"/>
+<vertex x="91.44" y="-0.635"/>
+</polygon>
+<polygon width="0.1524" layer="16" pour="cutout">
+<vertex x="24.765" y="0"/>
+<vertex x="24.765" y="13.97"/>
+<vertex x="29.21" y="18.415"/>
+<vertex x="29.21" y="44.45"/>
+<vertex x="32.385" y="47.625"/>
+<vertex x="32.385" y="59.69"/>
+<vertex x="22.86" y="69.215"/>
+<vertex x="3.81" y="69.215"/>
+<vertex x="3.81" y="71.12"/>
+<vertex x="24.13" y="71.12"/>
+<vertex x="34.29" y="60.96"/>
+<vertex x="34.29" y="47.625"/>
+<vertex x="31.115" y="44.45"/>
+<vertex x="31.115" y="17.145"/>
+<vertex x="26.67" y="12.7"/>
+<vertex x="26.67" y="0"/>
 </polygon>
 </signal>
 <signal name="+5V">
