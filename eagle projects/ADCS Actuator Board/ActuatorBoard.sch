@@ -223,7 +223,7 @@
 <text x="0" y="0" size="1.2" layer="51" font="vector" ratio="10">&gt;VALUE</text>
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 </package>
-<package name="DBQ16" urn="urn:adsk.eagle:footprint:23087505/2" library_version="16">
+<package name="DBQ16" urn="urn:adsk.eagle:footprint:23087505/4" library_version="99">
 <smd name="1" x="-2.5527" y="2.2225" dx="1.8034" dy="0.3556" layer="1"/>
 <smd name="2" x="-2.5527" y="1.5875" dx="1.8034" dy="0.3556" layer="1"/>
 <smd name="3" x="-2.5527" y="0.9525" dx="1.8034" dy="0.3556" layer="1"/>
@@ -316,14 +316,8 @@
 <wire x1="0.3048" y1="2.5146" x2="-0.3048" y2="2.4892" width="0.1524" layer="21" curve="-180"/>
 <text x="-4.6482" y="1.8034" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-4.6482" y="1.8034" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<polygon width="0.0254" layer="21">
-<vertex x="3.9624" y="-1.397"/>
-<vertex x="3.9624" y="-1.778"/>
-<vertex x="3.7084" y="-1.778"/>
-<vertex x="3.7084" y="-1.397"/>
-</polygon>
+<text x="-1.9812" y="4.191" size="0.8128" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-2.0066" y="3.175" size="0.8128" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="DBQ16-M" urn="urn:adsk.eagle:footprint:23087503/1" library_version="7">
 <smd name="1" x="-2.82575" y="2.2225" dx="1.6637" dy="0.3556" layer="1"/>
@@ -1355,10 +1349,11 @@
 <text x="1.778" y="1.143" size="0.8128" layer="25" font="vector" ratio="10" rot="R180">&gt;NAME</text>
 <rectangle x1="-2.921" y1="-3.937" x2="2.921" y2="3.937" layer="39"/>
 </package>
-<package name="SOT95P280X145-5N" urn="urn:adsk.eagle:footprint:24426274/1" locally_modified="yes" library_version="80" library_locally_modified="yes">
+<package name="SOT95P280X145-5N" urn="urn:adsk.eagle:footprint:24426274/1" library_version="99">
 <circle x="-2.41" y="1.05" radius="0.1" width="0.2" layer="21"/>
 <circle x="-2.41" y="1.05" radius="0.1" width="0.2" layer="51"/>
 <text x="-2.6" y="2" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.6" y="-2" size="1.016" layer="27" align="top-left">&gt;VALUE</text>
 <wire x1="-0.33" y1="1.45" x2="0.33" y2="1.45" width="0.127" layer="21"/>
 <wire x1="0.8" y1="0.335" x2="0.8" y2="-0.335" width="0.127" layer="21"/>
 <wire x1="0.33" y1="-1.45" x2="-0.33" y2="-1.45" width="0.127" layer="21"/>
@@ -2289,7 +2284,7 @@
 <rectangle x1="8.509" y1="-4.699" x2="9.271" y2="-2.921" layer="51"/>
 <rectangle x1="8.509" y1="-5.461" x2="9.271" y2="-4.699" layer="21"/>
 </package>
-<package name="2X08_TXT-MOVED" library_version="89" library_locally_modified="yes">
+<package name="2X08_TXT-MOVED" urn="urn:adsk.eagle:footprint:26233443/1" library_version="99">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-10.16" y1="-1.905" x2="-9.525" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="-8.255" y1="-2.54" x2="-7.62" y2="-1.905" width="0.1524" layer="21"/>
@@ -2394,7 +2389,7 @@
 <packageinstance name="MTGP700H400"/>
 </packageinstances>
 </package3d>
-<package3d name="DBQ16" urn="urn:adsk.eagle:package:23087509/2" type="box" library_version="16">
+<package3d name="DBQ16" urn="urn:adsk.eagle:package:23087509/5" type="model" library_version="99">
 <packageinstances>
 <packageinstance name="DBQ16"/>
 </packageinstances>
@@ -2415,7 +2410,7 @@
 <packageinstance name="JP1Y_LED_SCREEN"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT95P280X145-5N" urn="urn:adsk.eagle:package:24426275/1" type="box" library_version="80" library_locally_modified="yes">
+<package3d name="SOT95P280X145-5N" urn="urn:adsk.eagle:package:24426275/1" type="box" library_version="99">
 <packageinstances>
 <packageinstance name="SOT95P280X145-5N"/>
 </packageinstances>
@@ -2439,7 +2434,7 @@
 <packageinstance name="TP_P76H50"/>
 </packageinstances>
 </package3d>
-<package3d name="SC70-5P65_210X110L36X22N_TLV9051" urn="urn:adsk.eagle:package:25994724/1" type="box" library_version="82">
+<package3d name="SC70-5P65_210X110L36X22N_TLV9051" urn="urn:adsk.eagle:package:25994724/2" type="model" library_version="99">
 <description>Small Outline Transistor (SOT23), 0.65 mm pitch; 5 pin, 2.00 mm L X 1.25 mm W X 1.10 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <packageinstances>
 <packageinstance name="SC70-5P65_210X110L36X22N_TLV9051"/>
@@ -2456,7 +2451,7 @@
 <packageinstance name="ON-SHORE_OSTVN08A150"/>
 </packageinstances>
 </package3d>
-<package3d name="RWA_NOPINS" urn="urn:adsk.eagle:package:26139267/1" type="empty" library_version="88">
+<package3d name="RWA_NOPINS" urn="urn:adsk.eagle:package:26139267/2" type="model" library_version="99">
 <packageinstances>
 <packageinstance name="RWA_NOPINS"/>
 </packageinstances>
@@ -2488,6 +2483,12 @@
 <description>PIN HEADER</description>
 <packageinstances>
 <packageinstance name="2X08/90"/>
+</packageinstances>
+</package3d>
+<package3d name="2X08_TXT-MOVED" urn="urn:adsk.eagle:package:26233444/1" type="box" library_version="99">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="2X08_TXT-MOVED"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2763,7 +2764,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADS7841E_2K5" urn="urn:adsk.eagle:component:23087510/4" prefix="U" library_version="16">
+<deviceset name="ADS7841E_2K5" urn="urn:adsk.eagle:component:23087510/7" prefix="U" library_version="99">
 <gates>
 <gate name="A" symbol="ADS7841_DBQ_16" x="0" y="0"/>
 </gates>
@@ -2788,7 +2789,7 @@
 <connect gate="A" pin="VREF" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23087509/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23087509/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2894,7 +2895,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD621F-E2" urn="urn:adsk.eagle:component:24418983/2" prefix="U" library_version="79" library_locally_modified="yes">
+<deviceset name="BD6210F-E2" urn="urn:adsk.eagle:component:24418983/3" prefix="U" library_version="99">
 <gates>
 <gate name="G$1" symbol="DB6210F-E2" x="0" y="0"/>
 </gates>
@@ -2919,7 +2920,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TVS991" urn="urn:adsk.eagle:component:24411779/4" prefix="U" library_version="80" library_locally_modified="yes">
+<deviceset name="TVS991" urn="urn:adsk.eagle:component:24411779/4" prefix="U" library_version="99">
 <description>TVS991 General Purpose Op-Amp</description>
 <gates>
 <gate name="G$1" symbol="OP_AMP" x="0" y="0"/>
@@ -3001,7 +3002,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TLV9051" urn="urn:adsk.eagle:component:25994725/2" prefix="U" library_version="82">
+<deviceset name="TLV9051" urn="urn:adsk.eagle:component:25994725/3" prefix="U" library_version="99">
 <gates>
 <gate name="G$1" symbol="OPAMP" x="2.54" y="0"/>
 </gates>
@@ -3015,7 +3016,7 @@
 <connect gate="G$1" pin="V-" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25994724/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25994724/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -3074,14 +3075,14 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="REACTION_WHEEL_NOPINS" urn="urn:adsk.eagle:component:26139268/3" prefix="RW" library_version="88">
+<deviceset name="REACTION_WHEEL_NOPINS" urn="urn:adsk.eagle:component:26139268/4" prefix="RW" library_version="99">
 <gates>
 <gate name="G$1" symbol="REACTION_WHEEL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="RWA_NOPINS">
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26139267/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26139267/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -3142,7 +3143,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-2X8" urn="urn:adsk.eagle:component:24523798/2" locally_modified="yes" prefix="J" uservalue="yes" library_version="89" library_locally_modified="yes">
+<deviceset name="PINHD-2X8" urn="urn:adsk.eagle:component:24523798/3" prefix="J" uservalue="yes" library_version="99">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PINH2X8" x="0" y="0"/>
@@ -3223,6 +3224,9 @@
 <connect gate="A" pin="8" pad="8"/>
 <connect gate="A" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26233444/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -20681,7 +20685,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R133" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3k"/>
 <part name="C39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47u"/>
 <part name="SUPPLY95" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U9" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/2"/>
+<part name="U9" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/5"/>
 <part name="SUPPLY115" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1u"/>
 <part name="SUPPLY116" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -20696,7 +20700,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="24K"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U12" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/2"/>
+<part name="U12" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/5"/>
 <part name="C57" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1u"/>
 <part name="C58" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u"/>
 <part name="C59" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1u"/>
@@ -20724,10 +20728,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="U7" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TVS991" device="" package3d_urn="urn:adsk.eagle:package:24426275/1"/>
 <part name="U8" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TVS991" device="" package3d_urn="urn:adsk.eagle:package:24426275/1"/>
 <part name="U10" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TVS991" device="" package3d_urn="urn:adsk.eagle:package:24426275/1"/>
-<part name="U11" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="BD621F-E2" device="" package3d_urn="urn:adsk.eagle:package:24418978/2"/>
-<part name="U16" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="BD621F-E2" device="" package3d_urn="urn:adsk.eagle:package:24418978/2"/>
-<part name="U22" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="BD621F-E2" device="" package3d_urn="urn:adsk.eagle:package:24418978/2"/>
-<part name="U4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/2"/>
+<part name="U11" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="BD6210F-E2" device="" package3d_urn="urn:adsk.eagle:package:24418978/2"/>
+<part name="U16" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="BD6210F-E2" device="" package3d_urn="urn:adsk.eagle:package:24418978/2"/>
+<part name="U22" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="BD6210F-E2" device="" package3d_urn="urn:adsk.eagle:package:24418978/2"/>
+<part name="U4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/5"/>
 <part name="C28" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1u"/>
 <part name="C65" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
 <part name="C66" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1u"/>
@@ -20755,7 +20759,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="13.7k"/>
 <part name="SUPPLY66" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TP3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
-<part name="U6" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/1"/>
+<part name="U6" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/2"/>
 <part name="SUPPLY67" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R24" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="5.6k"/>
 <part name="C84" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.015u"/>
@@ -20769,7 +20773,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R28" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="13.7k"/>
 <part name="SUPPLY71" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TP6" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
-<part name="U23" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/1"/>
+<part name="U23" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/2"/>
 <part name="SUPPLY72" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R31" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="5.6k"/>
 <part name="D5" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SFH2430" device="" package3d_urn="urn:adsk.eagle:package:23088447/2"/>
@@ -20782,12 +20786,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R33" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="13.7k"/>
 <part name="SUPPLY76" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TP8" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
-<part name="U24" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/1"/>
+<part name="U24" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/2"/>
 <part name="SUPPLY77" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R34" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="5.6k"/>
 <part name="C100" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.015u"/>
 <part name="C101" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.015u"/>
-<part name="U13" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/2"/>
+<part name="U13" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/5"/>
 <part name="C45" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1u"/>
 <part name="C46" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
 <part name="C47" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1u"/>
@@ -20815,7 +20819,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R39" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="13.7k"/>
 <part name="SUPPLY105" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TP10" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
-<part name="U15" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/1"/>
+<part name="U15" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/2"/>
 <part name="SUPPLY106" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R40" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="5.6k"/>
 <part name="C54" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.015u"/>
@@ -20829,7 +20833,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R45" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="13.7k"/>
 <part name="SUPPLY110" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TP11" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
-<part name="U19" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/1"/>
+<part name="U19" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/2"/>
 <part name="SUPPLY111" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R46" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="5.6k"/>
 <part name="D9" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SFH2430" device="" package3d_urn="urn:adsk.eagle:package:23088447/2"/>
@@ -20842,12 +20846,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R51" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="13.7k"/>
 <part name="SUPPLY118" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TP12" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
-<part name="U21" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/1"/>
+<part name="U21" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/2"/>
 <part name="SUPPLY121" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R52" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="5.6k"/>
 <part name="C70" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.015u"/>
 <part name="C71" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.015u"/>
-<part name="U25" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/2"/>
+<part name="U25" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/5"/>
 <part name="C72" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1u"/>
 <part name="C73" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
 <part name="C74" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1u"/>
@@ -20875,7 +20879,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R54" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="13.7k"/>
 <part name="SUPPLY134" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TP14" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
-<part name="U26" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/1"/>
+<part name="U26" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/2"/>
 <part name="SUPPLY135" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R55" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="5.6k"/>
 <part name="C105" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.015u"/>
@@ -20889,7 +20893,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R57" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="13.7k"/>
 <part name="SUPPLY139" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TP15" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
-<part name="U28" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/1"/>
+<part name="U28" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/2"/>
 <part name="SUPPLY140" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R58" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="5.6k"/>
 <part name="D12" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SFH2430" device="" package3d_urn="urn:adsk.eagle:package:23088447/2"/>
@@ -20902,12 +20906,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R60" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="13.7k"/>
 <part name="SUPPLY144" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TP16" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
-<part name="U29" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/1"/>
+<part name="U29" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/2"/>
 <part name="SUPPLY145" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R61" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="5.6k"/>
 <part name="C110" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.015u"/>
 <part name="C111" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.015u"/>
-<part name="U27" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/2"/>
+<part name="U27" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/5"/>
 <part name="C89" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1u"/>
 <part name="C90" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
 <part name="C91" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1u"/>
@@ -20935,7 +20939,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R63" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="13.7k"/>
 <part name="SUPPLY158" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TP18" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
-<part name="U30" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/1"/>
+<part name="U30" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/2"/>
 <part name="SUPPLY159" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R64" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="5.6k"/>
 <part name="C98" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.015u"/>
@@ -20949,7 +20953,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R66" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="13.7k"/>
 <part name="SUPPLY163" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TP19" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
-<part name="U31" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/1"/>
+<part name="U31" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/2"/>
 <part name="SUPPLY164" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R67" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="5.6k"/>
 <part name="D15" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SFH2430" device="" package3d_urn="urn:adsk.eagle:package:23088447/2"/>
@@ -20962,7 +20966,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R69" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="13.7k"/>
 <part name="SUPPLY168" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TP20" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
-<part name="U32" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/1"/>
+<part name="U32" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/2"/>
 <part name="SUPPLY169" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R70" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="5.6k"/>
 <part name="C115" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.015u"/>
@@ -21054,7 +21058,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="TP23" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
 <part name="TP24" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
 <part name="TP25" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
-<part name="RWZ" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="REACTION_WHEEL_NOPINS" device="" package3d_urn="urn:adsk.eagle:package:26139267/1"/>
+<part name="RWZ" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="REACTION_WHEEL_NOPINS" device="" package3d_urn="urn:adsk.eagle:package:26139267/2"/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="MX" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="NCTR-M002_MAGNETORQUER" device="" package3d_urn="urn:adsk.eagle:package:26139365/1"/>
@@ -21071,8 +21075,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="J2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="PINHD-2X8" device="_TXT-MOVED"/>
-<part name="J3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="PINHD-2X8" device="_TXT-MOVED"/>
+<part name="J2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="PINHD-2X8" device="_TXT-MOVED" package3d_urn="urn:adsk.eagle:package:26233444/1"/>
+<part name="J3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="PINHD-2X8" device="_TXT-MOVED" package3d_urn="urn:adsk.eagle:package:26233444/1"/>
 <part name="+3V14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="4.7u"/>
