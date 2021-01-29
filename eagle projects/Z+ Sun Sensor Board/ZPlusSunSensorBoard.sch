@@ -151,78 +151,8 @@
 </layers>
 <schematic xreflabel="%F%N" xrefpart="/%S.%C%R">
 <libraries>
-<library name="frames" urn="urn:adsk.eagle:library:229">
-<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="FRAME_A_L" urn="urn:adsk.eagle:symbol:13882/1" library_version="1">
-<frame x1="0" y1="0" x2="279.4" y2="215.9" columns="6" rows="5" layer="94" border-bottom="no"/>
-</symbol>
-<symbol name="DOCFIELD" urn="urn:adsk.eagle:symbol:13864/1" library_version="1">
-<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
-<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
-<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
-<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
-<text x="88.9" y="11.43" size="2.54" layer="94">REV:</text>
-<text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
-<text x="1.27" y="11.43" size="2.54" layer="94">Document Number:</text>
-<text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="FRAME_A_L" urn="urn:adsk.eagle:component:13939/1" prefix="FRAME" uservalue="yes" library_version="1">
-<description>&lt;b&gt;FRAME&lt;/b&gt; A Size , 8 1/2 x 11 INCH, Landscape&lt;p&gt;</description>
-<gates>
-<gate name="G$1" symbol="FRAME_A_L" x="0" y="0" addlevel="always"/>
-<gate name="G$2" symbol="DOCFIELD" x="172.72" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="my_library" urn="urn:adsk.eagle:library:22876504">
 <packages>
-<package name="MTGP700H400" urn="urn:adsk.eagle:footprint:23248011/1" library_version="19">
-<description>Mounting Hole, Plated; 7.00 mm Pad, 4.00 mm Hole&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
-<pad name="1" x="0" y="0" drill="4" diameter="7" first="yes"/>
-<circle x="0" y="0" radius="3.44" width="0.12" layer="51"/>
-<circle x="0" y="0" radius="3.44" width="0.12" layer="52"/>
-<circle x="0" y="0" radius="1.94" width="0.12" layer="51"/>
-<circle x="0" y="0" radius="1.94" width="0.12" layer="52"/>
-<circle x="0" y="0" radius="3.75" width="0.05" layer="39"/>
-<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
-<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
-<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
-<text x="0" y="0" size="0.5" layer="51" font="vector" ratio="10">&gt;NAME</text>
-<text x="0" y="0" size="1.2" layer="51" font="vector" ratio="10">&gt;VALUE</text>
-<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
-</package>
 <package name="SOT23-5P65_210X110L40X22N_LM20" urn="urn:adsk.eagle:footprint:23087461/1" library_version="32" library_locally_modified="yes">
 <description>Small Outline Transistor (SOT23), 0.65 mm pitch; 5 pin, 2.00 mm L X 1.25 mm W X 1.10 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <smd name="1" x="-0.65" y="-0.9" dx="1.11" dy="0.38" layer="1" roundness="53" rot="R270" stop="no" cream="no"/>
@@ -1557,14 +1487,14 @@
 <text x="-2.794" y="1.778" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.794" y="-3.048" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="SUN_SENOR_MASK" urn="urn:adsk.eagle:footprint:26239250/1" library_version="92">
-<hole x="7" y="0" drill="8" locked="yes"/>
-<hole x="-3.499990625" y="6.06216875" drill="8" locked="yes"/>
-<hole x="-3.499990625" y="-6.06216875" drill="8" locked="yes"/>
+<package name="SUN_SENOR_MASK" urn="urn:adsk.eagle:footprint:26239250/3" library_version="95">
+<hole x="6.25" y="0" drill="8"/>
+<hole x="-3.125" y="5.412659375" drill="8"/>
+<hole x="-3.125" y="-5.412659375" drill="8"/>
 <circle x="0" y="0" radius="12.5" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="12.5" width="0.127" layer="22"/>
 <wire x1="11.43" y1="0" x2="16.51" y2="0" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-6.35" y1="0" x2="2.54" y2="0" width="0.127" layer="49" style="shortdash"/>
+<wire x1="-6.35" y1="0" x2="1.27" y2="0" width="0.127" layer="49" style="shortdash"/>
 <text x="13.97" y="0.635" size="1.27" layer="21">0°</text>
 <text x="-6.35" y="12.065" size="1.27" layer="21" rot="R120">120°</text>
 <text x="-7.62" y="-10.795" size="1.27" layer="21" rot="R240">240°</text>
@@ -1572,14 +1502,512 @@
 <pad name="P$2" x="4.78" y="8.279203125" locked="yes" drill="3.2" diameter="5.5"/>
 <pad name="P$3" x="4.78" y="-8.279203125" locked="yes" drill="3.2" diameter="5.5"/>
 </package>
+<package name="SC70-5P65_210X110L36X22N_LM20" urn="urn:adsk.eagle:footprint:26463294/1" library_version="98">
+<description>Small Outline Transistor (SOT23), 0.65 mm pitch; 5 pin, 2.00 mm L X 1.25 mm W X 1.10 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<smd name="1" x="-0.65" y="-0.91" dx="1.09" dy="0.38" layer="1" roundness="53" rot="R270" stop="no" cream="no"/>
+<smd name="2" x="0" y="-0.91" dx="1.09" dy="0.38" layer="1" roundness="53" rot="R270" stop="no" cream="no"/>
+<smd name="3" x="0.65" y="-0.91" dx="1.09" dy="0.38" layer="1" roundness="53" rot="R270" stop="no" cream="no"/>
+<smd name="4" x="0.65" y="0.91" dx="1.09" dy="0.38" layer="1" roundness="53" rot="R90" stop="no" cream="no"/>
+<smd name="5" x="-0.65" y="0.91" dx="1.09" dy="0.38" layer="1" roundness="53" rot="R90" stop="no" cream="no"/>
+<polygon width="0.01" layer="29">
+<vertex x="-0.84" y="-0.91"/>
+<vertex x="-0.84" y="-0.465"/>
+<vertex x="-0.8388" y="-0.4494"/>
+<vertex x="-0.8351" y="-0.4341"/>
+<vertex x="-0.8291" y="-0.4196"/>
+<vertex x="-0.8209" y="-0.4062"/>
+<vertex x="-0.8107" y="-0.3943"/>
+<vertex x="-0.7988" y="-0.3841"/>
+<vertex x="-0.7854" y="-0.3759"/>
+<vertex x="-0.7709" y="-0.3699"/>
+<vertex x="-0.7556" y="-0.3662"/>
+<vertex x="-0.56" y="-0.365"/>
+<vertex x="-0.5444" y="-0.3662"/>
+<vertex x="-0.5291" y="-0.3699"/>
+<vertex x="-0.5146" y="-0.3759"/>
+<vertex x="-0.5012" y="-0.3841"/>
+<vertex x="-0.4893" y="-0.3943"/>
+<vertex x="-0.4791" y="-0.4062"/>
+<vertex x="-0.4709" y="-0.4196"/>
+<vertex x="-0.4649" y="-0.4341"/>
+<vertex x="-0.4612" y="-0.4494"/>
+<vertex x="-0.46" y="-0.465"/>
+<vertex x="-0.46" y="-1.355"/>
+<vertex x="-0.4612" y="-1.3706"/>
+<vertex x="-0.4649" y="-1.3859"/>
+<vertex x="-0.4709" y="-1.4004"/>
+<vertex x="-0.4791" y="-1.4138"/>
+<vertex x="-0.4893" y="-1.4257"/>
+<vertex x="-0.5012" y="-1.4359"/>
+<vertex x="-0.5146" y="-1.4441"/>
+<vertex x="-0.5291" y="-1.4501"/>
+<vertex x="-0.5444" y="-1.4538"/>
+<vertex x="-0.74" y="-1.455"/>
+<vertex x="-0.7556" y="-1.4538"/>
+<vertex x="-0.7709" y="-1.4501"/>
+<vertex x="-0.7854" y="-1.4441"/>
+<vertex x="-0.7988" y="-1.4359"/>
+<vertex x="-0.8107" y="-1.4257"/>
+<vertex x="-0.8209" y="-1.4138"/>
+<vertex x="-0.8291" y="-1.4004"/>
+<vertex x="-0.8351" y="-1.3859"/>
+<vertex x="-0.8388" y="-1.3706"/>
+<vertex x="-0.84" y="-1.355"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.84" y="-0.91"/>
+<vertex x="-0.84" y="-0.465"/>
+<vertex x="-0.8388" y="-0.4494"/>
+<vertex x="-0.8351" y="-0.4341"/>
+<vertex x="-0.8291" y="-0.4196"/>
+<vertex x="-0.8209" y="-0.4062"/>
+<vertex x="-0.8107" y="-0.3943"/>
+<vertex x="-0.7988" y="-0.3841"/>
+<vertex x="-0.7854" y="-0.3759"/>
+<vertex x="-0.7709" y="-0.3699"/>
+<vertex x="-0.7556" y="-0.3662"/>
+<vertex x="-0.56" y="-0.365"/>
+<vertex x="-0.5444" y="-0.3662"/>
+<vertex x="-0.5291" y="-0.3699"/>
+<vertex x="-0.5146" y="-0.3759"/>
+<vertex x="-0.5012" y="-0.3841"/>
+<vertex x="-0.4893" y="-0.3943"/>
+<vertex x="-0.4791" y="-0.4062"/>
+<vertex x="-0.4709" y="-0.4196"/>
+<vertex x="-0.4649" y="-0.4341"/>
+<vertex x="-0.4612" y="-0.4494"/>
+<vertex x="-0.46" y="-0.465"/>
+<vertex x="-0.46" y="-1.355"/>
+<vertex x="-0.4612" y="-1.3706"/>
+<vertex x="-0.4649" y="-1.3859"/>
+<vertex x="-0.4709" y="-1.4004"/>
+<vertex x="-0.4791" y="-1.4138"/>
+<vertex x="-0.4893" y="-1.4257"/>
+<vertex x="-0.5012" y="-1.4359"/>
+<vertex x="-0.5146" y="-1.4441"/>
+<vertex x="-0.5291" y="-1.4501"/>
+<vertex x="-0.5444" y="-1.4538"/>
+<vertex x="-0.74" y="-1.455"/>
+<vertex x="-0.7556" y="-1.4538"/>
+<vertex x="-0.7709" y="-1.4501"/>
+<vertex x="-0.7854" y="-1.4441"/>
+<vertex x="-0.7988" y="-1.4359"/>
+<vertex x="-0.8107" y="-1.4257"/>
+<vertex x="-0.8209" y="-1.4138"/>
+<vertex x="-0.8291" y="-1.4004"/>
+<vertex x="-0.8351" y="-1.3859"/>
+<vertex x="-0.8388" y="-1.3706"/>
+<vertex x="-0.84" y="-1.355"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-0.19" y="-0.91"/>
+<vertex x="-0.19" y="-0.465"/>
+<vertex x="-0.1888" y="-0.4494"/>
+<vertex x="-0.1851" y="-0.4341"/>
+<vertex x="-0.1791" y="-0.4196"/>
+<vertex x="-0.1709" y="-0.4062"/>
+<vertex x="-0.1607" y="-0.3943"/>
+<vertex x="-0.1488" y="-0.3841"/>
+<vertex x="-0.1354" y="-0.3759"/>
+<vertex x="-0.1209" y="-0.3699"/>
+<vertex x="-0.1056" y="-0.3662"/>
+<vertex x="0.09" y="-0.365"/>
+<vertex x="0.1056" y="-0.3662"/>
+<vertex x="0.1209" y="-0.3699"/>
+<vertex x="0.1354" y="-0.3759"/>
+<vertex x="0.1488" y="-0.3841"/>
+<vertex x="0.1607" y="-0.3943"/>
+<vertex x="0.1709" y="-0.4062"/>
+<vertex x="0.1791" y="-0.4196"/>
+<vertex x="0.1851" y="-0.4341"/>
+<vertex x="0.1888" y="-0.4494"/>
+<vertex x="0.19" y="-0.465"/>
+<vertex x="0.19" y="-1.355"/>
+<vertex x="0.1888" y="-1.3706"/>
+<vertex x="0.1851" y="-1.3859"/>
+<vertex x="0.1791" y="-1.4004"/>
+<vertex x="0.1709" y="-1.4138"/>
+<vertex x="0.1607" y="-1.4257"/>
+<vertex x="0.1488" y="-1.4359"/>
+<vertex x="0.1354" y="-1.4441"/>
+<vertex x="0.1209" y="-1.4501"/>
+<vertex x="0.1056" y="-1.4538"/>
+<vertex x="-0.09" y="-1.455"/>
+<vertex x="-0.1056" y="-1.4538"/>
+<vertex x="-0.1209" y="-1.4501"/>
+<vertex x="-0.1354" y="-1.4441"/>
+<vertex x="-0.1488" y="-1.4359"/>
+<vertex x="-0.1607" y="-1.4257"/>
+<vertex x="-0.1709" y="-1.4138"/>
+<vertex x="-0.1791" y="-1.4004"/>
+<vertex x="-0.1851" y="-1.3859"/>
+<vertex x="-0.1888" y="-1.3706"/>
+<vertex x="-0.19" y="-1.355"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.19" y="-0.91"/>
+<vertex x="-0.19" y="-0.465"/>
+<vertex x="-0.1888" y="-0.4494"/>
+<vertex x="-0.1851" y="-0.4341"/>
+<vertex x="-0.1791" y="-0.4196"/>
+<vertex x="-0.1709" y="-0.4062"/>
+<vertex x="-0.1607" y="-0.3943"/>
+<vertex x="-0.1488" y="-0.3841"/>
+<vertex x="-0.1354" y="-0.3759"/>
+<vertex x="-0.1209" y="-0.3699"/>
+<vertex x="-0.1056" y="-0.3662"/>
+<vertex x="0.09" y="-0.365"/>
+<vertex x="0.1056" y="-0.3662"/>
+<vertex x="0.1209" y="-0.3699"/>
+<vertex x="0.1354" y="-0.3759"/>
+<vertex x="0.1488" y="-0.3841"/>
+<vertex x="0.1607" y="-0.3943"/>
+<vertex x="0.1709" y="-0.4062"/>
+<vertex x="0.1791" y="-0.4196"/>
+<vertex x="0.1851" y="-0.4341"/>
+<vertex x="0.1888" y="-0.4494"/>
+<vertex x="0.19" y="-0.465"/>
+<vertex x="0.19" y="-1.355"/>
+<vertex x="0.1888" y="-1.3706"/>
+<vertex x="0.1851" y="-1.3859"/>
+<vertex x="0.1791" y="-1.4004"/>
+<vertex x="0.1709" y="-1.4138"/>
+<vertex x="0.1607" y="-1.4257"/>
+<vertex x="0.1488" y="-1.4359"/>
+<vertex x="0.1354" y="-1.4441"/>
+<vertex x="0.1209" y="-1.4501"/>
+<vertex x="0.1056" y="-1.4538"/>
+<vertex x="-0.09" y="-1.455"/>
+<vertex x="-0.1056" y="-1.4538"/>
+<vertex x="-0.1209" y="-1.4501"/>
+<vertex x="-0.1354" y="-1.4441"/>
+<vertex x="-0.1488" y="-1.4359"/>
+<vertex x="-0.1607" y="-1.4257"/>
+<vertex x="-0.1709" y="-1.4138"/>
+<vertex x="-0.1791" y="-1.4004"/>
+<vertex x="-0.1851" y="-1.3859"/>
+<vertex x="-0.1888" y="-1.3706"/>
+<vertex x="-0.19" y="-1.355"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="0.46" y="-0.91"/>
+<vertex x="0.46" y="-0.465"/>
+<vertex x="0.4612" y="-0.4494"/>
+<vertex x="0.4649" y="-0.4341"/>
+<vertex x="0.4709" y="-0.4196"/>
+<vertex x="0.4791" y="-0.4062"/>
+<vertex x="0.4893" y="-0.3943"/>
+<vertex x="0.5012" y="-0.3841"/>
+<vertex x="0.5146" y="-0.3759"/>
+<vertex x="0.5291" y="-0.3699"/>
+<vertex x="0.5444" y="-0.3662"/>
+<vertex x="0.74" y="-0.365"/>
+<vertex x="0.7556" y="-0.3662"/>
+<vertex x="0.7709" y="-0.3699"/>
+<vertex x="0.7854" y="-0.3759"/>
+<vertex x="0.7988" y="-0.3841"/>
+<vertex x="0.8107" y="-0.3943"/>
+<vertex x="0.8209" y="-0.4062"/>
+<vertex x="0.8291" y="-0.4196"/>
+<vertex x="0.8351" y="-0.4341"/>
+<vertex x="0.8388" y="-0.4494"/>
+<vertex x="0.84" y="-0.465"/>
+<vertex x="0.84" y="-1.355"/>
+<vertex x="0.8388" y="-1.3706"/>
+<vertex x="0.8351" y="-1.3859"/>
+<vertex x="0.8291" y="-1.4004"/>
+<vertex x="0.8209" y="-1.4138"/>
+<vertex x="0.8107" y="-1.4257"/>
+<vertex x="0.7988" y="-1.4359"/>
+<vertex x="0.7854" y="-1.4441"/>
+<vertex x="0.7709" y="-1.4501"/>
+<vertex x="0.7556" y="-1.4538"/>
+<vertex x="0.56" y="-1.455"/>
+<vertex x="0.5444" y="-1.4538"/>
+<vertex x="0.5291" y="-1.4501"/>
+<vertex x="0.5146" y="-1.4441"/>
+<vertex x="0.5012" y="-1.4359"/>
+<vertex x="0.4893" y="-1.4257"/>
+<vertex x="0.4791" y="-1.4138"/>
+<vertex x="0.4709" y="-1.4004"/>
+<vertex x="0.4649" y="-1.3859"/>
+<vertex x="0.4612" y="-1.3706"/>
+<vertex x="0.46" y="-1.355"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="0.46" y="-0.91"/>
+<vertex x="0.46" y="-0.465"/>
+<vertex x="0.4612" y="-0.4494"/>
+<vertex x="0.4649" y="-0.4341"/>
+<vertex x="0.4709" y="-0.4196"/>
+<vertex x="0.4791" y="-0.4062"/>
+<vertex x="0.4893" y="-0.3943"/>
+<vertex x="0.5012" y="-0.3841"/>
+<vertex x="0.5146" y="-0.3759"/>
+<vertex x="0.5291" y="-0.3699"/>
+<vertex x="0.5444" y="-0.3662"/>
+<vertex x="0.74" y="-0.365"/>
+<vertex x="0.7556" y="-0.3662"/>
+<vertex x="0.7709" y="-0.3699"/>
+<vertex x="0.7854" y="-0.3759"/>
+<vertex x="0.7988" y="-0.3841"/>
+<vertex x="0.8107" y="-0.3943"/>
+<vertex x="0.8209" y="-0.4062"/>
+<vertex x="0.8291" y="-0.4196"/>
+<vertex x="0.8351" y="-0.4341"/>
+<vertex x="0.8388" y="-0.4494"/>
+<vertex x="0.84" y="-0.465"/>
+<vertex x="0.84" y="-1.355"/>
+<vertex x="0.8388" y="-1.3706"/>
+<vertex x="0.8351" y="-1.3859"/>
+<vertex x="0.8291" y="-1.4004"/>
+<vertex x="0.8209" y="-1.4138"/>
+<vertex x="0.8107" y="-1.4257"/>
+<vertex x="0.7988" y="-1.4359"/>
+<vertex x="0.7854" y="-1.4441"/>
+<vertex x="0.7709" y="-1.4501"/>
+<vertex x="0.7556" y="-1.4538"/>
+<vertex x="0.56" y="-1.455"/>
+<vertex x="0.5444" y="-1.4538"/>
+<vertex x="0.5291" y="-1.4501"/>
+<vertex x="0.5146" y="-1.4441"/>
+<vertex x="0.5012" y="-1.4359"/>
+<vertex x="0.4893" y="-1.4257"/>
+<vertex x="0.4791" y="-1.4138"/>
+<vertex x="0.4709" y="-1.4004"/>
+<vertex x="0.4649" y="-1.3859"/>
+<vertex x="0.4612" y="-1.3706"/>
+<vertex x="0.46" y="-1.355"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="0.84" y="0.91"/>
+<vertex x="0.84" y="0.465"/>
+<vertex x="0.8388" y="0.4494"/>
+<vertex x="0.8351" y="0.4341"/>
+<vertex x="0.8291" y="0.4196"/>
+<vertex x="0.8209" y="0.4062"/>
+<vertex x="0.8107" y="0.3943"/>
+<vertex x="0.7988" y="0.3841"/>
+<vertex x="0.7854" y="0.3759"/>
+<vertex x="0.7709" y="0.3699"/>
+<vertex x="0.7556" y="0.3662"/>
+<vertex x="0.56" y="0.365"/>
+<vertex x="0.5444" y="0.3662"/>
+<vertex x="0.5291" y="0.3699"/>
+<vertex x="0.5146" y="0.3759"/>
+<vertex x="0.5012" y="0.3841"/>
+<vertex x="0.4893" y="0.3943"/>
+<vertex x="0.4791" y="0.4062"/>
+<vertex x="0.4709" y="0.4196"/>
+<vertex x="0.4649" y="0.4341"/>
+<vertex x="0.4612" y="0.4494"/>
+<vertex x="0.46" y="0.465"/>
+<vertex x="0.46" y="1.355"/>
+<vertex x="0.4612" y="1.3706"/>
+<vertex x="0.4649" y="1.3859"/>
+<vertex x="0.4709" y="1.4004"/>
+<vertex x="0.4791" y="1.4138"/>
+<vertex x="0.4893" y="1.4257"/>
+<vertex x="0.5012" y="1.4359"/>
+<vertex x="0.5146" y="1.4441"/>
+<vertex x="0.5291" y="1.4501"/>
+<vertex x="0.5444" y="1.4538"/>
+<vertex x="0.74" y="1.455"/>
+<vertex x="0.7556" y="1.4538"/>
+<vertex x="0.7709" y="1.4501"/>
+<vertex x="0.7854" y="1.4441"/>
+<vertex x="0.7988" y="1.4359"/>
+<vertex x="0.8107" y="1.4257"/>
+<vertex x="0.8209" y="1.4138"/>
+<vertex x="0.8291" y="1.4004"/>
+<vertex x="0.8351" y="1.3859"/>
+<vertex x="0.8388" y="1.3706"/>
+<vertex x="0.84" y="1.355"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="0.84" y="0.91"/>
+<vertex x="0.84" y="0.465"/>
+<vertex x="0.8388" y="0.4494"/>
+<vertex x="0.8351" y="0.4341"/>
+<vertex x="0.8291" y="0.4196"/>
+<vertex x="0.8209" y="0.4062"/>
+<vertex x="0.8107" y="0.3943"/>
+<vertex x="0.7988" y="0.3841"/>
+<vertex x="0.7854" y="0.3759"/>
+<vertex x="0.7709" y="0.3699"/>
+<vertex x="0.7556" y="0.3662"/>
+<vertex x="0.56" y="0.365"/>
+<vertex x="0.5444" y="0.3662"/>
+<vertex x="0.5291" y="0.3699"/>
+<vertex x="0.5146" y="0.3759"/>
+<vertex x="0.5012" y="0.3841"/>
+<vertex x="0.4893" y="0.3943"/>
+<vertex x="0.4791" y="0.4062"/>
+<vertex x="0.4709" y="0.4196"/>
+<vertex x="0.4649" y="0.4341"/>
+<vertex x="0.4612" y="0.4494"/>
+<vertex x="0.46" y="0.465"/>
+<vertex x="0.46" y="1.355"/>
+<vertex x="0.4612" y="1.3706"/>
+<vertex x="0.4649" y="1.3859"/>
+<vertex x="0.4709" y="1.4004"/>
+<vertex x="0.4791" y="1.4138"/>
+<vertex x="0.4893" y="1.4257"/>
+<vertex x="0.5012" y="1.4359"/>
+<vertex x="0.5146" y="1.4441"/>
+<vertex x="0.5291" y="1.4501"/>
+<vertex x="0.5444" y="1.4538"/>
+<vertex x="0.74" y="1.455"/>
+<vertex x="0.7556" y="1.4538"/>
+<vertex x="0.7709" y="1.4501"/>
+<vertex x="0.7854" y="1.4441"/>
+<vertex x="0.7988" y="1.4359"/>
+<vertex x="0.8107" y="1.4257"/>
+<vertex x="0.8209" y="1.4138"/>
+<vertex x="0.8291" y="1.4004"/>
+<vertex x="0.8351" y="1.3859"/>
+<vertex x="0.8388" y="1.3706"/>
+<vertex x="0.84" y="1.355"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-0.46" y="0.91"/>
+<vertex x="-0.46" y="0.465"/>
+<vertex x="-0.4612" y="0.4494"/>
+<vertex x="-0.4649" y="0.4341"/>
+<vertex x="-0.4709" y="0.4196"/>
+<vertex x="-0.4791" y="0.4062"/>
+<vertex x="-0.4893" y="0.3943"/>
+<vertex x="-0.5012" y="0.3841"/>
+<vertex x="-0.5146" y="0.3759"/>
+<vertex x="-0.5291" y="0.3699"/>
+<vertex x="-0.5444" y="0.3662"/>
+<vertex x="-0.74" y="0.365"/>
+<vertex x="-0.7556" y="0.3662"/>
+<vertex x="-0.7709" y="0.3699"/>
+<vertex x="-0.7854" y="0.3759"/>
+<vertex x="-0.7988" y="0.3841"/>
+<vertex x="-0.8107" y="0.3943"/>
+<vertex x="-0.8209" y="0.4062"/>
+<vertex x="-0.8291" y="0.4196"/>
+<vertex x="-0.8351" y="0.4341"/>
+<vertex x="-0.8388" y="0.4494"/>
+<vertex x="-0.84" y="0.465"/>
+<vertex x="-0.84" y="1.355"/>
+<vertex x="-0.8388" y="1.3706"/>
+<vertex x="-0.8351" y="1.3859"/>
+<vertex x="-0.8291" y="1.4004"/>
+<vertex x="-0.8209" y="1.4138"/>
+<vertex x="-0.8107" y="1.4257"/>
+<vertex x="-0.7988" y="1.4359"/>
+<vertex x="-0.7854" y="1.4441"/>
+<vertex x="-0.7709" y="1.4501"/>
+<vertex x="-0.7556" y="1.4538"/>
+<vertex x="-0.56" y="1.455"/>
+<vertex x="-0.5444" y="1.4538"/>
+<vertex x="-0.5291" y="1.4501"/>
+<vertex x="-0.5146" y="1.4441"/>
+<vertex x="-0.5012" y="1.4359"/>
+<vertex x="-0.4893" y="1.4257"/>
+<vertex x="-0.4791" y="1.4138"/>
+<vertex x="-0.4709" y="1.4004"/>
+<vertex x="-0.4649" y="1.3859"/>
+<vertex x="-0.4612" y="1.3706"/>
+<vertex x="-0.46" y="1.355"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.46" y="0.91"/>
+<vertex x="-0.46" y="0.465"/>
+<vertex x="-0.4612" y="0.4494"/>
+<vertex x="-0.4649" y="0.4341"/>
+<vertex x="-0.4709" y="0.4196"/>
+<vertex x="-0.4791" y="0.4062"/>
+<vertex x="-0.4893" y="0.3943"/>
+<vertex x="-0.5012" y="0.3841"/>
+<vertex x="-0.5146" y="0.3759"/>
+<vertex x="-0.5291" y="0.3699"/>
+<vertex x="-0.5444" y="0.3662"/>
+<vertex x="-0.74" y="0.365"/>
+<vertex x="-0.7556" y="0.3662"/>
+<vertex x="-0.7709" y="0.3699"/>
+<vertex x="-0.7854" y="0.3759"/>
+<vertex x="-0.7988" y="0.3841"/>
+<vertex x="-0.8107" y="0.3943"/>
+<vertex x="-0.8209" y="0.4062"/>
+<vertex x="-0.8291" y="0.4196"/>
+<vertex x="-0.8351" y="0.4341"/>
+<vertex x="-0.8388" y="0.4494"/>
+<vertex x="-0.84" y="0.465"/>
+<vertex x="-0.84" y="1.355"/>
+<vertex x="-0.8388" y="1.3706"/>
+<vertex x="-0.8351" y="1.3859"/>
+<vertex x="-0.8291" y="1.4004"/>
+<vertex x="-0.8209" y="1.4138"/>
+<vertex x="-0.8107" y="1.4257"/>
+<vertex x="-0.7988" y="1.4359"/>
+<vertex x="-0.7854" y="1.4441"/>
+<vertex x="-0.7709" y="1.4501"/>
+<vertex x="-0.7556" y="1.4538"/>
+<vertex x="-0.56" y="1.455"/>
+<vertex x="-0.5444" y="1.4538"/>
+<vertex x="-0.5291" y="1.4501"/>
+<vertex x="-0.5146" y="1.4441"/>
+<vertex x="-0.5012" y="1.4359"/>
+<vertex x="-0.4893" y="1.4257"/>
+<vertex x="-0.4791" y="1.4138"/>
+<vertex x="-0.4709" y="1.4004"/>
+<vertex x="-0.4649" y="1.3859"/>
+<vertex x="-0.4612" y="1.3706"/>
+<vertex x="-0.46" y="1.355"/>
+</polygon>
+<wire x1="-0.7625" y1="-0.69" x2="-0.5375" y2="-0.69" width="0.025" layer="51"/>
+<wire x1="-0.5375" y1="-0.69" x2="-0.5375" y2="-1.05" width="0.025" layer="51"/>
+<wire x1="-0.5375" y1="-1.05" x2="-0.7625" y2="-1.05" width="0.025" layer="51"/>
+<wire x1="-0.7625" y1="-1.05" x2="-0.7625" y2="-0.69" width="0.025" layer="51"/>
+<wire x1="-0.1125" y1="-0.69" x2="0.1125" y2="-0.69" width="0.025" layer="51"/>
+<wire x1="0.1125" y1="-0.69" x2="0.1125" y2="-1.05" width="0.025" layer="51"/>
+<wire x1="0.1125" y1="-1.05" x2="-0.1125" y2="-1.05" width="0.025" layer="51"/>
+<wire x1="-0.1125" y1="-1.05" x2="-0.1125" y2="-0.69" width="0.025" layer="51"/>
+<wire x1="0.5375" y1="-0.69" x2="0.7625" y2="-0.69" width="0.025" layer="51"/>
+<wire x1="0.7625" y1="-0.69" x2="0.7625" y2="-1.05" width="0.025" layer="51"/>
+<wire x1="0.7625" y1="-1.05" x2="0.5375" y2="-1.05" width="0.025" layer="51"/>
+<wire x1="0.5375" y1="-1.05" x2="0.5375" y2="-0.69" width="0.025" layer="51"/>
+<wire x1="0.7625" y1="0.69" x2="0.5375" y2="0.69" width="0.025" layer="51"/>
+<wire x1="0.5375" y1="0.69" x2="0.5375" y2="1.05" width="0.025" layer="51"/>
+<wire x1="0.5375" y1="1.05" x2="0.7625" y2="1.05" width="0.025" layer="51"/>
+<wire x1="0.7625" y1="1.05" x2="0.7625" y2="0.69" width="0.025" layer="51"/>
+<wire x1="-0.5375" y1="0.69" x2="-0.7625" y2="0.69" width="0.025" layer="51"/>
+<wire x1="-0.7625" y1="0.69" x2="-0.7625" y2="1.05" width="0.025" layer="51"/>
+<wire x1="-0.7625" y1="1.05" x2="-0.5375" y2="1.05" width="0.025" layer="51"/>
+<wire x1="-0.5375" y1="1.05" x2="-0.5375" y2="0.69" width="0.025" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.025" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.025" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.025" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.025" layer="51"/>
+<wire x1="-1.08" y1="-0.7" x2="-1.08" y2="0.7" width="0.12" layer="51"/>
+<wire x1="-1.08" y1="0.7" x2="1.08" y2="0.7" width="0.12" layer="51"/>
+<wire x1="1.08" y1="0.7" x2="1.08" y2="-0.7" width="0.12" layer="51"/>
+<wire x1="1.08" y1="-0.7" x2="-1.08" y2="-0.7" width="0.12" layer="51"/>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-0.35" y1="0" x2="0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="-1.08" y1="-0.7" x2="-1.08" y2="0.7" width="0.12" layer="21"/>
+<wire x1="1.08" y1="-0.7" x2="1.08" y2="0.7" width="0.12" layer="21"/>
+<wire x1="1.28" y1="-0.9" x2="1.28" y2="0.9" width="0.05" layer="39"/>
+<wire x1="1.28" y1="0.9" x2="1.04" y2="0.9" width="0.05" layer="39"/>
+<wire x1="1.04" y1="0.9" x2="1.04" y2="1.655" width="0.05" layer="39"/>
+<wire x1="1.04" y1="1.655" x2="-1.04" y2="1.655" width="0.05" layer="39"/>
+<wire x1="-1.04" y1="1.655" x2="-1.04" y2="0.9" width="0.05" layer="39"/>
+<wire x1="-1.04" y1="0.9" x2="-1.28" y2="0.9" width="0.05" layer="39"/>
+<wire x1="-1.28" y1="0.9" x2="-1.28" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="-1.28" y1="-0.9" x2="-1.04" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="-1.04" y1="-0.9" x2="-1.04" y2="-1.655" width="0.05" layer="39"/>
+<wire x1="-1.04" y1="-1.655" x2="1.04" y2="-1.655" width="0.05" layer="39"/>
+<wire x1="1.04" y1="-1.655" x2="1.04" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="1.04" y1="-0.9" x2="1.28" y2="-0.9" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<text x="1.905" y="0" size="1.016" layer="51" ratio="10">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
-<package3d name="MTGP700H400" urn="urn:adsk.eagle:package:23248012/2" type="empty" library_version="22">
-<description>Mounting Hole, Plated; 7.00 mm Pad, 4.00 mm Hole&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
-<packageinstances>
-<packageinstance name="MTGP700H400"/>
-</packageinstances>
-</package3d>
 <package3d name="SOT23-5P65_210X110L40X22N_LM20" urn="urn:adsk.eagle:package:23087469/2" type="model" library_version="32" library_locally_modified="yes">
 <description>Small Outline Transistor (SOT23), 0.65 mm pitch; 5 pin, 2.00 mm L X 1.25 mm W X 1.10 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <packageinstances>
@@ -1607,7 +2035,7 @@
 <packageinstance name="TP_P76H50"/>
 </packageinstances>
 </package3d>
-<package3d name="SC70-5P65_210X110L36X22N_TLV9051" urn="urn:adsk.eagle:package:25994724/1" type="box" library_version="82">
+<package3d name="SC70-5P65_210X110L36X22N_TLV9051" urn="urn:adsk.eagle:package:25994724/2" type="model" library_version="99">
 <description>Small Outline Transistor (SOT23), 0.65 mm pitch; 5 pin, 2.00 mm L X 1.25 mm W X 1.10 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <packageinstances>
 <packageinstance name="SC70-5P65_210X110L36X22N_TLV9051"/>
@@ -1619,23 +2047,19 @@
 <packageinstance name="2POL254"/>
 </packageinstances>
 </package3d>
-<package3d name="SUN_SENOR_MASK" urn="urn:adsk.eagle:package:26239251/1" type="box" library_version="92">
+<package3d name="SUN_SENOR_MASK" urn="urn:adsk.eagle:package:26239251/3" type="box" library_version="95">
 <packageinstances>
 <packageinstance name="SUN_SENOR_MASK"/>
 </packageinstances>
 </package3d>
+<package3d name="SC70-5P65_210X110L36X22N_LM20" urn="urn:adsk.eagle:package:26463295/2" type="model" library_version="99">
+<description>Small Outline Transistor (SOT23), 0.65 mm pitch; 5 pin, 2.00 mm L X 1.25 mm W X 1.10 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<packageinstances>
+<packageinstance name="SC70-5P65_210X110L36X22N_LM20"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
-<symbol name="MOUNT-PAD-NC" urn="urn:adsk.eagle:symbol:23248009/1" library_version="19">
-<wire x1="0.254" y1="2.032" x2="2.032" y2="0.254" width="1.016" layer="94" curve="-75.749967" cap="flat"/>
-<wire x1="-2.032" y1="0.254" x2="-0.254" y2="2.032" width="1.016" layer="94" curve="-75.749967" cap="flat"/>
-<wire x1="-2.032" y1="-0.254" x2="-0.254" y2="-2.032" width="1.016" layer="94" curve="75.749967" cap="flat"/>
-<wire x1="0.254" y1="-2.032" x2="2.032" y2="-0.254" width="1.016" layer="94" curve="75.749967" cap="flat"/>
-<circle x="0" y="0" radius="1.524" width="0.0508" layer="94"/>
-<text x="2.794" y="0.5842" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.794" y="-2.4638" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="MOUNT" x="-5.08" y="0" visible="off" length="middle" direction="nc"/>
-</symbol>
 <symbol name="LM20B1M7X_NOPB" urn="urn:adsk.eagle:symbol:23087464/1" library_version="32" library_locally_modified="yes">
 <pin name="V+" x="-15.24" y="2.54" length="middle"/>
 <pin name="GND_1" x="-15.24" y="-2.54" length="middle"/>
@@ -1758,27 +2182,48 @@
 <pin name="MOUNT1" x="-5.08" y="-7.62" visible="off" length="middle" direction="nc"/>
 <pin name="MOUNT2" x="-5.08" y="-15.24" visible="off" length="middle" direction="nc"/>
 </symbol>
+<symbol name="FRAME_A_L" urn="urn:adsk.eagle:symbol:26425672/1" library_version="97">
+<frame x1="0" y1="0" x2="279.4" y2="215.9" columns="6" rows="5" layer="94" border-bottom="no"/>
+</symbol>
+<symbol name="DOCFIELD" urn="urn:adsk.eagle:symbol:26425673/1" library_version="97">
+<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
+<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
+<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
+<text x="88.9" y="11.43" size="2.54" layer="94">REV:</text>
+<text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
+<text x="1.27" y="11.43" size="2.54" layer="94">Drawn by:</text>
+<text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="88.9" y="7.62" size="2.54" layer="94">&gt;REV#</text>
+<text x="24.13" y="11.43" size="2.54" layer="94">&gt;DESIGNER</text>
+<text x="1.27" y="6.35" size="2.54" layer="94">Reviewed by:</text>
+<text x="24.13" y="6.35" size="2.54" layer="94">&gt;REVIEWER</text>
+<text x="1.27" y="31.75" size="2.54" layer="94">LORIS CubeSat Project</text>
+<text x="1.27" y="27.94" size="1.778" layer="94">Dalhousie Space Systems Lab</text>
+<text x="1.27" y="24.13" size="1.778" layer="94">Dalhousie University, Halifax, Nova Scotia</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="MTGP700H400" urn="urn:adsk.eagle:component:23248013/2" prefix="MH" library_version="22">
-<gates>
-<gate name="G$1" symbol="MOUNT-PAD-NC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MTGP700H400">
-<connects>
-<connect gate="G$1" pin="MOUNT" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23248012/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LM20BIM7X_NOPB" urn="urn:adsk.eagle:component:23087472/3" prefix="U" library_version="32" library_locally_modified="yes">
+<deviceset name="LM20BIM7X_NOPB" urn="urn:adsk.eagle:component:23087472/5" prefix="U" library_version="99">
 <gates>
 <gate name="G$1" symbol="LM20B1M7X_NOPB" x="0" y="0"/>
 </gates>
@@ -1793,6 +2238,21 @@
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23087469/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_DCK" package="SC70-5P65_210X110L36X22N_LM20">
+<connects>
+<connect gate="G$1" pin="GND_1" pad="2"/>
+<connect gate="G$1" pin="GND_2" pad="5"/>
+<connect gate="G$1" pin="NC" pad="1"/>
+<connect gate="G$1" pin="V+" pad="4"/>
+<connect gate="G$1" pin="VO" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26463295/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1930,7 +2390,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TLV9051" urn="urn:adsk.eagle:component:25994725/2" prefix="U" library_version="82">
+<deviceset name="TLV9051" urn="urn:adsk.eagle:component:25994725/3" prefix="U" library_version="99">
 <gates>
 <gate name="G$1" symbol="OPAMP" x="2.54" y="0"/>
 </gates>
@@ -1944,7 +2404,7 @@
 <connect gate="G$1" pin="V-" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25994724/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25994724/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1990,7 +2450,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SUN_SENSOR_MOUNT" urn="urn:adsk.eagle:component:26239253/2" prefix="A" library_version="92">
+<deviceset name="SUN_SENSOR_MOUNT" urn="urn:adsk.eagle:component:26239253/4" prefix="A" library_version="95">
 <gates>
 <gate name="G$1" symbol="SUN_SENSOR_MOUNT" x="-15.24" y="7.62"/>
 </gates>
@@ -2002,8 +2462,22 @@
 <connect gate="G$1" pin="MOUNT2" pad="P$3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26239251/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26239251/3"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TITLE_BLOCK_LETTER" urn="urn:adsk.eagle:component:26425674/1" prefix="FRAME" uservalue="yes" library_version="97">
+<description>&lt;b&gt;FRAME&lt;/b&gt; A Size , 8 1/2 x 11 INCH, Landscape&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FRAME_A_L" x="0" y="0" addlevel="always"/>
+<gate name="G$2" symbol="DOCFIELD" x="172.72" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -17760,6 +18234,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </library>
 </libraries>
 <attributes>
+<attribute name="REV#" value="A"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -17784,16 +18259,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <schematic_group name="TIA_BIASING10"/>
 </groups>
 <parts>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
-<part name="MH5" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MTGP700H400" device="" package3d_urn="urn:adsk.eagle:package:23248012/2"/>
-<part name="MH6" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MTGP700H400" device="" package3d_urn="urn:adsk.eagle:package:23248012/2"/>
-<part name="MH7" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MTGP700H400" device="" package3d_urn="urn:adsk.eagle:package:23248012/2"/>
-<part name="MH8" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MTGP700H400" device="" package3d_urn="urn:adsk.eagle:package:23248012/2"/>
 <part name="U4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="LM20BIM7X_NOPB" device="" package3d_urn="urn:adsk.eagle:package:23087469/2"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="5.1M"/>
+<part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1u"/>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/5"/>
 <part name="C14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1u"/>
@@ -17821,10 +18291,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="13.7k"/>
 <part name="SUPPLY40" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TP3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
-<part name="U6" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/1"/>
+<part name="U6" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/2"/>
 <part name="SUPPLY41" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="5.6k"/>
-<part name="C27" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.015u"/>
+<part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="3.74k"/>
+<part name="C27" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.022u"/>
 <part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7u"/>
 <part name="C29" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
 <part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="280R"/>
@@ -17833,9 +18303,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="13.7k"/>
 <part name="SUPPLY44" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TP6" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
-<part name="U8" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/1"/>
+<part name="U8" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/2"/>
 <part name="SUPPLY45" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="5.6k"/>
+<part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="3.74k"/>
 <part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7u"/>
 <part name="C31" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
 <part name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="280R"/>
@@ -17845,11 +18315,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="13.7k"/>
 <part name="SUPPLY49" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TP8" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
-<part name="U9" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/1"/>
+<part name="U9" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TLV9051" device="IDCKR" package3d_urn="urn:adsk.eagle:package:25994724/2"/>
 <part name="SUPPLY50" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="5.6k"/>
-<part name="C32" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.015u"/>
-<part name="C33" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.015u"/>
+<part name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="3.74k"/>
+<part name="C32" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.022u"/>
+<part name="C33" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.022u"/>
 <part name="+3V12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -17872,7 +18342,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0R"/>
 <part name="TP2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
-<part name="A1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SUN_SENSOR_MOUNT" device="" package3d_urn="urn:adsk.eagle:package:26239251/1"/>
+<part name="A1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SUN_SENSOR_MOUNT" device="" package3d_urn="urn:adsk.eagle:package:26239251/3"/>
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -17881,34 +18351,15 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.2" package3d_urn="urn:adsk.eagle:package:14282/1"/>
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.2" package3d_urn="urn:adsk.eagle:package:14282/1"/>
 <part name="TP4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/2"/>
+<part name="FRAME1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
+<attribute name="REV#" value=""/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME1" gate="G$2" x="172.72" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
-</instance>
-<instance part="MH5" gate="G$1" x="43.18" y="10.16" smashed="yes">
-<attribute name="NAME" x="45.974" y="10.7442" size="1.778" layer="95"/>
-<attribute name="VALUE" x="45.974" y="7.6962" size="1.778" layer="96"/>
-</instance>
-<instance part="MH6" gate="G$1" x="73.66" y="10.16" smashed="yes">
-<attribute name="NAME" x="76.454" y="10.7442" size="1.778" layer="95"/>
-<attribute name="VALUE" x="76.454" y="7.6962" size="1.778" layer="96"/>
-</instance>
-<instance part="MH7" gate="G$1" x="104.14" y="10.16" smashed="yes">
-<attribute name="NAME" x="106.934" y="10.7442" size="1.778" layer="95"/>
-<attribute name="VALUE" x="106.934" y="7.6962" size="1.778" layer="96"/>
-</instance>
-<instance part="MH8" gate="G$1" x="137.16" y="10.16" smashed="yes">
-<attribute name="NAME" x="139.954" y="10.7442" size="1.778" layer="95"/>
-<attribute name="VALUE" x="139.954" y="7.6962" size="1.778" layer="96"/>
-</instance>
 <instance part="U4" gate="G$1" x="200.66" y="63.5" smashed="yes">
 <attribute name="VALUE" x="190.5" y="73.66" size="1.778" layer="96"/>
 <attribute name="NAME" x="190.5" y="71.12" size="1.778" layer="95"/>
@@ -18211,24 +18662,31 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="SUPPLY2" gate="GND" x="238.76" y="162.56" smashed="yes">
 <attribute name="VALUE" x="236.855" y="159.385" size="1.778" layer="96"/>
 </instance>
-<instance part="H1" gate="G$1" x="162.56" y="200.66" smashed="yes">
-<attribute name="NAME" x="165.354" y="201.2442" size="1.778" layer="95"/>
-<attribute name="VALUE" x="165.354" y="198.1962" size="1.778" layer="96"/>
+<instance part="H1" gate="G$1" x="15.24" y="12.7" smashed="yes">
+<attribute name="NAME" x="18.034" y="13.2842" size="1.778" layer="95"/>
+<attribute name="VALUE" x="18.034" y="10.2362" size="1.778" layer="96"/>
 </instance>
-<instance part="H2" gate="G$1" x="182.88" y="200.66" smashed="yes">
-<attribute name="NAME" x="185.674" y="201.2442" size="1.778" layer="95"/>
-<attribute name="VALUE" x="185.674" y="198.1962" size="1.778" layer="96"/>
+<instance part="H2" gate="G$1" x="53.34" y="12.7" smashed="yes">
+<attribute name="NAME" x="56.134" y="13.2842" size="1.778" layer="95"/>
+<attribute name="VALUE" x="56.134" y="10.2362" size="1.778" layer="96"/>
 </instance>
-<instance part="H3" gate="G$1" x="203.2" y="200.66" smashed="yes">
-<attribute name="NAME" x="205.994" y="201.2442" size="1.778" layer="95"/>
-<attribute name="VALUE" x="205.994" y="198.1962" size="1.778" layer="96"/>
+<instance part="H3" gate="G$1" x="93.98" y="12.7" smashed="yes">
+<attribute name="NAME" x="96.774" y="13.2842" size="1.778" layer="95"/>
+<attribute name="VALUE" x="96.774" y="10.2362" size="1.778" layer="96"/>
 </instance>
-<instance part="H4" gate="G$1" x="223.52" y="200.66" smashed="yes">
-<attribute name="NAME" x="226.314" y="201.2442" size="1.778" layer="95"/>
-<attribute name="VALUE" x="226.314" y="198.1962" size="1.778" layer="96"/>
+<instance part="H4" gate="G$1" x="134.62" y="12.7" smashed="yes">
+<attribute name="NAME" x="137.414" y="13.2842" size="1.778" layer="95"/>
+<attribute name="VALUE" x="137.414" y="10.2362" size="1.778" layer="96"/>
 </instance>
 <instance part="TP4" gate="G$1" x="238.76" y="167.64" smashed="yes">
 <attribute name="NAME" x="237.49" y="168.91" size="1.778" layer="95"/>
+</instance>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME1" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+<attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
@@ -18745,6 +19203,20 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,12.7,12.7,H1,MOUNT,,,,"/>
+<approved hash="101,1,50.8,12.7,H2,MOUNT,,,,"/>
+<approved hash="101,1,91.44,12.7,H3,MOUNT,,,,"/>
+<approved hash="101,1,132.08,12.7,H4,MOUNT,,,,"/>
+<approved hash="103,1,215.9,58.42,U4,NC,N$7,,,"/>
+<approved hash="104,1,165.1,127,U2,VCC+_2,+3V3,,,"/>
+<approved hash="104,1,165.1,129.54,U2,VCC+,+3V3,,,"/>
+<approved hash="113,1,41.4655,38.4708,J4,,,,,"/>
+<approved hash="113,1,41.4655,99.4308,J5,,,,,"/>
+<approved hash="113,1,41.4655,157.851,J6,,,,,"/>
+<approved hash="113,1,249.157,124.686,JP3,,,,,"/>
+<approved hash="113,1,139.596,107.846,FRAME1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
@@ -18773,10 +19245,6 @@ Since Version 8.4, EAGLE supports properties for SPICE simulation.
 Probes in schematics and SPICE mapping objects found in parts and library devices
 will not be understood with this version. Update EAGLE to the latest version
 for full support of SPICE simulation. 
-</note>
-<note version="8.5" severity="warning">
-Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
-The locking property on all objects of these types will not be understood in this version. 
 </note>
 </compatibility>
 </eagle>
