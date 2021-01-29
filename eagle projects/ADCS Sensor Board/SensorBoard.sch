@@ -30380,6 +30380,7 @@ Source: www.kingbright.com</description>
 </library>
 </libraries>
 <attributes>
+<attribute name="REV" value="B"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -30648,6 +30649,8 @@ Source: www.kingbright.com</description>
 <text x="218.44" y="55.88" size="1.778" layer="97">&lt;&lt;</text>
 <text x="218.44" y="53.34" size="1.778" layer="97">&lt;&lt;</text>
 <text x="137.16" y="48.26" size="1.778" layer="97">SEN_BRD_3V_PRESENT</text>
+<text x="177.8" y="88.9" size="1.778" layer="91">was !CS!_SUN_Y+</text>
+<text x="177.8" y="86.36" size="1.778" layer="91">was !CS!_SUN_Z+</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -31160,22 +31163,12 @@ Source: www.kingbright.com</description>
 <wire x1="53.34" y1="190.5" x2="27.94" y2="190.5" width="0.1524" layer="91" grouprefs="Z+_SUN_SENSOR_CONNECTOR"/>
 <label x="27.94" y="190.5" size="1.778" layer="95" grouprefs="Z+_SUN_SENSOR_CONNECTOR"/>
 </segment>
-<segment>
-<wire x1="172.72" y1="86.36" x2="182.88" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="P4.1/PM_UCB1SIMO/PM_UCB1SDA"/>
-<label x="177.8" y="86.36" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="!CS!_SUN_Y+" class="0">
 <segment>
 <label x="22.86" y="53.34" size="1.778" layer="95" grouprefs="ACTUATOR_BOARD_CONNECTORS"/>
 <wire x1="55.88" y1="53.34" x2="22.86" y2="53.34" width="0.1524" layer="91" grouprefs="ACTUATOR_BOARD_CONNECTORS"/>
 <pinref part="J5" gate="A" pin="3"/>
-</segment>
-<segment>
-<wire x1="172.72" y1="88.9" x2="182.88" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="P4.2/PM_UCB1SOMI/PM_UCB1SCL"/>
-<label x="177.8" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UCA0TXD" class="0">
@@ -31712,6 +31705,25 @@ Source: www.kingbright.com</description>
 <label x="190.5" y="182.88" size="1.778" layer="95" xref="yes"/>
 <wire x1="182.88" y1="172.72" x2="182.88" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="182.88" x2="190.5" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="UCB1_I2C_SCL" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="P4.2/PM_UCB1SOMI/PM_UCB1SCL"/>
+<wire x1="172.72" y1="88.9" x2="210.82" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="88.9" x2="210.82" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="73.66" x2="215.9" y2="73.66" width="0.1524" layer="91"/>
+<label x="215.9" y="73.66" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="UCB1_I2C_SDA" class="0">
+<segment>
+<wire x1="172.72" y1="86.36" x2="182.88" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="P4.1/PM_UCB1SIMO/PM_UCB1SDA"/>
+<wire x1="172.72" y1="86.36" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="86.36" x2="208.28" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="68.58" x2="215.9" y2="68.58" width="0.1524" layer="91"/>
+<label x="215.9" y="68.58" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
