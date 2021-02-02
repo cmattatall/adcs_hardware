@@ -20953,7 +20953,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="+3V55" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V56" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
-<part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V57" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V58" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -21067,6 +21066,17 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="TP29" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/3"/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TP30" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/3"/>
+<part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1u"/>
+<part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V60" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u"/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1u"/>
+<part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21181,15 +21191,15 @@ each magnetorquer</text>
 <attribute name="NAME" x="34.544" y="122.301" size="1.778" layer="95"/>
 <attribute name="VALUE" x="34.544" y="119.761" size="1.778" layer="96"/>
 </instance>
-<instance part="C15" gate="G$1" x="48.26" y="139.7" smashed="yes">
-<attribute name="NAME" x="49.784" y="140.081" size="1.778" layer="95"/>
-<attribute name="VALUE" x="49.784" y="135.001" size="1.778" layer="96"/>
+<instance part="C15" gate="G$1" x="45.72" y="137.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="44.196" y="136.779" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="44.196" y="141.859" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+6" gate="1" x="30.48" y="139.7" smashed="yes">
-<attribute name="VALUE" x="33.02" y="142.24" size="1.778" layer="96" rot="R180"/>
+<instance part="P+6" gate="1" x="45.72" y="147.32" smashed="yes">
+<attribute name="VALUE" x="48.26" y="149.86" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY32" gate="GND" x="38.1" y="139.7" smashed="yes">
-<attribute name="VALUE" x="36.195" y="136.525" size="1.778" layer="96"/>
+<instance part="SUPPLY32" gate="GND" x="45.72" y="132.08" smashed="yes">
+<attribute name="VALUE" x="43.815" y="128.905" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY33" gate="GND" x="30.48" y="116.84" smashed="yes">
 <attribute name="VALUE" x="28.575" y="113.665" size="1.778" layer="96"/>
@@ -21312,12 +21322,12 @@ each magnetorquer</text>
 <instance part="SUPPLY115" gate="GND" x="76.2" y="7.62" smashed="yes">
 <attribute name="VALUE" x="74.295" y="4.445" size="1.778" layer="96"/>
 </instance>
-<instance part="C40" gate="G$1" x="71.12" y="50.8" smashed="yes">
-<attribute name="NAME" x="66.04" y="50.419" size="1.778" layer="95"/>
-<attribute name="VALUE" x="65.786" y="46.609" size="1.778" layer="96"/>
+<instance part="C40" gate="G$1" x="68.58" y="53.34" smashed="yes">
+<attribute name="NAME" x="63.5" y="52.959" size="1.778" layer="95"/>
+<attribute name="VALUE" x="63.246" y="49.149" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY116" gate="GND" x="58.42" y="43.18" smashed="yes">
-<attribute name="VALUE" x="56.515" y="40.005" size="1.778" layer="96"/>
+<instance part="SUPPLY116" gate="GND" x="55.88" y="45.72" smashed="yes">
+<attribute name="VALUE" x="53.975" y="42.545" size="1.778" layer="96"/>
 </instance>
 <instance part="C42" gate="G$1" x="175.26" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="183.896" y="65.659" size="1.778" layer="95" rot="R180"/>
@@ -21333,9 +21343,9 @@ each magnetorquer</text>
 <instance part="SUPPLY119" gate="GND" x="175.26" y="58.42" smashed="yes">
 <attribute name="VALUE" x="173.355" y="55.245" size="1.778" layer="96"/>
 </instance>
-<instance part="C43" gate="G$1" x="58.42" y="50.8" smashed="yes">
-<attribute name="NAME" x="53.594" y="51.181" size="1.778" layer="95"/>
-<attribute name="VALUE" x="54.864" y="46.101" size="1.778" layer="96"/>
+<instance part="C43" gate="G$1" x="55.88" y="53.34" smashed="yes">
+<attribute name="NAME" x="51.054" y="53.721" size="1.778" layer="95"/>
+<attribute name="VALUE" x="52.324" y="48.641" size="1.778" layer="96"/>
 </instance>
 <instance part="C44" gate="G$1" x="66.04" y="20.32" smashed="yes">
 <attribute name="NAME" x="69.85" y="19.685" size="1.778" layer="95"/>
@@ -21407,8 +21417,8 @@ each magnetorquer</text>
 <instance part="+3V12" gate="G$1" x="154.94" y="180.34" smashed="yes">
 <attribute name="VALUE" x="157.48" y="182.88" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V13" gate="G$1" x="58.42" y="58.42" smashed="yes">
-<attribute name="VALUE" x="60.96" y="60.96" size="1.778" layer="96" rot="R180"/>
+<instance part="+3V13" gate="G$1" x="55.88" y="60.96" smashed="yes">
+<attribute name="VALUE" x="58.42" y="63.5" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="JX" gate="G$1" x="127" y="180.34" smashed="yes">
 <attribute name="NAME" x="122.936" y="184.785" size="1.778" layer="95"/>
@@ -21443,11 +21453,28 @@ each magnetorquer</text>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 <attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
 </instance>
-<instance part="SUPPLY21" gate="GND" x="71.12" y="43.18" smashed="yes">
-<attribute name="VALUE" x="69.215" y="40.005" size="1.778" layer="96"/>
+<instance part="SUPPLY21" gate="GND" x="68.58" y="45.72" smashed="yes">
+<attribute name="VALUE" x="66.675" y="42.545" size="1.778" layer="96"/>
 </instance>
 <instance part="TP30" gate="G$1" x="53.34" y="33.02" smashed="yes">
 <attribute name="NAME" x="52.07" y="34.29" size="1.778" layer="95"/>
+</instance>
+<instance part="+3V60" gate="G$1" x="33.02" y="45.72" smashed="yes">
+<attribute name="VALUE" x="35.56" y="48.26" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C10" gate="G$1" x="33.02" y="38.1" smashed="yes">
+<attribute name="NAME" x="28.194" y="38.481" size="1.778" layer="95"/>
+<attribute name="VALUE" x="29.464" y="33.401" size="1.778" layer="96"/>
+</instance>
+<instance part="C11" gate="G$1" x="40.64" y="38.1" smashed="yes">
+<attribute name="NAME" x="35.56" y="37.719" size="1.778" layer="95"/>
+<attribute name="VALUE" x="35.306" y="33.909" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY24" gate="GND" x="33.02" y="30.48" smashed="yes">
+<attribute name="VALUE" x="31.115" y="27.305" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY25" gate="GND" x="40.64" y="30.48" smashed="yes">
+<attribute name="VALUE" x="38.735" y="27.305" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -21524,7 +21551,6 @@ each magnetorquer</text>
 <segment>
 <pinref part="SUPPLY32" gate="GND" pin="GND"/>
 <pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="142.24" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C16" gate="G$1" pin="2"/>
@@ -21638,6 +21664,14 @@ each magnetorquer</text>
 <pinref part="C56" gate="G$1" pin="2"/>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="SUPPLY24" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="SUPPLY25" gate="GND" pin="GND"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -21656,16 +21690,17 @@ each magnetorquer</text>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="134.62" x2="48.26" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="134.62" x2="30.48" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
 <wire x1="58.42" y1="134.62" x2="50.8" y2="134.62" width="0.1524" layer="91"/>
-<junction x="48.26" y="134.62"/>
+<junction x="45.72" y="142.24"/>
 <pinref part="U11" gate="G$1" pin="VCC_1"/>
 <pinref part="U11" gate="G$1" pin="VCC_2"/>
-<wire x1="50.8" y1="134.62" x2="48.26" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="132.08" x2="50.8" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="132.08" x2="50.8" y2="134.62" width="0.1524" layer="91"/>
+<junction x="50.8" y="134.62"/>
+<wire x1="50.8" y1="134.62" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="144.78" x2="45.72" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="142.24" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C17" gate="G$1" pin="2"/>
@@ -21850,6 +21885,11 @@ each magnetorquer</text>
 <wire x1="124.46" y1="134.62" x2="91.44" y2="134.62" width="0.1524" layer="91"/>
 <label x="111.76" y="134.62" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="210.82" y1="127" x2="200.66" y2="127" width="0.1524" layer="91"/>
+<label x="200.66" y="127" size="1.778" layer="95"/>
+<junction x="210.82" y="127"/>
+</segment>
 </net>
 <net name="OUT1_Z" class="0">
 <segment>
@@ -21988,17 +22028,14 @@ each magnetorquer</text>
 </segment>
 <segment>
 <pinref part="C43" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="55.88" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="58.42" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C40" gate="G$1" pin="1"/>
-<pinref part="U9" gate="A" pin="VCC+_2"/>
-<wire x1="71.12" y1="53.34" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="53.34" x2="78.74" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="55.88" x2="78.74" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="U9" gate="A" pin="VCC+"/>
-<wire x1="71.12" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
-<junction x="71.12" y="53.34"/>
-<junction x="58.42" y="53.34"/>
-<wire x1="78.74" y1="43.18" x2="78.74" y2="40.64" width="0.1524" layer="91"/>
-<junction x="78.74" y="43.18"/>
+<wire x1="68.58" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
+<junction x="68.58" y="55.88"/>
+<junction x="55.88" y="55.88"/>
 <pinref part="+3V13" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
@@ -22011,6 +22048,17 @@ each magnetorquer</text>
 <wire x1="66.04" y1="22.86" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
 <junction x="66.04" y="22.86"/>
 <junction x="48.26" y="22.86"/>
+</segment>
+<segment>
+<pinref part="U9" gate="A" pin="VCC+_2"/>
+<wire x1="78.74" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<junction x="40.64" y="40.64"/>
+<pinref part="+3V60" gate="G$1" pin="+3V3"/>
+<wire x1="33.02" y1="43.18" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="40.64" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
+<junction x="33.02" y="40.64"/>
 </segment>
 </net>
 <net name="OUT2_Y" class="0">
@@ -22026,13 +22074,6 @@ each magnetorquer</text>
 <wire x1="210.82" y1="111.76" x2="200.66" y2="111.76" width="0.1524" layer="91"/>
 <label x="200.66" y="111.76" size="1.778" layer="95"/>
 <junction x="210.82" y="111.76"/>
-</segment>
-</net>
-<net name="OUTX_Y" class="0">
-<segment>
-<wire x1="210.82" y1="127" x2="200.66" y2="127" width="0.1524" layer="91"/>
-<label x="200.66" y="127" size="1.778" layer="95"/>
-<junction x="210.82" y="127"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -22212,9 +22253,8 @@ each magnetorquer</text>
 <net name="RW_X_SPEED_CTRL" class="0">
 <segment>
 <pinref part="J3" gate="A" pin="1"/>
-<wire x1="157.48" y1="106.68" x2="134.62" y2="106.68" width="0.1524" layer="91" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
-<wire x1="157.48" y1="106.68" x2="127" y2="106.68" width="0.1524" layer="91" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
 <label x="127" y="106.68" size="1.778" layer="95" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
+<wire x1="157.48" y1="106.68" x2="127" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RW_Z_DIR" class="0">
@@ -22262,7 +22302,6 @@ each magnetorquer</text>
 <net name="RW_Y_SPEED_CTRL" class="0">
 <segment>
 <pinref part="J3" gate="A" pin="3"/>
-<wire x1="157.48" y1="104.14" x2="134.62" y2="104.14" width="0.1524" layer="91" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
 <wire x1="157.48" y1="104.14" x2="127" y2="104.14" width="0.1524" layer="91" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
 <label x="127" y="104.14" size="1.778" layer="95" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
 </segment>
@@ -22295,47 +22334,10 @@ each magnetorquer</text>
 <wire x1="119.38" y1="119.38" x2="157.48" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="J2" gate="A" pin="5"/>
-<wire x1="157.48" y1="132.08" x2="134.62" y2="132.08" width="0.1524" layer="91" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="J2" gate="A" pin="7"/>
-<wire x1="157.48" y1="129.54" x2="134.62" y2="129.54" width="0.1524" layer="91" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="J2" gate="A" pin="9"/>
-<wire x1="157.48" y1="127" x2="134.62" y2="127" width="0.1524" layer="91" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
-</segment>
-</net>
-<net name="N$71" class="0">
-<segment>
-<pinref part="J2" gate="A" pin="8"/>
-<wire x1="185.42" y1="129.54" x2="165.1" y2="129.54" width="0.1524" layer="91" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
-</segment>
-</net>
-<net name="N$72" class="0">
-<segment>
-<pinref part="J2" gate="A" pin="10"/>
-<wire x1="185.42" y1="127" x2="165.1" y2="127" width="0.1524" layer="91" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
-</segment>
-</net>
-<net name="N$73" class="0">
-<segment>
-<pinref part="J2" gate="A" pin="12"/>
-<wire x1="185.42" y1="124.46" x2="165.1" y2="124.46" width="0.1524" layer="91" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
-</segment>
-</net>
 <net name="MAG_Z_FIN" class="0">
 <segment>
 <pinref part="J3" gate="A" pin="2"/>
-<wire x1="165.1" y1="106.68" x2="185.42" y2="106.68" width="0.1524" layer="91" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
-<wire x1="187.96" y1="106.68" x2="165.1" y2="106.68" width="0.1524" layer="91" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
+<wire x1="165.1" y1="106.68" x2="187.96" y2="106.68" width="0.1524" layer="91" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
 <label x="172.72" y="106.68" size="1.778" layer="95" grouprefs="SENSOR_BOARD_CONNNECTOR"/>
 </segment>
 </net>
@@ -24431,6 +24433,7 @@ each magnetorquer</text>
 <wire x1="58.42" y1="160.02" x2="43.18" y2="160.02" width="0.1524" layer="91"/>
 <junction x="58.42" y="160.02"/>
 <wire x1="35.56" y1="160.02" x2="43.18" y2="160.02" width="0.1524" layer="91"/>
+<junction x="43.18" y="160.02"/>
 </segment>
 </net>
 </nets>
@@ -25653,16 +25656,16 @@ each magnetorquer</text>
 <attribute name="NAME" x="256.54" y="120.8786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="256.54" y="117.348" size="1.778" layer="96"/>
 </instance>
-<instance part="R1" gate="G$1" x="15.24" y="96.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="8.89" y="98.0186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="8.89" y="93.218" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="12.7" y="96.52" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.35" y="98.0186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="6.35" y="93.218" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="15.24" y="81.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="8.89" y="82.7786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="8.89" y="77.978" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="12.7" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.35" y="82.7786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="6.35" y="77.978" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY27" gate="GND" x="15.24" y="73.66" smashed="yes">
-<attribute name="VALUE" x="13.335" y="70.485" size="1.778" layer="96"/>
+<instance part="SUPPLY27" gate="GND" x="12.7" y="73.66" smashed="yes">
+<attribute name="VALUE" x="10.795" y="70.485" size="1.778" layer="96"/>
 </instance>
 <instance part="U12" gate="A" x="71.12" y="99.06" smashed="yes">
 <attribute name="NAME" x="66.3956" y="115.7986" size="2.0828" layer="95" ratio="6" rot="SR0"/>
@@ -25676,16 +25679,16 @@ each magnetorquer</text>
 <attribute name="NAME" x="26.924" y="86.741" size="1.778" layer="95"/>
 <attribute name="VALUE" x="26.924" y="81.661" size="1.778" layer="96"/>
 </instance>
-<instance part="C59" gate="G$1" x="27.94" y="119.38" smashed="yes">
-<attribute name="NAME" x="31.75" y="117.729" size="1.778" layer="95"/>
-<attribute name="VALUE" x="31.496" y="115.189" size="1.778" layer="96"/>
+<instance part="C59" gate="G$1" x="30.48" y="129.54" smashed="yes">
+<attribute name="NAME" x="34.29" y="127.889" size="1.778" layer="95"/>
+<attribute name="VALUE" x="34.036" y="125.349" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY28" gate="GND" x="15.24" y="111.76" smashed="yes">
-<attribute name="VALUE" x="13.335" y="108.585" size="1.778" layer="96"/>
+<instance part="SUPPLY28" gate="GND" x="17.78" y="121.92" smashed="yes">
+<attribute name="VALUE" x="15.875" y="118.745" size="1.778" layer="96"/>
 </instance>
-<instance part="C60" gate="G$1" x="15.24" y="119.38" smashed="yes">
-<attribute name="NAME" x="19.304" y="117.221" size="1.778" layer="95"/>
-<attribute name="VALUE" x="19.304" y="114.681" size="1.778" layer="96"/>
+<instance part="C60" gate="G$1" x="17.78" y="129.54" smashed="yes">
+<attribute name="NAME" x="21.844" y="127.381" size="1.778" layer="95"/>
+<attribute name="VALUE" x="21.844" y="124.841" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY29" gate="GND" x="101.6" y="73.66" smashed="yes">
 <attribute name="VALUE" x="99.695" y="70.485" size="1.778" layer="96"/>
@@ -25759,17 +25762,14 @@ each magnetorquer</text>
 <attribute name="NAME" x="113.03" y="87.8586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="113.03" y="83.058" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V10" gate="G$1" x="15.24" y="104.14" smashed="yes">
-<attribute name="VALUE" x="17.78" y="106.68" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="+3V57" gate="G$1" x="15.24" y="127" smashed="yes">
-<attribute name="VALUE" x="17.78" y="129.54" size="1.778" layer="96" rot="R180"/>
+<instance part="+3V57" gate="G$1" x="17.78" y="137.16" smashed="yes">
+<attribute name="VALUE" x="20.32" y="139.7" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="+3V58" gate="G$1" x="124.46" y="91.44" smashed="yes">
 <attribute name="VALUE" x="127" y="93.98" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY6" gate="GND" x="27.94" y="111.76" smashed="yes">
-<attribute name="VALUE" x="26.035" y="108.585" size="1.778" layer="96"/>
+<instance part="SUPPLY6" gate="GND" x="30.48" y="121.92" smashed="yes">
+<attribute name="VALUE" x="28.575" y="118.745" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY7" gate="GND" x="25.4" y="78.74" smashed="yes">
 <attribute name="VALUE" x="23.495" y="75.565" size="1.778" layer="96"/>
@@ -25860,8 +25860,28 @@ each magnetorquer</text>
 <instance part="TP28" gate="G$1" x="259.08" y="99.06" smashed="yes">
 <attribute name="NAME" x="257.81" y="100.33" size="1.778" layer="95"/>
 </instance>
-<instance part="TP29" gate="G$1" x="20.32" y="104.14" smashed="yes">
-<attribute name="NAME" x="19.05" y="105.41" size="1.778" layer="95"/>
+<instance part="TP29" gate="G$1" x="17.78" y="96.52" smashed="yes">
+<attribute name="NAME" x="16.51" y="97.79" size="1.778" layer="95"/>
+</instance>
+<instance part="+3V2" gate="G$1" x="12.7" y="104.14" smashed="yes">
+<attribute name="VALUE" x="15.24" y="106.68" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C8" gate="G$1" x="17.78" y="114.3" smashed="yes">
+<attribute name="NAME" x="21.844" y="112.141" size="1.778" layer="95"/>
+<attribute name="VALUE" x="21.844" y="109.601" size="1.778" layer="96"/>
+</instance>
+<instance part="C9" gate="G$1" x="27.94" y="114.3" smashed="yes">
+<attribute name="NAME" x="31.75" y="112.649" size="1.778" layer="95"/>
+<attribute name="VALUE" x="31.496" y="110.109" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY22" gate="GND" x="17.78" y="106.68" smashed="yes">
+<attribute name="VALUE" x="15.875" y="103.505" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY23" gate="GND" x="27.94" y="106.68" smashed="yes">
+<attribute name="VALUE" x="26.035" y="103.505" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V10" gate="G$1" x="12.7" y="121.92" smashed="yes">
+<attribute name="VALUE" x="15.24" y="124.46" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -26021,6 +26041,14 @@ each magnetorquer</text>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="SUPPLY20" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="SUPPLY22" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="SUPPLY23" gate="GND" pin="GND"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -26146,26 +26174,40 @@ each magnetorquer</text>
 </segment>
 <segment>
 <pinref part="C60" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="124.46" x2="15.24" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="134.62" x2="17.78" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="C59" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="121.92" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="121.92" x2="15.24" y2="121.92" width="0.1524" layer="91"/>
-<junction x="27.94" y="121.92"/>
-<junction x="15.24" y="121.92"/>
+<wire x1="30.48" y1="132.08" x2="40.64" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="132.08" x2="17.78" y2="132.08" width="0.1524" layer="91"/>
+<junction x="30.48" y="132.08"/>
+<junction x="17.78" y="132.08"/>
 <pinref part="+3V57" gate="G$1" pin="+3V3"/>
 <pinref part="U12" gate="A" pin="VCC+"/>
-<pinref part="U12" gate="A" pin="VCC+_2"/>
 <wire x1="43.18" y1="109.22" x2="40.64" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="109.22" x2="40.64" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="106.68" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="109.22" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
-<junction x="40.64" y="109.22"/>
+<wire x1="40.64" y1="109.22" x2="40.64" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="+3V58" gate="G$1" pin="+3V3"/>
 <wire x1="121.92" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="86.36" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="+3V10" gate="G$1" pin="+3V3"/>
+<wire x1="12.7" y1="119.38" x2="12.7" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="116.84" x2="17.78" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<junction x="17.78" y="116.84"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="116.84" x2="27.94" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="116.84" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
+<junction x="27.94" y="116.84"/>
+<wire x1="38.1" y1="116.84" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="U12" gate="A" pin="VCC+_2"/>
+<wire x1="38.1" y1="106.68" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -26291,7 +26333,6 @@ each magnetorquer</text>
 <wire x1="76.2" y1="152.4" x2="35.56" y2="152.4" width="0.1524" layer="91"/>
 <label x="35.56" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="76.2" y1="162.56" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="162.56" x2="76.2" y2="161.3662" width="0.1524" layer="91"/>
 <pinref part="U17" gate="G$1" pin="V"/>
 </segment>
 </net>
@@ -26467,10 +26508,10 @@ each magnetorquer</text>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="91.44" x2="15.24" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="88.9" x2="15.24" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="88.9" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
-<junction x="15.24" y="88.9"/>
+<wire x1="12.7" y1="91.44" x2="12.7" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="88.9" x2="12.7" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="88.9" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
+<junction x="12.7" y="88.9"/>
 <pinref part="C58" gate="G$1" pin="1"/>
 <pinref part="C57" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="88.9" x2="35.56" y2="88.9" width="0.1524" layer="91"/>
@@ -26531,12 +26572,6 @@ each magnetorquer</text>
 <wire x1="109.22" y1="86.36" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
 <junction x="109.22" y="86.36"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="+3V10" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="X_HALL_A" class="0">
@@ -26718,13 +26753,81 @@ each magnetorquer</text>
 <segment>
 <pinref part="U12" gate="A" pin="CH3"/>
 <pinref part="TP29" gate="G$1" pin="TP"/>
-<wire x1="43.18" y1="93.98" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="93.98" x2="20.32" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="93.98" x2="17.78" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,78.74,40.64,U9,VCC+_2,+3V3,,,"/>
+<approved hash="104,1,78.74,43.18,U9,VCC+,+3V3,,,"/>
+<approved hash="104,8,43.18,106.68,U12,VCC+_2,+3V3,,,"/>
+<approved hash="104,8,43.18,109.22,U12,VCC+,+3V3,,,"/>
+<approved hash="104,1,154.94,172.72,U7,VCC,+3V3,,,"/>
+<approved hash="104,1,154.94,157.48,U7,VSS,GND,,,"/>
+<approved hash="104,1,154.94,127,U8,VCC,+3V3,,,"/>
+<approved hash="104,1,154.94,111.76,U8,VSS,GND,,,"/>
+<approved hash="104,1,154.94,78.74,U10,VCC,+3V3,,,"/>
+<approved hash="104,1,154.94,63.5,U10,VSS,GND,,,"/>
+<approved hash="104,6,154.94,124.46,U4,VCC+_2,+3V3,,,"/>
+<approved hash="104,6,154.94,127,U4,VCC+,+3V3,,,"/>
+<approved hash="104,4,160.02,121.92,U13,VCC+_2,+3V3,,,"/>
+<approved hash="104,4,160.02,124.46,U13,VCC+,+3V3,,,"/>
+<approved hash="104,3,165.1,121.92,U25,VCC+_2,+3V3,,,"/>
+<approved hash="104,3,165.1,124.46,U25,VCC+,+3V3,,,"/>
+<approved hash="104,5,149.86,121.92,U27,VCC+_2,+3V3,,,"/>
+<approved hash="104,5,149.86,124.46,U27,VCC+,+3V3,,,"/>
+<approved hash="209,4,160.02,116.84,N$1,,,,,"/>
+<approved hash="209,4,121.92,121.92,N$1,,,,,"/>
+<approved hash="209,3,129.54,119.38,N$2,,,,,"/>
+<approved hash="209,3,165.1,116.84,N$2,,,,,"/>
+<approved hash="209,5,149.86,116.84,N$3,,,,,"/>
+<approved hash="209,5,111.76,119.38,N$3,,,,,"/>
+<approved hash="209,6,116.84,121.92,N$9,,,,,"/>
+<approved hash="209,6,154.94,119.38,N$9,,,,,"/>
+<approved hash="209,8,43.18,93.98,N$10,,,,,"/>
+<approved hash="209,8,20.32,101.6,N$10,,,,,"/>
+<approved hash="209,1,53.34,30.48,N$21,,,,,"/>
+<approved hash="209,1,78.74,27.94,N$21,,,,,"/>
+<approved hash="206,1,134.62,33.02,UCB0_SPI_MISO,,,,,"/>
+<approved hash="206,3,220.98,114.3,UCB0_SPI_MISO,,,,,"/>
+<approved hash="206,4,215.9,114.3,UCB0_SPI_MISO,,,,,"/>
+<approved hash="206,5,205.74,114.3,UCB0_SPI_MISO,,,,,"/>
+<approved hash="206,6,210.82,116.84,UCB0_SPI_MISO,,,,,"/>
+<approved hash="206,8,99.06,99.06,UCB0_SPI_MISO,,,,,"/>
+<approved hash="113,1,101.6,171.676,JP1,,,,,"/>
+<approved hash="113,1,101.6,125.956,JP2,,,,,"/>
+<approved hash="113,1,101.6,77.6961,JP3,,,,,"/>
+<approved hash="113,8,127.714,39.37,LED1,,,,,"/>
+<approved hash="113,8,150.574,39.37,LED2,,,,,"/>
+<approved hash="113,1,126.175,179.969,JX,,,,,"/>
+<approved hash="113,1,126.175,134.249,JY,,,,,"/>
+<approved hash="113,1,126.175,85.9892,JZ,,,,,"/>
+<approved hash="113,2,45.9571,179.296,J1,,,,,"/>
+<approved hash="113,2,161.248,129.766,J2,,,,,"/>
+<approved hash="113,2,161.248,99.2861,J3,,,,,"/>
+<approved hash="113,6,36.3855,96.8908,J7,,,,,"/>
+<approved hash="113,6,36.3855,155.311,J8,,,,,"/>
+<approved hash="113,6,36.3855,35.9308,J9,,,,,"/>
+<approved hash="113,5,31.3055,33.3908,J10,,,,,"/>
+<approved hash="113,5,31.3055,94.3508,J11,,,,,"/>
+<approved hash="113,5,31.3055,152.771,J12,,,,,"/>
+<approved hash="113,4,41.4655,33.3908,J13,,,,,"/>
+<approved hash="113,4,41.4655,94.3508,J14,,,,,"/>
+<approved hash="113,4,41.4655,152.771,J15,,,,,"/>
+<approved hash="113,3,46.5455,33.3908,J16,,,,,"/>
+<approved hash="113,3,46.5455,94.3508,J17,,,,,"/>
+<approved hash="113,3,46.5455,152.771,J18,,,,,"/>
+<approved hash="113,8,139.596,107.846,FRAME1,,,,,"/>
+<approved hash="113,7,139.596,107.846,FRAME2,,,,,"/>
+<approved hash="113,6,139.596,107.846,FRAME3,,,,,"/>
+<approved hash="113,5,139.596,107.846,FRAME4,,,,,"/>
+<approved hash="113,4,139.596,107.846,FRAME5,,,,,"/>
+<approved hash="113,3,139.596,107.846,FRAME6,,,,,"/>
+<approved hash="113,2,139.596,107.846,FRAME7,,,,,"/>
+<approved hash="113,1,139.596,107.846,FRAME8,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
