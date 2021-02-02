@@ -151,61 +151,6 @@
 </layers>
 <schematic xreflabel="%F%N" xrefpart="/%S.%C%R">
 <libraries>
-<library name="frames" urn="urn:adsk.eagle:library:229">
-<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="FRAME_A_L" urn="urn:adsk.eagle:symbol:13882/1" library_version="1">
-<frame x1="0" y1="0" x2="279.4" y2="215.9" columns="6" rows="5" layer="94" border-bottom="no"/>
-</symbol>
-<symbol name="DOCFIELD" urn="urn:adsk.eagle:symbol:13864/1" library_version="1">
-<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
-<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
-<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
-<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
-<text x="88.9" y="11.43" size="2.54" layer="94">REV:</text>
-<text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
-<text x="1.27" y="11.43" size="2.54" layer="94">Document Number:</text>
-<text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="FRAME_A_L" urn="urn:adsk.eagle:component:13939/1" prefix="FRAME" uservalue="yes" library_version="1">
-<description>&lt;b&gt;FRAME&lt;/b&gt; A Size , 8 1/2 x 11 INCH, Landscape&lt;p&gt;</description>
-<gates>
-<gate name="G$1" symbol="FRAME_A_L" x="0" y="0" addlevel="always"/>
-<gate name="G$2" symbol="DOCFIELD" x="172.72" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="my_library" urn="urn:adsk.eagle:library:22876504">
 <packages>
 <package name="MTGP700H400" urn="urn:adsk.eagle:footprint:23248011/1" library_version="19">
@@ -2675,6 +2620,68 @@
 <pin name="15" x="-2.54" y="-10.16" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="16" x="5.08" y="-10.16" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 </symbol>
+<symbol name="FRAME_A_L" urn="urn:adsk.eagle:symbol:26425672/1" library_version="110">
+<frame x1="0" y1="0" x2="279.4" y2="215.9" columns="6" rows="5" layer="94" border-bottom="no"/>
+</symbol>
+<symbol name="DOCFIELD" urn="urn:adsk.eagle:symbol:26425673/1" library_version="110">
+<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
+<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
+<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
+<text x="88.9" y="11.43" size="2.54" layer="94">REV:</text>
+<text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
+<text x="1.27" y="11.43" size="2.54" layer="94">Drawn by:</text>
+<text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="88.9" y="7.62" size="2.54" layer="94">&gt;REV#</text>
+<text x="24.13" y="11.43" size="2.54" layer="94">&gt;DESIGNER</text>
+<text x="1.27" y="6.35" size="2.54" layer="94">Reviewed by:</text>
+<text x="24.13" y="6.35" size="2.54" layer="94">&gt;REVIEWER</text>
+<text x="1.27" y="31.75" size="2.54" layer="94">LORIS CubeSat Project</text>
+<text x="1.27" y="27.94" size="1.778" layer="94">Dalhousie Space Systems Lab</text>
+<text x="1.27" y="24.13" size="1.778" layer="94">Dalhousie University, Halifax, Nova Scotia</text>
+</symbol>
+<symbol name="PHOTODIODE_NO_PINS" urn="urn:adsk.eagle:symbol:26239248/1" library_version="110">
+<wire x1="1.905" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="-1.905" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="1.905" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.397" x2="1.905" y2="1.397" width="0.254" layer="94"/>
+<wire x1="-3.556" y1="1.016" x2="-4.572" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="1.778" x2="-3.81" y2="2.794" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<text x="3.81" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<text x="3.81" y="-1.27" size="1.778" layer="96">&gt;VALUE</text>
+<polygon width="0.1524" layer="94">
+<vertex x="-4.064" y="1.016"/>
+<vertex x="-3.556" y="1.524"/>
+<vertex x="-3.302" y="0.762"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="1.778"/>
+<vertex x="-2.794" y="2.286"/>
+<vertex x="-2.54" y="1.524"/>
+</polygon>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MTGP700H400" urn="urn:adsk.eagle:component:23248013/2" prefix="MH" library_version="22">
@@ -3139,6 +3146,32 @@
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:26233444/1"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TITLE_BLOCK_LETTER" urn="urn:adsk.eagle:component:26425674/1" prefix="FRAME" uservalue="yes" library_version="110">
+<description>&lt;b&gt;FRAME&lt;/b&gt; A Size , 8 1/2 x 11 INCH, Landscape&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FRAME_A_L" x="0" y="0" addlevel="always"/>
+<gate name="G$2" symbol="DOCFIELD" x="172.72" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SFH2430_DNP" urn="urn:adsk.eagle:component:26239252/1" prefix="D" library_version="110">
+<gates>
+<gate name="G$1" symbol="PHOTODIODE_NO_PINS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -20445,6 +20478,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </library>
 </libraries>
 <attributes>
+<attribute name="REV#" value="A"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -20496,15 +20530,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <schematic_group name="POWER"/>
 </groups>
 <parts>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="MH5" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MTGP700H400" device="" package3d_urn="urn:adsk.eagle:package:23248012/2"/>
 <part name="MH6" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MTGP700H400" device="" package3d_urn="urn:adsk.eagle:package:23248012/2"/>
 <part name="MH7" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MTGP700H400" device="" package3d_urn="urn:adsk.eagle:package:23248012/2"/>
 <part name="MH8" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MTGP700H400" device="" package3d_urn="urn:adsk.eagle:package:23248012/2"/>
-<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
-<part name="FRAME6" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
-<part name="FRAME8" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
-<part name="FRAME10" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1u"/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1u"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -20538,8 +20567,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R47" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5R"/>
 <part name="R48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="R49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="35k"/>
-<part name="FRAME7" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
-<part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY56" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -20548,7 +20575,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="SUPPLY37" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="FRAME11" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="P+61" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R100" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="R101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
@@ -20997,6 +21023,42 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="J16" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TRM_BLK_1X2" device="" package3d_urn="urn:adsk.eagle:package:26488321/3"/>
 <part name="J17" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TRM_BLK_1X2" device="" package3d_urn="urn:adsk.eagle:package:26488321/3"/>
 <part name="J18" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TRM_BLK_1X2" device="" package3d_urn="urn:adsk.eagle:package:26488321/3"/>
+<part name="FRAME1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
+<attribute name="REV#" value=""/>
+</part>
+<part name="FRAME2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
+<attribute name="REV#" value=""/>
+</part>
+<part name="FRAME3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
+<attribute name="REV#" value=""/>
+</part>
+<part name="FRAME4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
+<attribute name="REV#" value=""/>
+</part>
+<part name="FRAME5" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
+<attribute name="REV#" value=""/>
+</part>
+<part name="FRAME6" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
+<attribute name="REV#" value=""/>
+</part>
+<part name="FRAME7" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
+<attribute name="REV#" value=""/>
+</part>
+<part name="FRAME8" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
+<attribute name="REV#" value=""/>
+</part>
+<part name="D1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SFH2430_DNP" device=""/>
+<part name="D2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SFH2430_DNP" device=""/>
+<part name="D3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SFH2430_DNP" device=""/>
+<part name="D4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SFH2430_DNP" device=""/>
+<part name="D5" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SFH2430_DNP" device=""/>
+<part name="D6" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SFH2430_DNP" device=""/>
+<part name="D7" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SFH2430_DNP" device=""/>
+<part name="D8" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SFH2430_DNP" device=""/>
+<part name="D9" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SFH2430_DNP" device=""/>
+<part name="D10" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SFH2430_DNP" device=""/>
+<part name="D11" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SFH2430_DNP" device=""/>
+<part name="D12" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="SFH2430_DNP" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21090,12 +21152,6 @@ each magnetorquer</text>
  R35)</text>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME1" gate="G$2" x="172.72" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
-</instance>
 <instance part="C12" gate="G$1" x="33.02" y="170.18" smashed="yes">
 <attribute name="NAME" x="37.084" y="168.021" size="1.778" layer="95"/>
 <attribute name="VALUE" x="37.084" y="165.481" size="1.778" layer="96"/>
@@ -21374,6 +21430,13 @@ each magnetorquer</text>
 <instance part="MY" gate="G$1" x="210.82" y="119.38" smashed="yes">
 <attribute name="NAME" x="215.9" y="121.92" size="1.27" layer="95"/>
 <attribute name="VALUE" x="215.9" y="119.38" size="1.27" layer="96"/>
+</instance>
+<instance part="FRAME8" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME8" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+<attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
@@ -21966,12 +22029,6 @@ each magnetorquer</text>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME7" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME7" gate="G$2" x="172.72" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
-</instance>
 <instance part="MH5" gate="G$1" x="40.64" y="22.86" smashed="yes">
 <attribute name="NAME" x="43.434" y="23.4442" size="1.778" layer="95"/>
 <attribute name="VALUE" x="43.434" y="20.3962" size="1.778" layer="96"/>
@@ -22014,6 +22071,13 @@ each magnetorquer</text>
 </instance>
 <instance part="P+13" gate="1" x="195.58" y="96.52" smashed="yes" grouprefs="SENSOR_BOARD_CONNNECTOR">
 <attribute name="VALUE" x="198.12" y="99.06" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="FRAME7" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME7" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+<attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
@@ -22268,12 +22332,6 @@ each magnetorquer</text>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME6" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME6" gate="G$2" x="172.72" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
-</instance>
 <instance part="U25" gate="A" x="193.04" y="114.3" smashed="yes">
 <attribute name="NAME" x="170.5356" y="131.0386" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="169.9006" y="128.4986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
@@ -22519,6 +22577,25 @@ each magnetorquer</text>
 <instance part="J18" gate="G$1" x="45.72" y="152.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="49.784" y="147.955" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="49.784" y="145.415" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="FRAME6" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME6" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+<attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
+</instance>
+<instance part="D1" gate="G$1" x="58.42" y="33.02" smashed="yes">
+<attribute name="NAME" x="62.23" y="34.29" size="1.778" layer="95"/>
+<attribute name="VALUE" x="62.23" y="31.75" size="1.778" layer="96"/>
+</instance>
+<instance part="D2" gate="G$1" x="58.42" y="93.98" smashed="yes">
+<attribute name="NAME" x="62.23" y="95.25" size="1.778" layer="95"/>
+<attribute name="VALUE" x="62.23" y="92.71" size="1.778" layer="96"/>
+</instance>
+<instance part="D3" gate="G$1" x="58.42" y="152.4" smashed="yes">
+<attribute name="NAME" x="62.23" y="153.67" size="1.778" layer="95"/>
+<attribute name="VALUE" x="62.23" y="151.13" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -22951,12 +23028,6 @@ each magnetorquer</text>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME8" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME8" gate="G$2" x="172.72" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
-</instance>
 <instance part="U13" gate="A" x="187.96" y="114.3" smashed="yes">
 <attribute name="NAME" x="165.4556" y="131.0386" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="164.8206" y="128.4986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
@@ -23202,6 +23273,25 @@ each magnetorquer</text>
 <instance part="J15" gate="G$1" x="40.64" y="152.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.704" y="147.955" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="44.704" y="145.415" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="FRAME5" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME5" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+<attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
+</instance>
+<instance part="D4" gate="G$1" x="53.34" y="33.02" smashed="yes">
+<attribute name="NAME" x="57.15" y="34.29" size="1.778" layer="95"/>
+<attribute name="VALUE" x="57.15" y="31.75" size="1.778" layer="96"/>
+</instance>
+<instance part="D5" gate="G$1" x="53.34" y="93.98" smashed="yes">
+<attribute name="NAME" x="57.15" y="95.25" size="1.778" layer="95"/>
+<attribute name="VALUE" x="57.15" y="92.71" size="1.778" layer="96"/>
+</instance>
+<instance part="D6" gate="G$1" x="53.34" y="152.4" smashed="yes">
+<attribute name="NAME" x="57.15" y="153.67" size="1.778" layer="95"/>
+<attribute name="VALUE" x="57.15" y="151.13" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -23634,12 +23724,6 @@ each magnetorquer</text>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME10" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME10" gate="G$2" x="172.72" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
-</instance>
 <instance part="U27" gate="A" x="177.8" y="114.3" smashed="yes">
 <attribute name="NAME" x="155.2956" y="131.0386" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="154.6606" y="128.4986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
@@ -23885,6 +23969,25 @@ each magnetorquer</text>
 <instance part="J12" gate="G$1" x="30.48" y="152.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.544" y="147.955" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="34.544" y="145.415" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME4" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+<attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
+</instance>
+<instance part="D7" gate="G$1" x="43.18" y="33.02" smashed="yes">
+<attribute name="NAME" x="46.99" y="34.29" size="1.778" layer="95"/>
+<attribute name="VALUE" x="46.99" y="31.75" size="1.778" layer="96"/>
+</instance>
+<instance part="D8" gate="G$1" x="43.18" y="93.98" smashed="yes">
+<attribute name="NAME" x="46.99" y="95.25" size="1.778" layer="95"/>
+<attribute name="VALUE" x="46.99" y="92.71" size="1.778" layer="96"/>
+</instance>
+<instance part="D9" gate="G$1" x="43.18" y="152.4" smashed="yes">
+<attribute name="NAME" x="46.99" y="153.67" size="1.778" layer="95"/>
+<attribute name="VALUE" x="46.99" y="151.13" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -24316,12 +24419,6 @@ each magnetorquer</text>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME2" gate="G$2" x="172.72" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
-</instance>
 <instance part="U4" gate="A" x="182.88" y="116.84" smashed="yes">
 <attribute name="NAME" x="160.3756" y="133.5786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="159.7406" y="131.0386" size="2.0828" layer="96" ratio="6" rot="SR0"/>
@@ -24567,6 +24664,25 @@ each magnetorquer</text>
 <instance part="J9" gate="G$1" x="35.56" y="35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.624" y="31.115" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="39.624" y="28.575" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME3" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+<attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
+</instance>
+<instance part="D10" gate="G$1" x="48.26" y="35.56" smashed="yes">
+<attribute name="NAME" x="52.07" y="36.83" size="1.778" layer="95"/>
+<attribute name="VALUE" x="52.07" y="34.29" size="1.778" layer="96"/>
+</instance>
+<instance part="D11" gate="G$1" x="48.26" y="96.52" smashed="yes">
+<attribute name="NAME" x="52.07" y="97.79" size="1.778" layer="95"/>
+<attribute name="VALUE" x="52.07" y="95.25" size="1.778" layer="96"/>
+</instance>
+<instance part="D12" gate="G$1" x="48.26" y="154.94" smashed="yes">
+<attribute name="NAME" x="52.07" y="156.21" size="1.778" layer="95"/>
+<attribute name="VALUE" x="52.07" y="153.67" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -24999,12 +25115,6 @@ each magnetorquer</text>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME3" gate="G$2" x="172.72" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
-</instance>
 <instance part="P+47" gate="1" x="144.78" y="99.06" smashed="yes">
 <attribute name="VALUE" x="147.32" y="101.6" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -25070,6 +25180,13 @@ each magnetorquer</text>
 </instance>
 <instance part="RWZ" gate="G$1" x="172.72" y="86.36" smashed="yes">
 <attribute name="NAME" x="154.94" y="99.06" size="1.778" layer="95" align="center"/>
+</instance>
+<instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME2" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+<attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
@@ -25361,12 +25478,6 @@ each magnetorquer</text>
 <text x="215.9" y="101.6" size="1.778" layer="97" rot="MR180">NC</text>
 </plain>
 <instances>
-<instance part="FRAME11" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME11" gate="G$2" x="172.72" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
-</instance>
 <instance part="P+61" gate="1" x="22.86" y="55.88" smashed="yes">
 <attribute name="VALUE" x="25.4" y="58.42" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -25703,6 +25814,13 @@ each magnetorquer</text>
 <instance part="C7" gate="G$1" x="246.38" y="167.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="245.999" y="169.164" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="251.079" y="169.164" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME1" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+<attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
