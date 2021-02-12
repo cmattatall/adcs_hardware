@@ -169,17 +169,17 @@
 <wire x1="4" y1="80" x2="4" y2="42" width="0.1524" layer="20" locked="yes"/>
 <wire x1="4" y1="42" x2="0" y2="42" width="0.1524" layer="20" locked="yes"/>
 <wire x1="0" y1="42" x2="0" y2="0" width="0.1524" layer="20" locked="yes"/>
-<text x="49.8475" y="95.885" size="0.635" layer="51" font="vector">ACTUATOR BOARD - REV A</text>
-<text x="49.8475" y="94.9325" size="0.635" layer="151" font="vector">Dalhousie Space Systems Lab</text>
+<text x="64.6176" y="16.4719" size="1.016" layer="51" font="vector" rot="R90">ACTUATOR BOARD - REV A</text>
+<text x="65.9511" y="16.4719" size="1.016" layer="151" font="vector" rot="R90">Dalhousie Space Systems Lab</text>
 <wire x1="0" y1="27.5" x2="35.34" y2="27.5" width="0.1524" layer="150" style="shortdash" locked="yes"/>
 <wire x1="35.34" y1="27.5" x2="35.34" y2="63.5" width="0.1524" layer="150" style="shortdash" locked="yes"/>
 <wire x1="35.34" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="150" style="shortdash" locked="yes"/>
 <wire x1="27.5" y1="91" x2="27.5" y2="55.66" width="0.1524" layer="150" style="shortdash" locked="yes"/>
 <wire x1="27.5" y1="55.66" x2="63.5" y2="55.66" width="0.1524" layer="150" style="shortdash" locked="yes"/>
 <wire x1="63.5" y1="55.66" x2="63.5" y2="91" width="0.1524" layer="150" style="shortdash" locked="yes"/>
-<text x="49.8475" y="96.8375" size="0.635" layer="51" font="vector">LORIS CubeSat ADCS Subsystem</text>
-<text x="49.8475" y="93.0275" size="0.635" layer="51" font="vector">J. Smith, C. Mattatall, T. Christison</text>
-<text x="49.8475" y="93.98" size="0.635" layer="51" font="vector">Designers:</text>
+<text x="63.2333" y="16.4465" size="1.016" layer="51" font="vector" rot="R90">LORIS CubeSat ADCS Subsystem</text>
+<text x="68.7705" y="16.4719" size="1.016" layer="51" font="vector" rot="R90">J. Smith, C. Mattatall, T. Christison</text>
+<text x="67.31" y="16.4719" size="1.016" layer="51" font="vector" rot="R90">Designers:</text>
 <wire x1="50.8" y1="21.2725" x2="50.8" y2="20.955" width="0.1524" layer="26"/>
 <wire x1="50.8" y1="20.955" x2="50.8" y2="20.32" width="0.1524" layer="26"/>
 <wire x1="50.8" y1="20.32" x2="50.8" y2="20.0025" width="0.1524" layer="26"/>
