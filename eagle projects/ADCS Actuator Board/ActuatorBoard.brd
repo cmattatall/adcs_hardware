@@ -8033,11 +8033,6 @@
 <wire x1="0" y1="80" x2="4" y2="80" width="0.1524" layer="20"/>
 <wire x1="4" y1="80" x2="4" y2="42" width="0.1524" layer="20"/>
 <wire x1="4" y1="42" x2="0" y2="42" width="0.1524" layer="20"/>
-<text x="111.6076" y="30.4419" size="1.016" layer="51" font="vector" rot="R90">ACTUATOR BOARD - REV A</text>
-<text x="112.9411" y="30.4419" size="1.016" layer="151" font="vector" rot="R90">Dalhousie Space Systems Lab</text>
-<text x="110.2233" y="30.4165" size="1.016" layer="51" font="vector" rot="R90">LORIS CubeSat ADCS Subsystem</text>
-<text x="115.7605" y="30.4419" size="1.016" layer="51" font="vector" rot="R90">J. Smith, C. Mattatall, T. Christison</text>
-<text x="114.3" y="30.4419" size="1.016" layer="51" font="vector" rot="R90">Designers:</text>
 <rectangle x1="85.0519" y1="49.0601" x2="85.4075" y2="49.0855" layer="22" rot="R180" grouprefs="B_LOGO"/>
 <rectangle x1="80.7339" y1="49.0601" x2="81.0895" y2="49.0855" layer="22" rot="R180" grouprefs="B_LOGO"/>
 <rectangle x1="77.4827" y1="49.0601" x2="77.8383" y2="49.0855" layer="22" rot="R180" grouprefs="B_LOGO"/>
@@ -25460,16 +25455,16 @@ design rules under a new name.</description>
 <attribute name="NAME" x="38.735" y="20.6375" size="1.016" layer="26" rot="MR0"/>
 </element>
 <element name="C96" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="4.7u" x="23.495" y="7.9375" smashed="yes" rot="MR0">
-<attribute name="NAME" x="56.8" y="17.78" size="1.016" layer="26" rot="MR180"/>
+<attribute name="NAME" x="56.8" y="17.4625" size="1.016" layer="26" rot="MR180"/>
 </element>
 <element name="C97" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u" x="23.495" y="9.2075" smashed="yes" rot="MR0">
-<attribute name="NAME" x="56.8" y="19.05" size="1.016" layer="26" rot="MR180"/>
+<attribute name="NAME" x="56.8" y="18.7325" size="1.016" layer="26" rot="MR180"/>
 </element>
 <element name="R62" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="280R" x="23.495" y="6.6675" smashed="yes" rot="MR0">
-<attribute name="NAME" x="56.8" y="16.51" size="1.016" layer="26" rot="MR180"/>
+<attribute name="NAME" x="56.8" y="16.1925" size="1.016" layer="26" rot="MR180"/>
 </element>
 <element name="R63" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="13.7k" x="23.495" y="5.3975" smashed="yes" rot="MR180">
-<attribute name="NAME" x="56.8" y="15.24" size="1.016" layer="26" rot="MR180"/>
+<attribute name="NAME" x="56.8" y="14.9225" size="1.016" layer="26" rot="MR180"/>
 </element>
 <element name="TP18" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="TP_P76H50" package3d_urn="urn:adsk.eagle:package:24605432/3" value="TESTPOINT" x="20.0025" y="18.7325" smashed="yes" rot="MR0">
 <attribute name="NAME" x="20.6883" y="17.9959" size="1.016" layer="26" ratio="10" rot="MR270"/>
@@ -25826,8 +25821,8 @@ design rules under a new name.</description>
 <element name="TP36" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="TP_P76H50" package3d_urn="urn:adsk.eagle:package:24605432/3" value="TESTPOINT" x="29.21" y="79.6925" smashed="yes" rot="MR270">
 <attribute name="NAME" x="27.2034" y="80.8863" size="1.016" layer="26" ratio="10" rot="MR90"/>
 </element>
-<element name="TP37" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="TP_P76H50" package3d_urn="urn:adsk.eagle:package:24605432/3" value="TESTPOINT" x="36.5125" y="79.6925" smashed="yes" rot="R270">
-<attribute name="NAME" x="37.2745" y="79.1845" size="1.016" layer="25" ratio="10"/>
+<element name="TP37" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="TP_P76H50" package3d_urn="urn:adsk.eagle:package:24605432/3" value="TESTPOINT" x="36.5125" y="79.6925" smashed="yes" rot="MR270">
+<attribute name="NAME" x="38.9255" y="81.7245" size="1.016" layer="26" ratio="10" rot="MR0"/>
 </element>
 <element name="TP38" library="my_library" library_urn="urn:adsk.eagle:library:22876504" package="TP_P76H50" package3d_urn="urn:adsk.eagle:package:24605432/3" value="TESTPOINT" x="46.355" y="64.135" smashed="yes" rot="R270">
 <attribute name="NAME" x="45.6565" y="63.3222" size="1.016" layer="25" ratio="10" rot="R270"/>
@@ -27714,8 +27709,6 @@ design rules under a new name.</description>
 <signal name="MAG_CUR_SEN_X">
 <contactref element="U9" pad="8"/>
 <contactref element="TP37" pad="1"/>
-<wire x1="34.925" y1="79.735" x2="36.47" y2="79.735" width="0.2032" layer="16"/>
-<wire x1="36.47" y1="79.735" x2="36.5125" y2="79.6925" width="0.2032" layer="16"/>
 <contactref element="R76" pad="2"/>
 <contactref element="R75" pad="2"/>
 <wire x1="58.92" y1="72.7075" x2="58.92" y2="73.9775" width="0.2032" layer="1"/>
@@ -27729,6 +27722,8 @@ design rules under a new name.</description>
 <wire x1="56.0625" y1="79.0575" x2="57.9703" y2="77.1497" width="0.2032" layer="1"/>
 <wire x1="58.92" y1="76.30216875" x2="58.92" y2="73.9775" width="0.2032" layer="1"/>
 <wire x1="37.1475" y1="79.0575" x2="36.5125" y2="79.6925" width="0.2" layer="1"/>
+<wire x1="34.925" y1="79.735" x2="36.47" y2="79.735" width="0.2" layer="16"/>
+<wire x1="36.47" y1="79.735" x2="36.5125" y2="79.6925" width="0.2" layer="16"/>
 </signal>
 <signal name="MAG_CUR_SEN_Z">
 <contactref element="U39" pad="8"/>
