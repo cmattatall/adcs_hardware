@@ -1847,72 +1847,22 @@
 <text x="-2.794" y="1.778" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.794" y="-3.048" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="RWA_NOPINS" urn="urn:adsk.eagle:footprint:26139265/1" library_version="88">
-<wire x1="0" y1="0" x2="1" y2="0" width="0.127" layer="21"/>
-<wire x1="1" y1="0" x2="1" y2="-4" width="0.127" layer="21"/>
-<wire x1="1" y1="-4" x2="3" y2="-6" width="0.127" layer="21"/>
-<wire x1="3" y1="-6" x2="7" y2="-6" width="0.127" layer="21"/>
-<wire x1="7" y1="-6" x2="9" y2="-4" width="0.127" layer="21"/>
-<wire x1="9" y1="-4" x2="9" y2="0" width="0.127" layer="21"/>
-<wire x1="9" y1="0" x2="27" y2="0" width="0.127" layer="21"/>
-<wire x1="27" y1="0" x2="27" y2="-4" width="0.127" layer="21"/>
-<wire x1="27" y1="-4" x2="29" y2="-6" width="0.127" layer="21"/>
-<wire x1="29" y1="-6" x2="33" y2="-6" width="0.127" layer="21"/>
-<wire x1="33" y1="-6" x2="35" y2="-4" width="0.127" layer="21"/>
-<wire x1="35" y1="-4" x2="35" y2="0" width="0.127" layer="21"/>
-<wire x1="35" y1="0" x2="36" y2="0" width="0.127" layer="21"/>
-<wire x1="36" y1="0" x2="36" y2="36" width="0.127" layer="21"/>
-<wire x1="36" y1="36" x2="35" y2="36" width="0.127" layer="21"/>
-<wire x1="35" y1="36" x2="35" y2="40" width="0.127" layer="21"/>
-<wire x1="35" y1="40" x2="33" y2="42" width="0.127" layer="21"/>
-<wire x1="33" y1="42" x2="29" y2="42" width="0.127" layer="21"/>
-<wire x1="29" y1="42" x2="27" y2="40" width="0.127" layer="21"/>
-<wire x1="27" y1="40" x2="27" y2="36" width="0.127" layer="21"/>
-<wire x1="27" y1="36" x2="9" y2="36" width="0.127" layer="21"/>
-<wire x1="9" y1="36" x2="9" y2="40" width="0.127" layer="21"/>
-<wire x1="9" y1="40" x2="7" y2="42" width="0.127" layer="21"/>
-<wire x1="7" y1="42" x2="3" y2="42" width="0.127" layer="21"/>
-<wire x1="3" y1="42" x2="1" y2="40" width="0.127" layer="21"/>
-<wire x1="1" y1="40" x2="1" y2="36" width="0.127" layer="21"/>
-<wire x1="1" y1="36" x2="0" y2="36" width="0.127" layer="21"/>
-<wire x1="0" y1="36" x2="0" y2="0" width="0.127" layer="21"/>
-<hole x="5" y="39" drill="2.5"/>
-<hole x="31" y="39" drill="2.5"/>
-<hole x="5" y="-3" drill="2.5"/>
-<hole x="31" y="-3" drill="2.5"/>
+<package name="RWA_NOPINS" urn="urn:adsk.eagle:footprint:26139265/3" library_version="124">
+<wire x1="0" y1="0" x2="2" y2="0" width="0.127" layer="21"/>
+<wire x1="2" y1="0" x2="34" y2="0" width="0.127" layer="21"/>
+<wire x1="34" y1="0" x2="36" y2="0" width="0.127" layer="21"/>
+<wire x1="36" y1="0" x2="36" y2="2" width="0.127" layer="21"/>
+<wire x1="36" y1="2" x2="36" y2="36" width="0.127" layer="21"/>
+<wire x1="36" y1="36" x2="0" y2="36" width="0.127" layer="21"/>
+<wire x1="0" y1="36" x2="0" y2="2" width="0.127" layer="21"/>
+<wire x1="0" y1="2" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="2" x2="2" y2="0" width="0.127" layer="21"/>
+<wire x1="34" y1="0" x2="36" y2="2" width="0.127" layer="21"/>
+<hole x="3" y="3" drill="3.4"/>
+<hole x="33" y="33" drill="3.4"/>
+<hole x="33" y="3" drill="3.4"/>
+<hole x="3" y="33" drill="3.4"/>
 <rectangle x1="0" y1="0" x2="36" y2="36" layer="39"/>
-<polygon width="0.127" layer="39">
-<vertex x="1" y="36"/>
-<vertex x="1" y="40"/>
-<vertex x="3" y="42"/>
-<vertex x="7" y="42"/>
-<vertex x="9" y="40"/>
-<vertex x="9" y="36"/>
-</polygon>
-<polygon width="0.127" layer="39">
-<vertex x="27" y="40"/>
-<vertex x="29" y="42"/>
-<vertex x="33" y="42"/>
-<vertex x="35" y="40"/>
-<vertex x="35" y="36"/>
-<vertex x="27" y="36"/>
-</polygon>
-<polygon width="0.127" layer="39">
-<vertex x="1" y="0"/>
-<vertex x="9" y="0"/>
-<vertex x="9" y="-4"/>
-<vertex x="7" y="-6"/>
-<vertex x="3" y="-6"/>
-<vertex x="1" y="-4"/>
-</polygon>
-<polygon width="0.127" layer="39">
-<vertex x="27" y="0"/>
-<vertex x="35" y="0"/>
-<vertex x="35" y="-4"/>
-<vertex x="33" y="-6"/>
-<vertex x="29" y="-6"/>
-<vertex x="27" y="-4"/>
-</polygon>
 </package>
 <package name="MAG_MOUNT_V3" urn="urn:adsk.eagle:footprint:26139364/1" library_version="89">
 <wire x1="0" y1="0" x2="5.1" y2="0" width="0.127" layer="21"/>
@@ -2359,7 +2309,7 @@
 <packageinstance name="2POL254"/>
 </packageinstances>
 </package3d>
-<package3d name="RWA_NOPINS" urn="urn:adsk.eagle:package:26139267/3" type="model" library_version="110">
+<package3d name="RWA_NOPINS" urn="urn:adsk.eagle:package:26139267/6" type="model" library_version="124">
 <packageinstances>
 <packageinstance name="RWA_NOPINS"/>
 </packageinstances>
@@ -2988,14 +2938,14 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="REACTION_WHEEL_NOPINS_MAXON" urn="urn:adsk.eagle:component:26761314/1" prefix="RW" library_version="118">
+<deviceset name="REACTION_WHEEL_NOPINS_MAXON" urn="urn:adsk.eagle:component:26761314/4" prefix="RW" library_version="124">
 <gates>
 <gate name="G$1" symbol="REACTION_WHEEL_MAXON" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="RWA_NOPINS">
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26139267/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26139267/6"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -21049,7 +20999,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="TP23" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/3"/>
 <part name="TP24" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/3"/>
 <part name="TP25" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/3"/>
-<part name="RWZ" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="REACTION_WHEEL_NOPINS_MAXON" device="" package3d_urn="urn:adsk.eagle:package:26139267/3"/>
+<part name="RWZ" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="REACTION_WHEEL_NOPINS_MAXON" device="" package3d_urn="urn:adsk.eagle:package:26139267/6"/>
 <part name="MX" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="NCTR-M002_MAGNETORQUER" device="" package3d_urn="urn:adsk.eagle:package:26139365/2"/>
 <part name="MY" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="NCTR-M002_MAGNETORQUER" device="" package3d_urn="urn:adsk.eagle:package:26139365/2"/>
 <part name="J1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:24583855/1"/>
