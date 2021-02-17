@@ -151,7 +151,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXlkYWwyMA" projecturn="a.YnVzaW5lc3M6bXlkYWwyMCMyMDIxMDExNjM3MjQwMzc3Ng" f3durn="urn:adsk.wipprod:dm.lineage:TKW3tc-mS0qsFWWO9AN0Ug" pcbguid="" lastpulledtime="2021-02-14T18:09:55Z" lastsyncedchangeguid="" latestrevisionid="26fd3902-be88-4104-a26d-e9d1d254fe9e" lastsyncedrevisionid="26fd3902-be88-4104-a26d-e9d1d254fe9e" lastboardhashguid="135370db-eb45-4937-9b39-d6229118c1f5" lastpushedtime="2021-02-17T19:01:28Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXlkYWwyMA" projecturn="a.YnVzaW5lc3M6bXlkYWwyMCMyMDIxMDExNjM3MjQwMzc3Ng" f3durn="urn:adsk.wipprod:dm.lineage:TKW3tc-mS0qsFWWO9AN0Ug" pcbguid="" lastpulledtime="2021-02-14T18:09:55Z" lastsyncedchangeguid="" latestrevisionid="7e5f8bb6-e3f8-40d2-bd60-311c6b8959e3" lastsyncedrevisionid="7e5f8bb6-e3f8-40d2-bd60-311c6b8959e3" lastboardhashguid="bde79e7a-3f67-4971-40de-50c52cb44023" lastpushedtime="2021-02-17T20:36:51Z" linktopcb3d="true"/>
 <plain>
 <text x="67.31" y="14.605" size="1.27" layer="22" rot="MR270" align="top-right">ACTUATOR BOARD - REV A</text>
 <wire x1="0" y1="27.5" x2="35.34" y2="27.5" width="0.1524" layer="150" style="shortdash" locked="yes"/>
@@ -512,7 +512,7 @@
 <wire x1="33.3375" y1="55.5625" x2="33.3375" y2="55.88" width="0.1524" layer="26"/>
 <wire x1="30.7975" y1="55.88" x2="30.7975" y2="56.1975" width="0.1524" layer="26"/>
 <text x="40.005" y="32.7025" size="1.016" layer="26" rot="MR0">C72</text>
-<wire x1="36.195" y1="27.6225" x2="36.195" y2="24.765" width="0.127" layer="22"/>
+<wire x1="36.5125" y1="27.6225" x2="36.5125" y2="24.765" width="0.127" layer="22"/>
 <wire x1="36.5125" y1="35.8775" x2="36.5125" y2="33.02" width="0.127" layer="22"/>
 <wire x1="36.5125" y1="43.815" x2="36.5125" y2="41.275" width="0.127" layer="22"/>
 <rectangle x1="56.3245" y1="20.2565" x2="56.4007" y2="20.2819" locked="yes" layer="200" grouprefs="TOP_LOGO"/>
@@ -27149,7 +27149,7 @@ design rules under a new name.</description>
 <wire x1="67.89" y1="87.4515" x2="67.5206" y2="87.0821" width="0.1524" layer="1"/>
 <via x="67.5206" y="87.0821" extent="1-16" drill="0.35"/>
 <via x="43.863940625" y="86.946059375" extent="1-16" drill="0.35"/>
-<via x="34.29" y="34.29" extent="1-16" drill="0.35"/>
+<via x="6.35" y="53.975" extent="1-16" drill="0.35"/>
 <via x="34.29" y="19.685" extent="1-16" drill="0.35"/>
 <via x="33.02" y="77.47" extent="1-16" drill="0.35"/>
 <via x="70.485" y="40.64" extent="1-16" drill="0.35"/>
