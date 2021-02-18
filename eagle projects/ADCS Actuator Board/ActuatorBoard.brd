@@ -20760,6 +20760,12 @@
 <wire x1="5.3975" y1="60.0075" x2="5.08" y2="60.0075" width="0.1524" layer="22"/>
 <wire x1="5.3975" y1="60.0075" x2="4.7625" y2="60.6425" width="0.1524" layer="22"/>
 <wire x1="6.6675" y1="57.785" x2="6.6675" y2="57.15" width="0.1524" layer="22"/>
+<text x="88.265" y="15.24" size="0.8128" layer="25" rot="R90">GND</text>
+<text x="79.0575" y="15.24" size="0.8128" layer="25" rot="R90">+5V</text>
+<text x="30.48" y="82.2325" size="0.8128" layer="25" rot="R180">GND</text>
+<text x="28.2575" y="89.535" size="0.8128" layer="25" rot="R180">+5V</text>
+<text x="53.6575" y="89.535" size="0.8128" layer="25" rot="R180">+5V</text>
+<text x="56.515" y="82.8675" size="0.8128" layer="25" rot="R180">GND</text>
 </plain>
 <libraries>
 <library name="my_library" urn="urn:adsk.eagle:library:22876504">
