@@ -21180,7 +21180,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3k"/>
-<part name="SUPPLY23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.33u"/>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -21206,7 +21205,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="SUPPLY182" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V58" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R73" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3k"/>
-<part name="SUPPLY189" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C125" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.33u"/>
 <part name="SUPPLY190" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V68" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -21232,7 +21230,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="SUPPLY212" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V71" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R86" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3k"/>
-<part name="SUPPLY213" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C141" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.33u"/>
 <part name="SUPPLY214" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V72" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -21263,6 +21260,15 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="U1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TVS991" device="" package3d_urn="urn:adsk.eagle:package:24426275/2"/>
 <part name="U5" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TVS991" device="" package3d_urn="urn:adsk.eagle:package:24426275/2"/>
 <part name="U8" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TVS991" device="" package3d_urn="urn:adsk.eagle:package:24426275/2"/>
+<part name="J5" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:24583855/1"/>
+<part name="J6" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:24583855/1"/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="J4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:24583855/1"/>
+<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25619,9 +25625,6 @@ each magnetorquer</text>
 <attribute name="NAME" x="115.57" y="75.1586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="115.57" y="70.358" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY23" gate="GND" x="144.78" y="53.34" smashed="yes">
-<attribute name="VALUE" x="142.875" y="50.165" size="1.778" layer="96"/>
-</instance>
 <instance part="C15" gate="G$1" x="144.78" y="58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="138.684" y="58.801" size="1.778" layer="95"/>
 <attribute name="VALUE" x="148.844" y="58.801" size="1.778" layer="96"/>
@@ -25662,6 +25665,16 @@ each magnetorquer</text>
 </instance>
 <instance part="SUPPLY28" gate="GND" x="93.98" y="25.4" smashed="yes">
 <attribute name="VALUE" x="92.075" y="22.225" size="1.778" layer="96"/>
+</instance>
+<instance part="J6" gate="A" x="17.78" y="78.74" smashed="yes" rot="R180">
+<attribute name="NAME" x="24.13" y="73.025" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="24.13" y="86.36" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+3" gate="1" x="27.94" y="86.36" smashed="yes">
+<attribute name="VALUE" x="30.48" y="88.9" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY12" gate="GND" x="27.94" y="71.12" smashed="yes">
+<attribute name="VALUE" x="26.035" y="67.945" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -25709,6 +25722,12 @@ each magnetorquer</text>
 <junction x="119.38" y="33.02"/>
 <pinref part="C42" gate="G$1" pin="1"/>
 <junction x="129.54" y="33.02"/>
+</segment>
+<segment>
+<wire x1="20.32" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="81.28" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="P+3" gate="1" pin="+5V"/>
+<pinref part="J6" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="Y_PHASE_C" class="0">
@@ -25921,11 +25940,6 @@ each magnetorquer</text>
 <pinref part="U7" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SUPPLY23" gate="GND" pin="GND"/>
-<pinref part="U7" gate="G$1" pin="BRKMOD"/>
-<wire x1="144.78" y1="55.88" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY25" gate="GND" pin="GND"/>
 <pinref part="C16" gate="G$1" pin="2"/>
 </segment>
@@ -25940,6 +25954,12 @@ each magnetorquer</text>
 <segment>
 <pinref part="U7" gate="G$1" pin="THERMALPAD"/>
 <pinref part="SUPPLY28" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<wire x1="20.32" y1="76.2" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="76.2" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="SUPPLY12" gate="GND" pin="GND"/>
+<pinref part="J6" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="Z_HALL_B" class="0">
@@ -26334,6 +26354,18 @@ each magnetorquer</text>
 <pinref part="U7" gate="G$1" pin="RETRY"/>
 </segment>
 </net>
+<net name="BRKMOD_Y" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="BRKMOD"/>
+<wire x1="127" y1="55.88" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
+<label x="114.3" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="20.32" y1="78.74" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="J6" gate="A" pin="2"/>
+<label x="25.4" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -26351,8 +26383,16 @@ CS: Connect a resistor to adhjust the current limit</text>
 - Low: 10 degree angle adjustment
 - High: 5 degree angle adhustment
 - Floating: Adaptive angle adjustment
-DRKMOD: low = phases tri-state, high = phases driven low
+BRKMOD: Brake mode setting
+- low = phases tri-state
+- high = phases driven low
 RETRY: Auto retry timing configurable with cap (see datasheet Eq2 for value)</text>
+<text x="185.42" y="76.2" size="1.778" layer="97">CMTMOD: Commutation mode setting
+- Low: Sinusoidal operation mode with 0° Hall placement 
+- High: Sinusoidal operation mode with 30° Hall placement 
+- Floating: Trapezoidal operation mode with 30° Hall placement
+
+Trapezoidal control selected. Requires hall sensors unlike sinusoidal</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -26406,9 +26446,6 @@ RETRY: Auto retry timing configurable with cap (see datasheet Eq2 for value)</te
 <instance part="R73" gate="G$1" x="124.46" y="187.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="128.27" y="189.4586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="128.27" y="184.658" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY189" gate="GND" x="157.48" y="167.64" smashed="yes">
-<attribute name="VALUE" x="155.575" y="164.465" size="1.778" layer="96"/>
 </instance>
 <instance part="C125" gate="G$1" x="157.48" y="172.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="151.384" y="173.101" size="1.778" layer="95"/>
@@ -26496,9 +26533,6 @@ RETRY: Auto retry timing configurable with cap (see datasheet Eq2 for value)</te
 <attribute name="NAME" x="128.27" y="113.2586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="128.27" y="108.458" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY213" gate="GND" x="157.48" y="91.44" smashed="yes">
-<attribute name="VALUE" x="155.575" y="88.265" size="1.778" layer="96"/>
-</instance>
 <instance part="C141" gate="G$1" x="157.48" y="96.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="151.384" y="96.901" size="1.778" layer="95"/>
 <attribute name="VALUE" x="161.544" y="96.901" size="1.778" layer="96"/>
@@ -26568,6 +26602,26 @@ RETRY: Auto retry timing configurable with cap (see datasheet Eq2 for value)</te
 <instance part="+3V27" gate="G$1" x="241.3" y="152.4" smashed="yes">
 <attribute name="VALUE" x="243.84" y="154.94" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="J5" gate="A" x="30.48" y="40.64" smashed="yes" rot="R180">
+<attribute name="NAME" x="36.83" y="34.925" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="36.83" y="48.26" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+1" gate="1" x="40.64" y="48.26" smashed="yes">
+<attribute name="VALUE" x="43.18" y="50.8" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY10" gate="GND" x="40.64" y="33.02" smashed="yes">
+<attribute name="VALUE" x="38.735" y="29.845" size="1.778" layer="96"/>
+</instance>
+<instance part="J4" gate="A" x="30.48" y="190.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="36.83" y="184.785" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="36.83" y="198.12" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+2" gate="1" x="40.64" y="198.12" smashed="yes">
+<attribute name="VALUE" x="43.18" y="200.66" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY11" gate="GND" x="40.64" y="182.88" smashed="yes">
+<attribute name="VALUE" x="38.735" y="179.705" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -26590,11 +26644,6 @@ RETRY: Auto retry timing configurable with cap (see datasheet Eq2 for value)</te
 <segment>
 <pinref part="SUPPLY180" gate="GND" pin="GND"/>
 <pinref part="U10" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="SUPPLY189" gate="GND" pin="GND"/>
-<pinref part="U10" gate="G$1" pin="BRKMOD"/>
-<wire x1="157.48" y1="170.18" x2="124.46" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY191" gate="GND" pin="GND"/>
@@ -26631,11 +26680,6 @@ RETRY: Auto retry timing configurable with cap (see datasheet Eq2 for value)</te
 <pinref part="U12" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SUPPLY213" gate="GND" pin="GND"/>
-<pinref part="U12" gate="G$1" pin="BRKMOD"/>
-<wire x1="157.48" y1="93.98" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY215" gate="GND" pin="GND"/>
 <pinref part="C142" gate="G$1" pin="2"/>
 </segment>
@@ -26660,6 +26704,18 @@ RETRY: Auto retry timing configurable with cap (see datasheet Eq2 for value)</te
 <pinref part="SUPPLY44" gate="GND" pin="GND"/>
 <pinref part="R27" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="116.84" x2="241.3" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J5" gate="A" pin="1"/>
+<wire x1="33.02" y1="38.1" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="38.1" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="SUPPLY10" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J4" gate="A" pin="1"/>
+<wire x1="33.02" y1="187.96" x2="40.64" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="187.96" x2="40.64" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="SUPPLY11" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -26703,6 +26759,18 @@ RETRY: Auto retry timing configurable with cap (see datasheet Eq2 for value)</te
 <pinref part="LED1" gate="G$1" pin="A"/>
 <pinref part="P+30" gate="1" pin="+5V"/>
 <wire x1="218.44" y1="144.78" x2="218.44" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J5" gate="A" pin="3"/>
+<wire x1="33.02" y1="43.18" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="43.18" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="P+1" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="J4" gate="A" pin="3"/>
+<wire x1="33.02" y1="193.04" x2="40.64" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="193.04" x2="40.64" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="P+2" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -27066,6 +27134,30 @@ RETRY: Auto retry timing configurable with cap (see datasheet Eq2 for value)</te
 <pinref part="R27" gate="G$1" pin="2"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="241.3" y1="132.08" x2="241.3" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BRKMOD_Z" class="0">
+<segment>
+<pinref part="J5" gate="A" pin="2"/>
+<wire x1="33.02" y1="40.64" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
+<label x="40.64" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U12" gate="G$1" pin="BRKMOD"/>
+<wire x1="142.24" y1="93.98" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
+<label x="129.54" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BRKMOD_X" class="0">
+<segment>
+<pinref part="U10" gate="G$1" pin="BRKMOD"/>
+<wire x1="142.24" y1="170.18" x2="124.46" y2="170.18" width="0.1524" layer="91"/>
+<label x="129.54" y="170.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="A" pin="2"/>
+<wire x1="33.02" y1="190.5" x2="53.34" y2="190.5" width="0.1524" layer="91"/>
+<label x="40.64" y="190.5" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
