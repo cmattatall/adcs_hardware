@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -26338,16 +26338,21 @@ each magnetorquer</text>
 </sheet>
 <sheet>
 <plain>
-<text x="177.8" y="43.18" size="1.778" layer="97">VM: Power Supply, decouple with 10u cap
-VINT: Bypass with 10u cap rated for VM
+<text x="177.8" y="43.18" size="1.778" layer="97">CPN CPP: Connect 0.1u X7R cap between between CPN and CPP
+VM: Power Supply, decouple with 10u cap
+VINT: Bypass with 2.2u cap rated for 10V
 VCP: Connect a 16V 1-uF cap to VM
-CS: Connect a resistor to adhjust the current limit
-DRKMOD: low = phases tri-state, high = phases driven low
-RETRY: Auto retey timing configurable with cap (see datasheet Eq2 for value)</text>
+CS: Connect a resistor to adhjust the current limit</text>
 <text x="88.9" y="177.8" size="1.778" layer="97" rot="MR0">NC</text>
 <text x="124.46" y="167.64" size="1.778" layer="97">NC</text>
 <text x="88.9" y="101.6" size="1.778" layer="97" rot="MR0">NC</text>
 <text x="124.46" y="91.44" size="1.778" layer="97">NC</text>
+<text x="71.12" y="15.24" size="1.778" layer="97">DAA: Drive angle adjustment configuration pin
+- Low: 10 degree angle adjustment
+- High: 5 degree angle adhustment
+- Floating: Adaptive angle adjustment
+DRKMOD: low = phases tri-state, high = phases driven low
+RETRY: Auto retry timing configurable with cap (see datasheet Eq2 for value)</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
