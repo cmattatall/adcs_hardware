@@ -1841,12 +1841,13 @@
 <hole x="3" y="33" drill="3.4"/>
 <rectangle x1="0" y1="0" x2="36" y2="36" layer="39"/>
 </package>
-<package name="MAG_MOUNT_V3" urn="urn:adsk.eagle:footprint:26139364/1" library_version="89">
+<package name="MAG_MOUNT_V3" urn="urn:adsk.eagle:footprint:26139364/1" locally_modified="yes" library_version="133" library_locally_modified="yes">
 <wire x1="0" y1="0" x2="5.1" y2="0" width="0.127" layer="21"/>
 <wire x1="5.1" y1="0" x2="5.1" y2="23" width="0.127" layer="21"/>
 <wire x1="5.1" y1="23" x2="0" y2="23" width="0.127" layer="21"/>
 <wire x1="0" y1="23" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="55" y1="0" x2="60.1" y2="0" width="0.127" layer="21"/>
+<wire x1="55" y1="0" x2="60.071" y2="0" width="0.127" layer="21"/>
+<wire x1="60.071" y1="0" x2="60.1" y2="0" width="0.127" layer="21"/>
 <wire x1="60.1" y1="0" x2="60.1" y2="23" width="0.127" layer="121"/>
 <wire x1="60.1" y1="23" x2="55" y2="23" width="0.127" layer="21"/>
 <wire x1="55" y1="23" x2="55" y2="0" width="0.127" layer="121"/>
@@ -1854,6 +1855,8 @@
 <wire x1="55" y1="19.42" x2="5.1" y2="19.42" width="0.127" layer="150" style="longdash"/>
 <rectangle x1="0" y1="0" x2="5.1" y2="23" layer="39"/>
 <rectangle x1="55" y1="0" x2="60.1" y2="23" layer="39"/>
+<wire x1="54.991" y1="22.987" x2="54.991" y2="0" width="0.127" layer="21"/>
+<wire x1="60.071" y1="0" x2="60.071" y2="22.987" width="0.127" layer="21"/>
 </package>
 <package name="1X03" urn="urn:adsk.eagle:footprint:24583853/1" library_version="4">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -2332,7 +2335,7 @@
 <packageinstance name="RWA_NOPINS"/>
 </packageinstances>
 </package3d>
-<package3d name="MAG_MOUNT_V3" urn="urn:adsk.eagle:package:26139365/2" type="model" library_version="105">
+<package3d name="MAG_MOUNT_V3" urn="urn:adsk.eagle:package:26139365/2" type="model" library_version="133" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="MAG_MOUNT_V3"/>
 </packageinstances>
@@ -2977,7 +2980,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="NCTR-M002_MAGNETORQUER" urn="urn:adsk.eagle:component:24418984/6" prefix="M" library_version="105">
+<deviceset name="NCTR-M002_MAGNETORQUER" urn="urn:adsk.eagle:component:24418984/6" prefix="M" library_version="133" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="NCTR-M002_NOPINS" x="0" y="0"/>
 </gates>
