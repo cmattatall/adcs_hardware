@@ -1,0 +1,32 @@
+Item,QTY,MPN,REFDES,Value,Footprint,Description,Source,Link
+1,3,RE0402FRE0710KL,"R37, R43, R49",10K,0402,Metal film resistor,Digikey,https://www.digikey.ca/en/products/detail/yageo/RE0402FRE0710KL/5922980
+2,3,RC0402FR-0735KL,"R36, R42, R48",35K,0402,Metal film resistor,Digikey,https://www.digikey.ca/en/products/detail/yageo/RC0402FR-0735KL/5917655
+3,38,CC0603JPX7R9BB104,"C2, C7, C9, C10, C12, C13, C14, C15, C16, C17, C18, C19, C21, C22, C23, C24, C25, C26, C27, C28, C31, C35, C40, C44, C46, C51, C53, C54, C57, C59, C68, C73, C75, C76, C90, C95, C97, C98",100n,0603,X7R Ceramic Capacitor,Digikey,https://www.digikey.ca/en/products/detail/yageo/CC0603JPX7R9BB104/11490924
+4,3,C1608X7R1H334M080AC,"C30, C34, C38",330n,0603,X7R Ceramic Capacitor,Digikey,https://www.digikey.ca/en/products/detail/tdk-corporation/C1608X7R1H334M080AC/2443429
+5,3,CGA3E3X7R1H474M080AE,"C39, C41, C42, C61",470n,0603,X7R Ceramic Capacitor,Digikey,https://www.digikey.ca/en/products/detail/tdk-corporation/CGA3E3X7R1H474M080AE/4989851
+6,42,CGA3E3X7R1H474M080AE,"R1,R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R29, R30, R31, R32, R33, R38, R44, R60, R61, R85, R86, R87, R88, R89, R92, R93, R100, R101, R102, R103, R104, R105, R106, R107, R108, R109, R110, R111, R125, R126, ",10K,0603,Metal film resistor,Digikey,https://www.digikey.ca/en/products/detail/yageo/RT0603FRD0710KL/5928954
+7,3,,"C29, C33, C37",10u,0603,,,
+8,24,RC0603FR-0713K7L,"R14, R15, R16, R17, R18, R19, R114, R115, R116, R117, R118, R119, R164, R165, R166, R167, R168, R169, R214, R215, R216, R217, R218, R219",13.7K,0603,Metal film resistor,Digikey,https://www.digikey.ca/en/products/detail/yageo/RC0603FR-0713K7L/726933
+9,19,UMK107AB7105KA-T,"C6, C8, C11, C20, C32, C36, C43, C50, C52, C55, C56, C58, C60, C72, C74, C77, C94, C96, C99",1u,0603,X7R Ceramic Capacitor,Digikey,https://www.digikey.ca/en/products/detail/taiyo-yuden/UMK107AB7105KA-T/3660085
+10,6,RT0603FRE073K3L,"R124, R127, R129, R130, R132, R133",3.3K,0603,Metal film resistor,Digikey,https://www.digikey.ca/en/products/detail/yageo/RT0603FRE073K3L/1075348
+11,4,,"C1, C45, C67, C89",4.7u,0603,,,
+12,19,RC0603FR-075M1L,"R20, R21, R24, R25, R34, R39, R40, R45, R46, R53, R54, R55, R59, R120, R121, R170, R171, R220, R221",5.1M,0603,Metal film resistor,Digikey,https://www.digikey.ca/en/products/detail/yageo/RC0603FR-075M1L/5918378
+13,3,RC0402FR-075R1L,"R35, R41, R47",5R,0402,Metal film resistor,Digikey,https://www.digikey.ca/en/products/detail/yageo/RC0402FR-075R1L/5917722
+14,3,RT0603FRE0775KL,"R112, R128, R131",75K,0603,Metal film resistor,Digikey,https://www.digikey.ca/en/products/detail/yageo/RT0603FRE0775KL/1075486
+15,6,ADS7841E/2K5,"U1, U9, U12, U13, U19, U25",N/A,DBQ16,12Bit ADC : SPI Interface,Digikey,https://www.digikey.com/en/products/detail/texas-instruments/ADS7841E-2K5/300663
+16,3,BD6210F-E2,"U4, U5, U6",N/A,SOP8,H-bridge IC,Digikey,https://www.digikey.ca/en/products/detail/rohm-semiconductor/BD6210F-E2/1936313
+17,19,BSS138,"Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q17, Q18, Q19, Q21",N/A,SOT233,N channel Discrete enhancement mode MOSFET,Digikey,https://www.digikey.com/en/products/detail/on-semiconductor/BSS138/244210
+18,1,CD4514BM96,U$2,N/A,24-SOIC,4-bit latched line decoder,Digikey,https://www.digikey.ca/en/products/detail/texas-instruments/CD4514BM96/1691558
+19,3,DRV10970PWPR,"U17, U18, U20",N/A,24-HTSSOP,3-phase brushless DC motor driver IC,Digikey,https://www.digikey.ca/en/products/detail/texas-instruments/DRV10970PWPR/5985442
+20,4,,"MH5, MH6, MH7, MH8",MTGP700H400,,,,
+21,3,,"MX, MY, MZ",NCTR-M002_MOUNT,,,,
+22,3,,"A1, A2, A3",REACTION_WHEELASSEMBLY,,,,
+23,1,REF194GSZ-REEL7,U2,N/A,8-SOIC,Series voltage reference IC,Digikey,https://www.digikey.ca/en/products/detail/analog-devices-inc/REF194GSZ-REEL7/995868
+24,12,SFH 2430-Z,"D4, D5, D6, D13, D14, D15, D19, D20, D21, D25, D26, D27",N/A,"2-SMD, Gull Wing",Optoisolator,Digikey,https://www.digikey.ca/en/products/detail/osram-opto-semiconductors-inc/SFH-2430-Z/1668853
+25,3,SN74HC165DB,"U8, U11, U16",N/A,SOP16,8 bit parallel shift register,AliExpress,https://www.aliexpress.com/item/4000854321406.html
+26,3,SN74HC590AD,"U7, U10, U14",N/A,16-SOIC,8 bit binary counter,Digikey,https://www.digikey.com/en/products/detail/texas-instruments/SN74HC590AD/376756
+27,4,TLV9054IDR,"U3, U15, U21, U27",N/A,14-SOIC,single rail CMOS OP-AMP,Digikey,https://www.digikey.com/en/products/detail/texas-instruments/TLV9054IDR/10273198
+28,3,TSV991AILT,"U$4, U$6, U$8",N/A,SOT-23-5,dual rail CMOS OP-AMP 20Mhz ,Mouser,https://www.mouser.com/ProductDetail/STMicroelectronics/TSV991AILT/?qs=NCG0bTVqH4ejiP6AM1B8jw==
+29,3,Do not populate,"JP1, JP2, JP3",N/A,Do not populate,0.1’ pitch male 1x2 rectangular pin header,Do not populate,Do not populate
+30,1,Do not populate,JP5,N/A,Do not populate,,Do not populate,Do not populate
+31,12,Do not populate,"TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9, TP10, TP11, TP12",N/A,Do not populate,0.1’ pitch male 1x1 rectangular pin header,Do not populate,Do not populate
