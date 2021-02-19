@@ -21381,6 +21381,7 @@ each magnetorquer</text>
 <text x="137.16" y="71.12" size="1.778" layer="96">This circuit measures low-side current to be APPROXIMATELY
  the value of current through the coil scaled by Rcoil/(Rcoil +
  R35)</text>
+<text x="261.62" y="7.62" size="2.54" layer="94">A</text>
 </plain>
 <instances>
 <instance part="MX" gate="G$1" x="139.7" y="193.04" smashed="yes">
@@ -22380,6 +22381,7 @@ each magnetorquer</text>
 </sheet>
 <sheet>
 <plain>
+<text x="261.62" y="7.62" size="2.54" layer="94">A</text>
 </plain>
 <instances>
 <instance part="MH5" gate="G$1" x="40.64" y="22.86" smashed="yes">
@@ -22644,6 +22646,7 @@ each magnetorquer</text>
 </sheet>
 <sheet>
 <plain>
+<text x="261.62" y="7.62" size="2.54" layer="94">A</text>
 </plain>
 <instances>
 <instance part="U25" gate="A" x="193.04" y="114.3" smashed="yes">
@@ -23340,6 +23343,7 @@ each magnetorquer</text>
 </sheet>
 <sheet>
 <plain>
+<text x="261.62" y="7.62" size="2.54" layer="94">A</text>
 </plain>
 <instances>
 <instance part="U13" gate="A" x="187.96" y="114.3" smashed="yes">
@@ -24036,6 +24040,7 @@ each magnetorquer</text>
 </sheet>
 <sheet>
 <plain>
+<text x="261.62" y="7.62" size="2.54" layer="94">A</text>
 </plain>
 <instances>
 <instance part="U27" gate="A" x="177.8" y="114.3" smashed="yes">
@@ -24732,6 +24737,7 @@ each magnetorquer</text>
 </sheet>
 <sheet>
 <plain>
+<text x="261.62" y="7.62" size="2.54" layer="94">A</text>
 </plain>
 <instances>
 <instance part="U4" gate="A" x="182.88" y="116.84" smashed="yes">
@@ -25430,6 +25436,7 @@ each magnetorquer</text>
 <plain>
 <text x="76.2" y="63.5" size="1.778" layer="97" rot="MR0">NC</text>
 <text x="111.76" y="53.34" size="1.778" layer="97">NC</text>
+<text x="261.62" y="7.62" size="2.54" layer="94">A</text>
 </plain>
 <instances>
 <instance part="P+47" gate="1" x="53.34" y="198.12" smashed="yes">
@@ -26549,6 +26556,7 @@ RETRY: Auto retry timing configurable with cap (see datasheet Eq2 for value)</te
 - Floating: Trapezoidal operation mode with 30° Hall placement
 
 Trapezoidal control selected. Requires hall sensors unlike sinusoidal</text>
+<text x="261.62" y="7.62" size="2.54" layer="94">A</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
