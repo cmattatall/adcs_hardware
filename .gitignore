@@ -49,3 +49,19 @@ eagle projects/Z- Sun Sensor Board/Z- Sun Sensor Board/BOM VALUES ZMinusSunSenso
 eagle projects/Z- Sun Sensor Board/Z- Sun Sensor Board/BOM_ZMinusSunSensorBoard.csv
 eagle projects/Z- Sun Sensor Board/Z- Sun Sensor Board/ZMinusSunSensorBoard.csv
 eagle projects/Z- Sun Sensor Board/Z- Sun Sensor Board/~$BOM_Z-SUNSENSE.xlsx
+*.gbr
+releases/ADCS_SensorBoard_RevA.1_2020-11-19/ADCS_SensorBoard_RevA_2020-11-15/GerberFiles/gerber_job.gbrjob
+releases/ADCS_SensorBoard_RevA.1_2020-11-19/ADCS_SensorBoard_RevA_2020-11-15/Eagle Files/SensorBoard.sch
+releases/ADCS_SensorBoard_RevA.1_2020-11-19/ADCS_SensorBoard_RevA_2020-11-15/Eagle Files/SensorBoard.brd
+releases/ADCS_SensorBoard_RevA.1_2020-11-19/ADCS_SensorBoard_RevA_2020-11-15/DrillFiles/drill_1_16.xln
+releases/ADCS_SensorBoard_RevA.1_2020-11-19/ADCS_SensorBoard_RevA_2020-11-15/Assembly/PnP_SensorBoard_front.txt
+releases/ADCS_SensorBoard_RevA.1_2020-11-19/ADCS_SensorBoard_RevA_2020-11-15/Assembly/PnP_SensorBoard_back.txt
+releases/ADCS_SensorBoard_RevA.1_2020-11-19/ADCS_SensorBoard_RevA_2020-11-15/ADCS_SensorBoard_BOM.xlsx
+releases/AcutuatorBoardRevA_2021.02.19/AcutuatorBoardRevA_2021.02.19/EagleFiles/ActuatorBoard.sch
+releases/AcutuatorBoardRevA_2021.02.19/AcutuatorBoardRevA_2021.02.19/EagleFiles/ActuatorBoard.brd
+releases/AcutuatorBoardRevA_2021.02.19/AcutuatorBoardRevA_2021.02.19/DrillFiles/drill_1_16.xln
+releases/AcutuatorBoardRevA_2021.02.19/AcutuatorBoardRevA_2021.02.19/BillOfMaterials/BOM_Actuator_Board_RevA_2021.02.19.xlsx
+releases/AcutuatorBoardRevA_2021.02.19/AcutuatorBoardRevA_2021.02.19/Assembly/PnP_ActuatorBoard_front.txt
+releases/AcutuatorBoardRevA_2021.02.19/AcutuatorBoardRevA_2021.02.19/Assembly/PnP_ActuatorBoard_back.txt
+releases/AcutuatorBoardRevA_2021.02.19/AcutuatorBoardRevA_2021.02.19/Assembly/ActuatorBoard.txt
+releases/AcutuatorBoardRevA_2021.02.19/AcutuatorBoardRevA_2021.02.19/ActuatorBoardRevA_2021.02.19.pdf
