@@ -20381,6 +20381,7 @@ Source: www.kingbright.com</description>
 <schematic_group name="SENSOR_BOARD_CONNNECTOR5"/>
 <schematic_group name="POWER5"/>
 <schematic_group name="POWER"/>
+<schematic_group name="MSP430_BOARD_SENSOR"/>
 </groups>
 <parts>
 <part name="MH5" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="MTGP700H400" device="" package3d_urn="urn:adsk.eagle:package:23248012/2"/>
@@ -20787,8 +20788,8 @@ Source: www.kingbright.com</description>
 <plain>
 <text x="10.16" y="25.4" size="1.778" layer="97">Custom machine sun sensor mount for Z- face
 photodiodes mechanically to board</text>
-<text x="228.6" y="185.42" size="1.778" layer="97">NC</text>
-<text x="228.6" y="182.88" size="1.778" layer="97">NC</text>
+<text x="210.82" y="185.42" size="1.778" layer="97" grouprefs="MSP430_BOARD_SENSOR">NC</text>
+<text x="210.82" y="182.88" size="1.778" layer="97" grouprefs="MSP430_BOARD_SENSOR">NC</text>
 </plain>
 <instances>
 <instance part="MH5" gate="G$1" x="43.18" y="10.16" smashed="yes">
@@ -21095,9 +21096,9 @@ photodiodes mechanically to board</text>
 <attribute name="NAME" x="36.83" y="163.195" size="1.778" layer="95"/>
 <attribute name="VALUE" x="36.83" y="152.4" size="1.778" layer="96"/>
 </instance>
-<instance part="JP3" gate="A" x="215.9" y="187.96" smashed="yes">
-<attribute name="NAME" x="209.55" y="196.215" size="1.778" layer="95"/>
-<attribute name="VALUE" x="209.55" y="177.8" size="1.778" layer="96"/>
+<instance part="JP3" gate="A" x="198.12" y="187.96" smashed="yes" grouprefs="MSP430_BOARD_SENSOR">
+<attribute name="NAME" x="191.77" y="196.215" size="1.778" layer="95"/>
+<attribute name="VALUE" x="191.77" y="177.8" size="1.778" layer="96"/>
 </instance>
 <instance part="LED1" gate="G$1" x="12.7" y="157.48" smashed="yes" grouprefs="POWER">
 <attribute name="NAME" x="16.256" y="152.908" size="1.778" layer="95" rot="R90"/>
@@ -21125,8 +21126,8 @@ photodiodes mechanically to board</text>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="3"/>
-<wire x1="213.36" y1="190.5" x2="187.96" y2="190.5" width="0.1524" layer="91"/>
-<label x="187.96" y="190.5" size="1.778" layer="95"/>
+<wire x1="195.58" y1="190.5" x2="170.18" y2="190.5" width="0.1524" layer="91" grouprefs="MSP430_BOARD_SENSOR"/>
+<label x="170.18" y="190.5" size="1.778" layer="95" grouprefs="MSP430_BOARD_SENSOR"/>
 </segment>
 </net>
 <net name="UCB0_SPI_CLK" class="0">
@@ -21137,8 +21138,8 @@ photodiodes mechanically to board</text>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="5"/>
-<wire x1="213.36" y1="187.96" x2="187.96" y2="187.96" width="0.1524" layer="91"/>
-<label x="187.96" y="187.96" size="1.778" layer="95"/>
+<wire x1="195.58" y1="187.96" x2="170.18" y2="187.96" width="0.1524" layer="91" grouprefs="MSP430_BOARD_SENSOR"/>
+<label x="170.18" y="187.96" size="1.778" layer="95" grouprefs="MSP430_BOARD_SENSOR"/>
 </segment>
 </net>
 <net name="UCB0_SPI_MISO" class="0">
@@ -21149,8 +21150,8 @@ photodiodes mechanically to board</text>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="1"/>
-<wire x1="213.36" y1="193.04" x2="187.96" y2="193.04" width="0.1524" layer="91"/>
-<label x="187.96" y="193.04" size="1.778" layer="95"/>
+<wire x1="195.58" y1="193.04" x2="170.18" y2="193.04" width="0.1524" layer="91" grouprefs="MSP430_BOARD_SENSOR"/>
+<label x="170.18" y="193.04" size="1.778" layer="95" grouprefs="MSP430_BOARD_SENSOR"/>
 </segment>
 </net>
 <net name="!CS!_SUN_Z+" class="0">
@@ -21620,48 +21621,48 @@ photodiodes mechanically to board</text>
 <net name="!CS!_SUN_X+" class="0">
 <segment>
 <pinref part="JP3" gate="A" pin="2"/>
-<wire x1="220.98" y1="193.04" x2="241.3" y2="193.04" width="0.1524" layer="91"/>
-<label x="228.6" y="193.04" size="1.778" layer="95"/>
+<wire x1="203.2" y1="193.04" x2="223.52" y2="193.04" width="0.1524" layer="91" grouprefs="MSP430_BOARD_SENSOR"/>
+<label x="210.82" y="193.04" size="1.778" layer="95" grouprefs="MSP430_BOARD_SENSOR"/>
 </segment>
 </net>
 <net name="!CS!_SUN_X-" class="0">
 <segment>
 <pinref part="JP3" gate="A" pin="7"/>
-<wire x1="213.36" y1="185.42" x2="187.96" y2="185.42" width="0.1524" layer="91"/>
-<label x="187.96" y="185.42" size="1.778" layer="95"/>
+<wire x1="195.58" y1="185.42" x2="170.18" y2="185.42" width="0.1524" layer="91" grouprefs="MSP430_BOARD_SENSOR"/>
+<label x="170.18" y="185.42" size="1.778" layer="95" grouprefs="MSP430_BOARD_SENSOR"/>
 </segment>
 </net>
 <net name="!CS!_SUN_Y+" class="0">
 <segment>
 <pinref part="JP3" gate="A" pin="4"/>
-<wire x1="220.98" y1="190.5" x2="241.3" y2="190.5" width="0.1524" layer="91"/>
-<label x="228.6" y="190.5" size="1.778" layer="95"/>
+<wire x1="203.2" y1="190.5" x2="223.52" y2="190.5" width="0.1524" layer="91" grouprefs="MSP430_BOARD_SENSOR"/>
+<label x="210.82" y="190.5" size="1.778" layer="95" grouprefs="MSP430_BOARD_SENSOR"/>
 </segment>
 </net>
 <net name="!CS!_SUN_Y-" class="0">
 <segment>
 <pinref part="JP3" gate="A" pin="9"/>
-<wire x1="213.36" y1="182.88" x2="187.96" y2="182.88" width="0.1524" layer="91"/>
-<label x="187.96" y="182.88" size="1.778" layer="95"/>
+<wire x1="195.58" y1="182.88" x2="170.18" y2="182.88" width="0.1524" layer="91" grouprefs="MSP430_BOARD_SENSOR"/>
+<label x="170.18" y="182.88" size="1.778" layer="95" grouprefs="MSP430_BOARD_SENSOR"/>
 </segment>
 </net>
 <net name="!CS!_SUN_Z-" class="0">
 <segment>
 <pinref part="JP3" gate="A" pin="6"/>
-<wire x1="220.98" y1="187.96" x2="241.3" y2="187.96" width="0.1524" layer="91"/>
-<label x="228.6" y="187.96" size="1.778" layer="95"/>
+<wire x1="203.2" y1="187.96" x2="223.52" y2="187.96" width="0.1524" layer="91" grouprefs="MSP430_BOARD_SENSOR"/>
+<label x="210.82" y="187.96" size="1.778" layer="95" grouprefs="MSP430_BOARD_SENSOR"/>
 </segment>
 </net>
 <net name="N$67" class="0">
 <segment>
 <pinref part="JP3" gate="A" pin="8"/>
-<wire x1="228.6" y1="185.42" x2="220.98" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="185.42" x2="203.2" y2="185.42" width="0.1524" layer="91" grouprefs="MSP430_BOARD_SENSOR"/>
 </segment>
 </net>
 <net name="N$68" class="0">
 <segment>
 <pinref part="JP3" gate="A" pin="10"/>
-<wire x1="220.98" y1="182.88" x2="228.6" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="182.88" x2="210.82" y2="182.88" width="0.1524" layer="91" grouprefs="MSP430_BOARD_SENSOR"/>
 </segment>
 </net>
 <net name="N$48" class="0">
