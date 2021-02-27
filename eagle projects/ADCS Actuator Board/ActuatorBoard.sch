@@ -13072,6 +13072,9 @@ Source: www.kingbright.com</description>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="4.7k"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="4.7k"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="4.7k"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -13510,6 +13513,18 @@ physically to board</text>
 <attribute name="NAME" x="227.33" y="151.13" size="1.27" layer="95"/>
 <attribute name="VALUE" x="227.33" y="148.59" size="1.27" layer="96"/>
 </instance>
+<instance part="R3" gate="G$1" x="96.52" y="106.68" smashed="yes">
+<attribute name="NAME" x="92.71" y="108.1786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="92.71" y="103.378" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="96.52" y="152.4" smashed="yes">
+<attribute name="NAME" x="92.71" y="153.8986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="92.71" y="149.098" size="1.778" layer="96"/>
+</instance>
+<instance part="R5" gate="G$1" x="96.52" y="195.58" smashed="yes">
+<attribute name="NAME" x="92.71" y="197.0786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="92.71" y="192.278" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13904,10 +13919,10 @@ physically to board</text>
 <junction x="139.7" y="200.66"/>
 </segment>
 <segment>
-<pinref part="U9" gate="G$1" pin="OUT1"/>
 <pinref part="JX" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="195.58" x2="86.36" y2="195.58" width="0.1524" layer="91"/>
 <label x="106.68" y="195.58" size="1.778" layer="95"/>
+<wire x1="114.3" y1="195.58" x2="101.6" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="OUT2_X" class="0">
@@ -13932,18 +13947,18 @@ physically to board</text>
 <junction x="139.7" y="157.48"/>
 </segment>
 <segment>
-<pinref part="U35" gate="G$1" pin="OUT1"/>
 <pinref part="JY" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="152.4" x2="86.36" y2="152.4" width="0.1524" layer="91"/>
 <label x="106.68" y="152.4" size="1.778" layer="95"/>
+<wire x1="114.3" y1="152.4" x2="101.6" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="OUT1_Z" class="0">
 <segment>
-<pinref part="U39" gate="G$1" pin="OUT1"/>
 <pinref part="JZ" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="106.68" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
 <label x="106.68" y="106.68" size="1.778" layer="95"/>
+<wire x1="114.3" y1="106.68" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="OUT2_Z" class="0">
@@ -14159,6 +14174,27 @@ physically to board</text>
 <wire x1="86.36" y1="137.16" x2="114.3" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="U35" gate="G$1" pin="GND"/>
 <label x="88.9" y="137.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U39" gate="G$1" pin="OUT1"/>
+<wire x1="91.44" y1="106.68" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U35" gate="G$1" pin="OUT1"/>
+<wire x1="91.44" y1="152.4" x2="86.36" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="OUT1"/>
+<wire x1="91.44" y1="195.58" x2="86.36" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
@@ -15204,7 +15240,7 @@ testing both mode configurations</text>
 <text x="76.2" y="63.5" size="1.778" layer="97" rot="MR0">NC</text>
 <text x="111.76" y="53.34" size="1.778" layer="97">NC</text>
 <text x="261.62" y="7.62" size="2.54" layer="94">A</text>
-<text x="182.88" y="53.34" size="1.778" layer="97">Hall sensors on Maxon motor require external pull-up resistor</text>
+<text x="175.26" y="208.28" size="1.778" layer="97">Hall sensors on Maxon motor require external pull-up resistor</text>
 <text x="68.58" y="200.66" size="1.778" layer="97">Only Z-axis Reaction wheel mounted physically to PCB</text>
 </plain>
 <instances>
