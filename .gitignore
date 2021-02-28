@@ -65,3 +65,5 @@ releases/AcutuatorBoardRevA_2021.02.19/AcutuatorBoardRevA_2021.02.19/Assembly/Pn
 releases/AcutuatorBoardRevA_2021.02.19/AcutuatorBoardRevA_2021.02.19/Assembly/PnP_ActuatorBoard_back.txt
 releases/AcutuatorBoardRevA_2021.02.19/AcutuatorBoardRevA_2021.02.19/Assembly/ActuatorBoard.txt
 releases/AcutuatorBoardRevA_2021.02.19/AcutuatorBoardRevA_2021.02.19/ActuatorBoardRevA_2021.02.19.pdf
+*.log
+*.raw
