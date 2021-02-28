@@ -28546,6 +28546,8 @@ Source: www.kingbright.com</description>
 <text x="53.34" y="73.66" size="1.778" layer="97">PWM</text>
 <text x="175.26" y="73.66" size="1.778" layer="91">was !CS!_SUN_Y+</text>
 <text x="175.26" y="71.12" size="1.778" layer="91">was !CS!_SUN_Z+</text>
+<text x="27.94" y="45.72" size="1.778" layer="91">BNO055 INT
+BNO055 RST</text>
 </plain>
 <instances>
 <instance part="C8" gate="G$1" x="218.44" y="73.66" smashed="yes">
@@ -29208,8 +29210,6 @@ Source: www.kingbright.com</description>
 </sheet>
 <sheet>
 <plain>
-<attribute name="NAME" x="39.37" y="191.135" size="1.778" layer="95"/>
-<attribute name="VALUE" x="39.37" y="175.26" size="1.778" layer="96"/>
 <text x="91.44" y="137.16" size="1.778" layer="97" grouprefs="ACTUATOR_BOARD_CONNECTORS">PWM</text>
 <text x="91.44" y="134.62" size="1.778" layer="97" grouprefs="ACTUATOR_BOARD_CONNECTORS">PWM</text>
 <text x="91.44" y="132.08" size="1.778" layer="97" grouprefs="ACTUATOR_BOARD_CONNECTORS">PWM</text>
@@ -29219,8 +29219,6 @@ Source: www.kingbright.com</description>
 <text x="91.44" y="124.46" size="1.778" layer="97" grouprefs="ACTUATOR_BOARD_CONNECTORS">PWM</text>
 <text x="17.78" y="134.62" size="1.778" layer="97" grouprefs="ACTUATOR_BOARD_CONNECTORS">PWM</text>
 <text x="17.78" y="132.08" size="1.778" layer="97" grouprefs="ACTUATOR_BOARD_CONNECTORS">PWM</text>
-<attribute name="NAME" x="54.61" y="140.335" size="1.778" layer="95"/>
-<attribute name="VALUE" x="54.61" y="114.3" size="1.778" layer="96"/>
 <text x="66.04" y="101.6" size="1.778" layer="97">OBC CONNECTOR</text>
 <text x="139.7" y="104.14" size="1.778" layer="97">&lt;&lt;</text>
 <text x="40.64" y="88.9" size="1.778" layer="97">&lt;&lt;</text>
@@ -29239,29 +29237,6 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <text x="228.6" y="111.76" size="1.778" layer="97" grouprefs="EZFET_DEBUGGER_HEADER">&lt;&lt;</text>
 <text x="228.6" y="109.22" size="1.778" layer="97" grouprefs="EZFET_DEBUGGER_HEADER">&lt;&lt;</text>
 <text x="228.6" y="106.68" size="1.778" layer="97" grouprefs="EZFET_DEBUGGER_HEADER">&gt;&gt;</text>
-<attribute name="VALUE" x="205.74" y="195.58" size="1.778" layer="96" rot="R180"/>
-<attribute name="VALUE" x="198.12" y="193.04" size="1.778" layer="96" rot="R180"/>
-<attribute name="VALUE" x="201.295" y="174.625" size="1.778" layer="96"/>
-<attribute name="VALUE" x="224.155" y="121.285" size="1.778" layer="96"/>
-<attribute name="VALUE" x="218.44" y="124.46" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="227.33" y="158.115" size="1.778" layer="95"/>
-<attribute name="VALUE" x="227.33" y="144.78" size="1.778" layer="96"/>
-<attribute name="NAME" x="207.01" y="146.2786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="207.01" y="141.478" size="1.778" layer="96"/>
-<attribute name="NAME" x="207.01" y="153.8986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="207.01" y="149.098" size="1.778" layer="96"/>
-<attribute name="NAME" x="207.01" y="161.5186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="207.01" y="156.718" size="1.778" layer="96"/>
-<attribute name="NAME" x="73.66" y="-12.7" size="1.27" layer="95"/>
-<attribute name="VALUE" x="73.66" y="-15.24" size="1.27" layer="96"/>
-<attribute name="NAME" x="149.86" y="-12.7" size="1.27" layer="95"/>
-<attribute name="VALUE" x="149.86" y="-15.24" size="1.27" layer="96"/>
-<attribute name="VALUE" x="36.195" y="-46.355" size="1.778" layer="96"/>
-<attribute name="VALUE" x="109.855" y="-46.355" size="1.778" layer="96"/>
-<attribute name="VALUE" x="45.72" y="-43.18" size="1.778" layer="96" rot="R180"/>
-<attribute name="VALUE" x="121.92" y="-43.18" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="217.17" y="-27.305" size="1.778" layer="95"/>
-<attribute name="VALUE" x="217.17" y="-48.26" size="1.778" layer="96"/>
 <text x="119.38" y="187.96" size="1.778" layer="97">Optional UART bus debug header (standard pitch)</text>
 <text x="68.58" y="180.34" size="1.778" layer="97">NC</text>
 <text x="68.58" y="177.8" size="1.778" layer="97">NC</text>
