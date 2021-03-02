@@ -12884,7 +12884,7 @@ Source: www.kingbright.com</description>
 <part name="JP7" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="JP1Q" device="_" package3d_urn="urn:adsk.eagle:package:24527019/1"/>
 <part name="C123" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
 <part name="SUPPLY185" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
+<part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1k"/>
 <part name="SUPPLY187" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U35" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="BD6210F-E2" device="" package3d_urn="urn:adsk.eagle:package:24418978/3"/>
 <part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -12900,7 +12900,7 @@ Source: www.kingbright.com</description>
 <part name="JP9" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="JP1Q" device="_" package3d_urn="urn:adsk.eagle:package:24527019/1"/>
 <part name="C131" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1u"/>
 <part name="SUPPLY197" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R76" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
+<part name="R76" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1k"/>
 <part name="SUPPLY199" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U39" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="BD6210F-E2" device="" package3d_urn="urn:adsk.eagle:package:24418978/3"/>
 <part name="P+26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -13059,8 +13059,8 @@ Source: www.kingbright.com</description>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1k"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1k"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1.8k"/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1.8k"/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1.8k"/>
@@ -15719,19 +15719,19 @@ testing both mode configurations</text>
 </net>
 <net name="Y_PHASE_C" class="0">
 <segment>
-<pinref part="J20" gate="G$1" pin="10"/>
-<pinref part="J20" gate="G$1" pin="11"/>
-<wire x1="236.22" y1="116.84" x2="236.22" y2="119.38" width="0.1524" layer="91"/>
-<label x="220.98" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="236.22" y1="116.84" x2="220.98" y2="116.84" width="0.1524" layer="91"/>
-<junction x="236.22" y="116.84"/>
-</segment>
-<segment>
 <wire x1="76.2" y1="38.1" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="38.1" x2="73.66" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="30.48" x2="71.12" y2="30.48" width="0.1524" layer="91"/>
 <label x="71.12" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U7" gate="G$1" pin="W"/>
+</segment>
+<segment>
+<pinref part="J20" gate="G$1" pin="6"/>
+<pinref part="J20" gate="G$1" pin="7"/>
+<wire x1="236.22" y1="127" x2="236.22" y2="129.54" width="0.1524" layer="91"/>
+<label x="220.98" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="236.22" y1="127" x2="220.98" y2="127" width="0.1524" layer="91"/>
+<junction x="236.22" y="127"/>
 </segment>
 </net>
 <net name="Y_PHASE_B" class="0">
@@ -15754,14 +15754,6 @@ testing both mode configurations</text>
 </net>
 <net name="Y_PHASE_A" class="0">
 <segment>
-<pinref part="J20" gate="G$1" pin="6"/>
-<pinref part="J20" gate="G$1" pin="7"/>
-<wire x1="236.22" y1="127" x2="236.22" y2="129.54" width="0.1524" layer="91"/>
-<label x="220.98" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="236.22" y1="127" x2="220.98" y2="127" width="0.1524" layer="91"/>
-<junction x="236.22" y="127"/>
-</segment>
-<segment>
 <wire x1="114.3" y1="38.1" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="38.1" x2="114.3" y2="17.78" width="0.1524" layer="91"/>
 <label x="71.12" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -15769,6 +15761,14 @@ testing both mode configurations</text>
 <wire x1="73.66" y1="20.32" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="20.32" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="17.78" x2="114.3" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J20" gate="G$1" pin="10"/>
+<pinref part="J20" gate="G$1" pin="11"/>
+<wire x1="236.22" y1="116.84" x2="236.22" y2="119.38" width="0.1524" layer="91"/>
+<label x="220.98" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="236.22" y1="116.84" x2="220.98" y2="116.84" width="0.1524" layer="91"/>
+<junction x="236.22" y="116.84"/>
 </segment>
 </net>
 <net name="Z_PHASE_C" class="0">
@@ -15779,12 +15779,12 @@ testing both mode configurations</text>
 <junction x="106.68" y="187.96"/>
 </segment>
 <segment>
-<pinref part="J21" gate="G$1" pin="10"/>
-<pinref part="J21" gate="G$1" pin="11"/>
-<wire x1="236.22" y1="63.5" x2="236.22" y2="66.04" width="0.1524" layer="91"/>
-<label x="220.98" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="236.22" y1="63.5" x2="220.98" y2="63.5" width="0.1524" layer="91"/>
-<junction x="236.22" y="63.5"/>
+<pinref part="J21" gate="G$1" pin="6"/>
+<pinref part="J21" gate="G$1" pin="7"/>
+<wire x1="236.22" y1="73.66" x2="236.22" y2="76.2" width="0.1524" layer="91"/>
+<label x="220.98" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="236.22" y1="73.66" x2="220.98" y2="73.66" width="0.1524" layer="91"/>
+<junction x="236.22" y="73.66"/>
 </segment>
 </net>
 <net name="Z_PHASE_B" class="0">
@@ -15810,12 +15810,12 @@ testing both mode configurations</text>
 <junction x="106.68" y="182.88"/>
 </segment>
 <segment>
-<pinref part="J21" gate="G$1" pin="6"/>
-<pinref part="J21" gate="G$1" pin="7"/>
-<wire x1="236.22" y1="73.66" x2="236.22" y2="76.2" width="0.1524" layer="91"/>
-<label x="220.98" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="236.22" y1="73.66" x2="220.98" y2="73.66" width="0.1524" layer="91"/>
-<junction x="236.22" y="73.66"/>
+<pinref part="J21" gate="G$1" pin="10"/>
+<pinref part="J21" gate="G$1" pin="11"/>
+<wire x1="236.22" y1="63.5" x2="236.22" y2="66.04" width="0.1524" layer="91"/>
+<label x="220.98" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="236.22" y1="63.5" x2="220.98" y2="63.5" width="0.1524" layer="91"/>
+<junction x="236.22" y="63.5"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -16075,12 +16075,12 @@ testing both mode configurations</text>
 </net>
 <net name="X_PHASE_C" class="0">
 <segment>
-<pinref part="J19" gate="G$1" pin="10"/>
-<pinref part="J19" gate="G$1" pin="11"/>
-<wire x1="236.22" y1="162.56" x2="236.22" y2="165.1" width="0.1524" layer="91"/>
-<label x="220.98" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="236.22" y1="162.56" x2="220.98" y2="162.56" width="0.1524" layer="91"/>
-<junction x="236.22" y="162.56"/>
+<pinref part="J19" gate="G$1" pin="6"/>
+<pinref part="J19" gate="G$1" pin="7"/>
+<wire x1="236.22" y1="175.26" x2="236.22" y2="172.72" width="0.1524" layer="91"/>
+<junction x="236.22" y="172.72"/>
+<label x="220.98" y="172.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="236.22" y1="172.72" x2="220.98" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="X_PHASE_B" class="0">
@@ -16091,16 +16091,6 @@ testing both mode configurations</text>
 <label x="220.98" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="236.22" y1="167.64" x2="220.98" y2="167.64" width="0.1524" layer="91"/>
 <junction x="236.22" y="167.64"/>
-</segment>
-</net>
-<net name="X_PHASE_A" class="0">
-<segment>
-<pinref part="J19" gate="G$1" pin="6"/>
-<pinref part="J19" gate="G$1" pin="7"/>
-<wire x1="236.22" y1="175.26" x2="236.22" y2="172.72" width="0.1524" layer="91"/>
-<junction x="236.22" y="172.72"/>
-<label x="220.98" y="172.72" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="236.22" y1="172.72" x2="220.98" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="X_HALL_C" class="0">
@@ -16387,6 +16377,16 @@ testing both mode configurations</text>
 <wire x1="20.32" y1="78.74" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="J6" gate="A" pin="2"/>
 <label x="25.4" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="X_PHASE_A" class="0">
+<segment>
+<pinref part="J19" gate="G$1" pin="10"/>
+<pinref part="J19" gate="G$1" pin="11"/>
+<wire x1="236.22" y1="162.56" x2="236.22" y2="165.1" width="0.1524" layer="91"/>
+<label x="220.98" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="236.22" y1="162.56" x2="220.98" y2="162.56" width="0.1524" layer="91"/>
+<junction x="236.22" y="162.56"/>
 </segment>
 </net>
 </nets>
