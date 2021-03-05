@@ -28508,6 +28508,18 @@ Source: www.kingbright.com</description>
 <part name="JP4" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:26872615/1"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY41" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="SUPPLY42" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY43" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="SUPPLY44" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY45" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="R46" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="R47" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="SUPPLY46" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -28639,8 +28651,8 @@ BNO055 RST</text>
 <attribute name="NAME" x="93.98" y="165.354" size="1.778" layer="95"/>
 <attribute name="VALUE" x="93.98" y="162.56" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY1" gate="GND" x="180.34" y="124.46" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="182.245" y="121.285" size="1.778" layer="96" rot="MR0"/>
+<instance part="SUPPLY1" gate="GND" x="177.8" y="127" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="180.975" y="128.905" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="SUPPLY2" gate="GND" x="195.58" y="106.68" smashed="yes">
 <attribute name="VALUE" x="193.675" y="103.505" size="1.778" layer="96"/>
@@ -28671,6 +28683,17 @@ BNO055 RST</text>
 <attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
 <attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="R46" gate="G$1" x="192.024" y="124.46" smashed="yes">
+<attribute name="NAME" x="190.246" y="121.412" size="1.778" layer="95"/>
+<attribute name="VALUE" x="189.484" y="125.984" size="1.778" layer="96"/>
+</instance>
+<instance part="R47" gate="G$1" x="207.264" y="121.92" smashed="yes">
+<attribute name="NAME" x="205.232" y="123.444" size="1.778" layer="95"/>
+<attribute name="VALUE" x="204.724" y="125.984" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY46" gate="GND" x="215.9" y="124.46" smashed="yes" rot="R90">
+<attribute name="VALUE" x="219.075" y="122.555" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -28785,7 +28808,7 @@ BNO055 RST</text>
 <segment>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 <pinref part="U1" gate="G$1" pin="AVSS2"/>
-<wire x1="170.18" y1="127" x2="180.34" y2="127" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="127" x2="175.26" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VSSU"/>
@@ -28805,6 +28828,15 @@ BNO055 RST</text>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="238.76" y1="149.86" x2="238.76" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R46" gate="G$1" pin="2"/>
+<wire x1="197.104" y1="124.46" x2="213.36" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="R47" gate="G$1" pin="2"/>
+<wire x1="213.36" y1="124.46" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="121.92" x2="212.344" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="SUPPLY46" gate="GND" pin="GND"/>
+<junction x="213.36" y="124.46"/>
 </segment>
 </net>
 <net name="TARGET_PUR" class="0">
@@ -29206,6 +29238,20 @@ BNO055 RST</text>
 <label x="213.36" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="V1.8"/>
+<pinref part="R46" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="124.46" x2="186.944" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$38" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="VUSB"/>
+<pinref part="R47" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="121.92" x2="202.184" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -29238,8 +29284,8 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <text x="228.6" y="109.22" size="1.778" layer="97" grouprefs="EZFET_DEBUGGER_HEADER">&lt;&lt;</text>
 <text x="228.6" y="106.68" size="1.778" layer="97" grouprefs="EZFET_DEBUGGER_HEADER">&gt;&gt;</text>
 <text x="119.38" y="187.96" size="1.778" layer="97">Optional UART bus debug header (standard pitch)</text>
-<text x="68.58" y="180.34" size="1.778" layer="97">NC</text>
-<text x="68.58" y="177.8" size="1.778" layer="97">NC</text>
+<text x="58.42" y="180.34" size="1.778" layer="97">NC</text>
+<text x="58.42" y="177.8" size="1.778" layer="97">NC</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -29324,8 +29370,8 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <instance part="+3V13" gate="G$1" x="198.12" y="190.5" smashed="yes" grouprefs="POWER_CONNECTOR">
 <attribute name="VALUE" x="200.66" y="193.04" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V14" gate="G$1" x="215.9" y="121.92" smashed="yes">
-<attribute name="VALUE" x="218.44" y="124.46" size="1.778" layer="96" rot="R180"/>
+<instance part="+3V14" gate="G$1" x="210.82" y="121.92" smashed="yes">
+<attribute name="VALUE" x="213.36" y="124.46" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+1" gate="1" x="205.74" y="193.04" smashed="yes" grouprefs="POWER_CONNECTOR">
 <attribute name="VALUE" x="208.28" y="195.58" size="1.778" layer="96" rot="R180"/>
@@ -29345,6 +29391,31 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 </instance>
 <instance part="SUPPLY41" gate="GND" x="132.08" y="144.78" smashed="yes">
 <attribute name="VALUE" x="130.175" y="141.605" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY43" gate="GND" x="215.9" y="127" smashed="yes" rot="R180">
+<attribute name="VALUE" x="217.805" y="130.175" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R42" gate="G$1" x="221.996" y="119.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="220.218" y="121.158" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="222.758" y="121.666" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R43" gate="G$1" x="224.536" y="96.52" smashed="yes" rot="R180">
+<attribute name="NAME" x="226.822" y="99.568" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="227.33" y="95.25" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY44" gate="GND" x="213.36" y="96.52" smashed="yes" rot="R270">
+<attribute name="VALUE" x="210.185" y="98.425" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY45" gate="GND" x="76.2" y="187.96" smashed="yes" rot="R180">
+<attribute name="VALUE" x="78.105" y="191.135" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R44" gate="G$1" x="65.024" y="176.276" smashed="yes">
+<attribute name="NAME" x="62.992" y="173.228" size="1.778" layer="95"/>
+<attribute name="VALUE" x="62.484" y="177.8" size="1.778" layer="96"/>
+</instance>
+<instance part="R45" gate="G$1" x="70.104" y="180.34" smashed="yes">
+<attribute name="NAME" x="71.12" y="177.292" size="1.778" layer="95"/>
+<attribute name="VALUE" x="70.866" y="181.102" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -29449,13 +29520,8 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <net name="N$18" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="8"/>
-<wire x1="50.8" y1="180.34" x2="68.58" y2="180.34" width="0.1524" layer="91" grouprefs="Z-_SUN_SENSE_CONNECTOR"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="10"/>
-<wire x1="50.8" y1="177.8" x2="68.58" y2="177.8" width="0.1524" layer="91" grouprefs="Z-_SUN_SENSE_CONNECTOR"/>
+<wire x1="50.8" y1="180.34" x2="65.024" y2="180.34" width="0.1524" layer="91" grouprefs="Z-_SUN_SENSE_CONNECTOR"/>
+<pinref part="R45" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="!CS!_SUN_Y+" class="0">
@@ -29650,9 +29716,9 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <pinref part="+3V13" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<wire x1="215.9" y1="119.38" x2="215.9" y2="116.84" width="0.1524" layer="91" grouprefs="EZFET_DEBUGGER_HEADER"/>
+<wire x1="210.82" y1="119.38" x2="210.82" y2="116.84" width="0.1524" layer="91" grouprefs="EZFET_DEBUGGER_HEADER"/>
 <pinref part="J1" gate="G$1" pin="3V"/>
-<wire x1="215.9" y1="116.84" x2="231.14" y2="116.84" width="0.1524" layer="91" grouprefs="EZFET_DEBUGGER_HEADER"/>
+<wire x1="210.82" y1="116.84" x2="231.14" y2="116.84" width="0.1524" layer="91" grouprefs="EZFET_DEBUGGER_HEADER"/>
 <pinref part="+3V14" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
@@ -29701,6 +29767,27 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <pinref part="JP4" gate="A" pin="6"/>
 <wire x1="144.78" y1="147.32" x2="132.08" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="SUPPLY41" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SUPPLY43" gate="GND" pin="GND"/>
+<pinref part="R42" gate="G$1" pin="2"/>
+<wire x1="215.9" y1="124.46" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="119.38" x2="216.916" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R43" gate="G$1" pin="2"/>
+<pinref part="SUPPLY44" gate="GND" pin="GND"/>
+<wire x1="219.456" y1="96.52" x2="215.9" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R44" gate="G$1" pin="2"/>
+<pinref part="SUPPLY45" gate="GND" pin="GND"/>
+<wire x1="70.104" y1="176.276" x2="76.2" y2="176.276" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="176.276" x2="76.2" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="R45" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="180.34" x2="76.2" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="75.184" y1="180.34" x2="76.2" y2="180.34" width="0.1524" layer="91"/>
+<junction x="76.2" y="180.34"/>
 </segment>
 </net>
 <net name="UCA0TXD" class="0">
@@ -29963,6 +30050,30 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <pinref part="JP4" gate="A" pin="5"/>
 <wire x1="144.78" y1="149.86" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
 <label x="119.38" y="149.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="5V"/>
+<pinref part="R42" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="119.38" x2="227.076" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="NC"/>
+<pinref part="R43" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="99.06" x2="229.616" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="229.616" y1="99.06" x2="229.616" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="JP2" gate="A" pin="10"/>
+<wire x1="50.8" y1="177.8" x2="58.42" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="R44" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="177.8" x2="58.42" y2="176.276" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="176.276" x2="59.944" y2="176.276" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -30292,6 +30403,13 @@ BUSY - Output high impedance when !CS! is HIGH</text>
 <attribute name="NAME" x="151.13" y="23.9014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="146.05" y="17.018" size="1.778" layer="96"/>
 </instance>
+<instance part="R38" gate="G$1" x="129.54" y="11.684" smashed="yes" rot="R90">
+<attribute name="NAME" x="131.318" y="13.462" size="1.778" layer="95"/>
+<attribute name="VALUE" x="131.826" y="10.922" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY42" gate="GND" x="129.54" y="3.81" smashed="yes">
+<attribute name="VALUE" x="127.635" y="0.635" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -30508,6 +30626,11 @@ BUSY - Output high impedance when !CS! is HIGH</text>
 <segment>
 <pinref part="C29" gate="G$1" pin="2"/>
 <pinref part="SUPPLY40" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SUPPLY42" gate="GND" pin="GND"/>
+<pinref part="R38" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="6.604" x2="129.54" y2="6.35" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -30896,6 +31019,14 @@ BUSY - Output high impedance when !CS! is HIGH</text>
 <pinref part="C29" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="20.32" x2="119.38" y2="20.32" width="0.1524" layer="91"/>
 <junction x="137.16" y="20.32"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="U3" gate="A" pin="BUSY"/>
+<wire x1="119.38" y1="17.78" x2="129.54" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="R38" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="17.78" x2="129.54" y2="16.764" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
