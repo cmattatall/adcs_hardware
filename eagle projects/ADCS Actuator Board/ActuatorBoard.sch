@@ -13078,6 +13078,15 @@ Source: www.kingbright.com</description>
 <part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1.8k"/>
 <part name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1.8k"/>
 <part name="SUPPLY23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="SUPPLY29" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="SUPPLY38" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="SUPPLY39" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
 </parts>
 <sheets>
 <sheet>
@@ -14562,9 +14571,7 @@ VM: Power Supply, decouple with 10u cap
 VINT: Bypass with 2.2u cap rated for 10V
 VCP: Connect a 16V 1-uF cap to VM
 CS: Connect a resistor to adhjust the current limit</text>
-<text x="88.9" y="177.8" size="1.778" layer="97" rot="MR0">NC</text>
 <text x="124.46" y="167.64" size="1.778" layer="97">NC</text>
-<text x="88.9" y="101.6" size="1.778" layer="97" rot="MR0">NC</text>
 <text x="124.46" y="91.44" size="1.778" layer="97">NC</text>
 <text x="71.12" y="15.24" size="1.778" layer="97">DAA: Drive angle adjustment configuration pin
 - Low: 10 degree angle adjustment
@@ -14784,6 +14791,28 @@ testing both mode configurations</text>
 <instance part="SUPPLY11" gate="GND" x="40.64" y="182.88" smashed="yes">
 <attribute name="VALUE" x="38.735" y="179.705" size="1.778" layer="96"/>
 </instance>
+<instance part="R40" gate="G$1" x="82.55" y="186.69" smashed="yes" rot="R270">
+<attribute name="NAME" x="79.756" y="185.6994" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="80.01" y="188.722" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY38" gate="GND" x="78.74" y="195.58" smashed="yes" rot="R270">
+<attribute name="VALUE" x="75.565" y="197.485" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R41" gate="G$1" x="82.55" y="110.49" smashed="yes" rot="R270">
+<attribute name="NAME" x="79.756" y="109.4994" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="80.01" y="112.522" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY39" gate="GND" x="78.74" y="119.38" smashed="yes" rot="R270">
+<attribute name="VALUE" x="75.565" y="121.285" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R42" gate="G$1" x="157.48" y="91.44" smashed="yes">
+<attribute name="NAME" x="158.4706" y="88.646" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="155.448" y="88.9" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R43" gate="G$1" x="157.48" y="167.64" smashed="yes">
+<attribute name="NAME" x="158.4706" y="164.846" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="155.448" y="165.1" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14802,6 +14831,9 @@ testing both mode configurations</text>
 <pinref part="SUPPLY190" gate="GND" pin="GND"/>
 <pinref part="C125" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="172.72" x2="165.1" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="R43" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="167.64" x2="162.56" y2="172.72" width="0.1524" layer="91"/>
+<junction x="162.56" y="172.72"/>
 </segment>
 <segment>
 <pinref part="SUPPLY180" gate="GND" pin="GND"/>
@@ -14836,6 +14868,9 @@ testing both mode configurations</text>
 <pinref part="SUPPLY214" gate="GND" pin="GND"/>
 <pinref part="C141" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="96.52" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R42" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="91.44" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
+<junction x="162.56" y="96.52"/>
 </segment>
 <segment>
 <pinref part="SUPPLY210" gate="GND" pin="GND"/>
@@ -14868,6 +14903,18 @@ testing both mode configurations</text>
 <wire x1="33.02" y1="187.96" x2="40.64" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="187.96" x2="40.64" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R40" gate="G$1" pin="1"/>
+<pinref part="SUPPLY38" gate="GND" pin="GND"/>
+<wire x1="82.55" y1="191.77" x2="82.55" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="82.55" y1="195.58" x2="81.28" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R41" gate="G$1" pin="1"/>
+<pinref part="SUPPLY39" gate="GND" pin="GND"/>
+<wire x1="82.55" y1="115.57" x2="82.55" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="82.55" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -15288,6 +15335,37 @@ testing both mode configurations</text>
 <label x="40.64" y="190.5" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="U10" gate="G$1" pin="DAA"/>
+<wire x1="88.9" y1="177.8" x2="83.82" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="R40" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="177.8" x2="82.55" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="82.55" y1="177.8" x2="82.55" y2="181.61" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="U12" gate="G$1" pin="DAA"/>
+<pinref part="R41" gate="G$1" pin="2"/>
+<wire x1="82.55" y1="105.41" x2="82.55" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="82.55" y1="101.6" x2="88.9" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="U12" gate="G$1" pin="CMTMOD"/>
+<pinref part="R42" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="U10" gate="G$1" pin="CMTMOD"/>
+<pinref part="R43" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="167.64" x2="152.4" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -15627,6 +15705,17 @@ testing both mode configurations</text>
 <attribute name="NAME" x="192.024" y="97.5106" size="1.778" layer="95"/>
 <attribute name="VALUE" x="191.77" y="94.488" size="1.778" layer="96"/>
 </instance>
+<instance part="R39" gate="G$1" x="67.31" y="72.39" smashed="yes" rot="R270">
+<attribute name="NAME" x="64.516" y="71.3994" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="64.77" y="74.422" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY29" gate="GND" x="63.5" y="81.28" smashed="yes" rot="R270">
+<attribute name="VALUE" x="60.325" y="83.185" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R44" gate="G$1" x="144.78" y="53.34" smashed="yes">
+<attribute name="NAME" x="145.7706" y="50.546" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="142.748" y="50.8" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15921,6 +16010,9 @@ testing both mode configurations</text>
 <pinref part="SUPPLY24" gate="GND" pin="GND"/>
 <pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="58.42" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="R44" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="53.34" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
+<junction x="149.86" y="58.42"/>
 </segment>
 <segment>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
@@ -15947,6 +16039,12 @@ testing both mode configurations</text>
 <wire x1="27.94" y1="76.2" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
 <pinref part="J6" gate="A" pin="1"/>
+</segment>
+<segment>
+<pinref part="R39" gate="G$1" pin="1"/>
+<pinref part="SUPPLY29" gate="GND" pin="GND"/>
+<wire x1="67.31" y1="77.47" x2="67.31" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="67.31" y1="81.28" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="Z_HALL_B" class="0">
@@ -16387,6 +16485,21 @@ testing both mode configurations</text>
 <label x="220.98" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="236.22" y1="162.56" x2="220.98" y2="162.56" width="0.1524" layer="91"/>
 <junction x="236.22" y="162.56"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="DAA"/>
+<pinref part="R39" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="63.5" x2="67.31" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="67.31" y1="63.5" x2="67.31" y2="67.31" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="R44" gate="G$1" pin="1"/>
+<pinref part="U7" gate="G$1" pin="CMTMOD"/>
+<wire x1="139.7" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
