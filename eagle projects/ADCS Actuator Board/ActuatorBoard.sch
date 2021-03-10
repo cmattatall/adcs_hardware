@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -12533,6 +12533,7 @@ Source: www.kingbright.com</description>
 </library>
 </libraries>
 <attributes>
+<attribute name="DESIGNER" value="J. Smith, T. Christison"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -12826,15 +12827,19 @@ Source: www.kingbright.com</description>
 <part name="+3V14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="FRAME1" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
+<attribute name="DESIGNER" value=""/>
 <attribute name="REV#" value=""/>
 </part>
 <part name="FRAME2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
+<attribute name="DESIGNER" value=""/>
 <attribute name="REV#" value=""/>
 </part>
 <part name="FRAME7" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
+<attribute name="DESIGNER" value=""/>
 <attribute name="REV#" value=""/>
 </part>
 <part name="FRAME8" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TITLE_BLOCK_LETTER" device="">
+<attribute name="DESIGNER" value=""/>
 <attribute name="REV#" value=""/>
 </part>
 <part name="U2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="ADS7841E_2K5" device="" package3d_urn="urn:adsk.eagle:package:23087509/6"/>
@@ -12904,7 +12909,6 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY199" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U39" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="BD6210F-E2" device="" package3d_urn="urn:adsk.eagle:package:24418978/3"/>
 <part name="P+26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="+3V66" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="JZ" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TRM_BLK_1X2" device="" package3d_urn="urn:adsk.eagle:package:26488321/8"/>
 <part name="TP51" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/3"/>
 <part name="TP52" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/3"/>
@@ -13056,9 +13060,9 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
-<part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
-<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2"/>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="100R"/>
+<part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="100R"/>
+<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="100R"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1k"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1.8k"/>
@@ -13087,11 +13091,14 @@ Source: www.kingbright.com</description>
 <part name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
 <part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
 <part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="261.62" y="7.62" size="2.54" layer="94">A</text>
+<text x="261.62" y="7.62" size="2.54" layer="94">A.1</text>
 <text x="127" y="132.08" size="1.778" layer="97">Only X and Y magnetorquer mounted
 physically to board</text>
 </plain>
@@ -13110,6 +13117,7 @@ physically to board</text>
 <attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 <attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
+<attribute name="DESIGNER" x="196.85" y="11.43" size="2.54" layer="94"/>
 </instance>
 <instance part="U2" gate="A" x="99.06" y="38.1" smashed="yes">
 <attribute name="NAME" x="94.3356" y="54.8386" size="2.0828" layer="95" ratio="6" rot="SR0"/>
@@ -13342,9 +13350,6 @@ physically to board</text>
 <instance part="P+26" gate="1" x="20.32" y="111.76" smashed="yes">
 <attribute name="VALUE" x="20.32" y="114.3" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V66" gate="G$1" x="227.33" y="77.47" smashed="yes">
-<attribute name="VALUE" x="229.87" y="80.01" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="JZ" gate="G$1" x="119.38" y="101.6" smashed="yes">
 <attribute name="NAME" x="120.396" y="106.045" size="1.778" layer="95"/>
 <attribute name="VALUE" x="115.316" y="108.585" size="1.778" layer="96"/>
@@ -13384,16 +13389,16 @@ physically to board</text>
 <attribute name="VALUE" x="84.455" y="174.625" size="1.778" layer="96"/>
 </instance>
 <instance part="R16" gate="G$1" x="200.66" y="170.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="199.1614" y="166.37" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="203.962" y="166.37" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="199.39" y="172.4914" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="199.39" y="169.672" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R22" gate="G$1" x="200.66" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="199.1614" y="115.57" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="203.962" y="115.57" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="199.39" y="121.6914" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="199.39" y="118.872" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R23" gate="G$1" x="200.66" y="60.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="199.1614" y="57.15" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="203.962" y="57.15" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="199.39" y="63.2714" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="199.39" y="60.452" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R3" gate="G$1" x="208.28" y="114.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="212.09" y="120.4214" size="1.778" layer="95" rot="R180"/>
@@ -13464,6 +13469,15 @@ physically to board</text>
 </instance>
 <instance part="SUPPLY23" gate="GND" x="198.12" y="78.74" smashed="yes">
 <attribute name="VALUE" x="196.215" y="75.565" size="1.778" layer="96"/>
+</instance>
+<instance part="P+14" gate="1" x="227.33" y="190.5" smashed="yes">
+<attribute name="VALUE" x="229.87" y="193.04" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+19" gate="1" x="227.33" y="139.7" smashed="yes">
+<attribute name="VALUE" x="229.87" y="142.24" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+20" gate="1" x="227.33" y="81.28" smashed="yes">
+<attribute name="VALUE" x="229.87" y="83.82" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -13736,6 +13750,33 @@ physically to board</text>
 <pinref part="P+26" gate="1" pin="+5V"/>
 <wire x1="20.32" y1="99.06" x2="20.32" y2="109.22" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C131" gate="G$1" pin="1"/>
+<pinref part="U1" gate="G$1" pin="VCC"/>
+<wire x1="227.33" y1="71.12" x2="227.33" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="73.66" x2="227.33" y2="73.66" width="0.1524" layer="91"/>
+<junction x="227.33" y="73.66"/>
+<pinref part="P+20" gate="1" pin="+5V"/>
+<wire x1="227.33" y1="73.66" x2="227.33" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+19" gate="1" pin="+5V"/>
+<wire x1="227.33" y1="129.54" x2="227.33" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="VCC"/>
+<pinref part="C123" gate="G$1" pin="1"/>
+<wire x1="228.6" y1="132.08" x2="227.33" y2="132.08" width="0.1524" layer="91"/>
+<junction x="227.33" y="132.08"/>
+<wire x1="227.33" y1="132.08" x2="227.33" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U8" gate="G$1" pin="VCC"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="227.33" y1="182.88" x2="227.33" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="182.88" x2="227.33" y2="182.88" width="0.1524" layer="91"/>
+<junction x="227.33" y="182.88"/>
+<pinref part="P+14" gate="1" pin="+5V"/>
+<wire x1="227.33" y1="187.96" x2="227.33" y2="182.88" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="MAG_CUR_SEN_X" class="0">
 <segment>
@@ -13946,15 +13987,6 @@ physically to board</text>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="C131" gate="G$1" pin="1"/>
-<pinref part="U1" gate="G$1" pin="VCC"/>
-<pinref part="+3V66" gate="G$1" pin="+3V3"/>
-<wire x1="227.33" y1="71.12" x2="227.33" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="227.33" y1="73.66" x2="227.33" y2="74.93" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="73.66" x2="227.33" y2="73.66" width="0.1524" layer="91"/>
-<junction x="227.33" y="73.66"/>
-</segment>
-<segment>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <pinref part="R31" gate="G$1" pin="2"/>
 </segment>
@@ -14141,26 +14173,6 @@ physically to board</text>
 <pinref part="R28" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<wire x1="227.33" y1="129.54" x2="227.33" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="VCC"/>
-<pinref part="C123" gate="G$1" pin="1"/>
-<wire x1="227.33" y1="132.08" x2="227.33" y2="133.35" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="132.08" x2="227.33" y2="132.08" width="0.1524" layer="91"/>
-<junction x="227.33" y="132.08"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="U8" gate="G$1" pin="VCC"/>
-<wire x1="227.33" y1="184.15" x2="227.33" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="C27" gate="G$1" pin="1"/>
-<wire x1="227.33" y1="182.88" x2="227.33" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="182.88" x2="227.33" y2="182.88" width="0.1524" layer="91"/>
-<junction x="227.33" y="182.88"/>
-</segment>
-</net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="R33" gate="G$1" pin="1"/>
@@ -14183,7 +14195,7 @@ physically to board</text>
 </sheet>
 <sheet>
 <plain>
-<text x="261.62" y="7.62" size="2.54" layer="94">A</text>
+<text x="261.62" y="7.62" size="2.54" layer="94">A.1</text>
 <text x="124.46" y="119.38" size="1.778" layer="97">3V3 Present Signal</text>
 <text x="172.72" y="91.44" size="1.778" layer="97">5V Present Signal</text>
 <text x="53.34" y="22.86" size="1.778" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE">FIN
@@ -14319,6 +14331,7 @@ Reverse (PWM mode B)</text>
 <attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 <attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
+<attribute name="DESIGNER" x="196.85" y="11.43" size="2.54" layer="94"/>
 </instance>
 <instance part="SUPPLY41" gate="GND" x="43.18" y="91.44" smashed="yes" grouprefs="INDICATOR_LEDS_POWER">
 <attribute name="VALUE" x="41.275" y="88.265" size="1.778" layer="96"/>
@@ -14587,7 +14600,7 @@ RETRY: Auto retry timing configurable with cap (see datasheet Eq2 for value)</te
 - Floating: Trapezoidal operation mode with 30° Hall placement
 
 Trapezoidal control selected. Requires hall sensors unlike sinusoidal</text>
-<text x="261.62" y="7.62" size="2.54" layer="94">A</text>
+<text x="261.62" y="7.62" size="2.54" layer="94">A.1</text>
 <text x="17.78" y="22.86" size="1.778" layer="97">3-Pin header Jumper on this Rev for 
 testing both mode configurations</text>
 </plain>
@@ -14598,6 +14611,7 @@ testing both mode configurations</text>
 <attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 <attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
+<attribute name="DESIGNER" x="196.85" y="11.43" size="2.54" layer="94"/>
 </instance>
 <instance part="P+15" gate="1" x="30.48" y="177.8" smashed="yes">
 <attribute name="VALUE" x="33.02" y="180.34" size="1.778" layer="96" rot="R180"/>
@@ -15372,7 +15386,7 @@ testing both mode configurations</text>
 <plain>
 <text x="76.2" y="63.5" size="1.778" layer="97" rot="MR0">NC</text>
 <text x="111.76" y="53.34" size="1.778" layer="97">NC</text>
-<text x="261.62" y="7.62" size="2.54" layer="94">A</text>
+<text x="261.62" y="7.62" size="2.54" layer="94">A.1</text>
 <text x="175.26" y="208.28" size="1.778" layer="97">Hall sensors on Maxon motor require external pull-up resistor</text>
 <text x="68.58" y="200.66" size="1.778" layer="97">Only Z-axis Reaction wheel mounted physically to PCB</text>
 </plain>
@@ -15419,6 +15433,7 @@ testing both mode configurations</text>
 <attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 <attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
+<attribute name="DESIGNER" x="196.85" y="11.43" size="2.54" layer="94"/>
 </instance>
 <instance part="J19" gate="G$1" x="248.92" y="175.26" smashed="yes">
 <attribute name="NAME" x="241.3" y="194.31" size="1.27" layer="95" ratio="10"/>
