@@ -18361,6 +18361,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="DESIGNER" value=""/>
 <attribute name="REV#" value=""/>
 </part>
+<part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="5.1M"/>
+<part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18698,6 +18700,13 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="REV#" x="261.62" y="7.62" size="2.54" layer="94"/>
 <attribute name="DESIGNER" x="196.85" y="11.43" size="2.54" layer="94"/>
 </instance>
+<instance part="R4" gate="G$1" x="233.68" y="93.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="232.1814" y="92.71" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="236.982" y="92.71" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY3" gate="GND" x="233.68" y="86.36" smashed="yes">
+<attribute name="VALUE" x="231.775" y="83.185" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19001,6 +19010,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 <pinref part="TP4" gate="G$1" pin="TP"/>
 </segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="SUPPLY3" gate="GND" pin="GND"/>
+</segment>
 </net>
 <net name="N$7" class="0">
 <segment>
@@ -19208,6 +19221,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="228.6" y1="104.14" x2="228.6" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="TP2" gate="G$1" pin="TP"/>
 <wire x1="228.6" y1="99.06" x2="233.68" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<junction x="233.68" y="99.06"/>
 </segment>
 </net>
 </nets>

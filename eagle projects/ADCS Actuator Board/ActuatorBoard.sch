@@ -13094,6 +13094,10 @@ Source: www.kingbright.com</description>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="SUPPLY40" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R46" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="SUPPLY47" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13101,6 +13105,7 @@ Source: www.kingbright.com</description>
 <text x="261.62" y="7.62" size="2.54" layer="94">A.1</text>
 <text x="127" y="132.08" size="1.778" layer="97">Only X and Y magnetorquer mounted
 physically to board</text>
+<text x="190.5" y="11.43" size="2.54" layer="94">J. Smith, T. Christison</text>
 </plain>
 <instances>
 <instance part="MX" gate="G$1" x="139.7" y="193.04" smashed="yes">
@@ -13148,16 +13153,16 @@ physically to board</text>
 <instance part="SUPPLY115" gate="GND" x="129.54" y="12.7" smashed="yes">
 <attribute name="VALUE" x="127.635" y="9.525" size="1.778" layer="96"/>
 </instance>
-<instance part="C43" gate="G$1" x="137.16" y="22.86" smashed="yes">
-<attribute name="NAME" x="140.97" y="20.955" size="1.778" layer="95"/>
-<attribute name="VALUE" x="140.716" y="18.669" size="1.778" layer="96"/>
+<instance part="C43" gate="G$1" x="139.7" y="22.86" smashed="yes">
+<attribute name="NAME" x="143.51" y="20.955" size="1.778" layer="95"/>
+<attribute name="VALUE" x="143.256" y="18.669" size="1.778" layer="96"/>
 </instance>
 <instance part="R13" gate="G$1" x="144.78" y="25.4" smashed="yes">
 <attribute name="NAME" x="140.97" y="29.4386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="146.05" y="28.702" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY116" gate="GND" x="137.16" y="12.7" smashed="yes">
-<attribute name="VALUE" x="135.255" y="9.525" size="1.778" layer="96"/>
+<instance part="SUPPLY116" gate="GND" x="139.7" y="12.7" smashed="yes">
+<attribute name="VALUE" x="137.795" y="9.525" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V61" gate="G$1" x="40.64" y="33.02" smashed="yes">
 <attribute name="VALUE" x="43.18" y="35.56" size="1.778" layer="96" rot="R180"/>
@@ -13479,6 +13484,13 @@ physically to board</text>
 <instance part="P+20" gate="1" x="227.33" y="81.28" smashed="yes">
 <attribute name="VALUE" x="229.87" y="83.82" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="R45" gate="G$1" x="147.32" y="5.08" smashed="yes">
+<attribute name="NAME" x="143.51" y="9.1186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="148.59" y="8.382" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY40" gate="GND" x="154.94" y="5.08" smashed="yes" rot="R90">
+<attribute name="VALUE" x="158.115" y="3.175" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13583,7 +13595,7 @@ physically to board</text>
 <segment>
 <pinref part="SUPPLY116" gate="GND" pin="GND"/>
 <pinref part="C43" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="15.24" x2="137.16" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="15.24" x2="139.7" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C37" gate="G$1" pin="2"/>
@@ -13678,6 +13690,10 @@ physically to board</text>
 <segment>
 <pinref part="R38" gate="G$1" pin="1"/>
 <pinref part="SUPPLY23" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R45" gate="G$1" pin="2"/>
+<pinref part="SUPPLY40" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -14044,10 +14060,9 @@ physically to board</text>
 <segment>
 <pinref part="C43" gate="G$1" pin="1"/>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="25.4" x2="139.7" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="!SHDN"/>
-<wire x1="137.16" y1="25.4" x2="127" y2="25.4" width="0.1524" layer="91"/>
-<junction x="137.16" y="25.4"/>
+<wire x1="139.7" y1="25.4" x2="127" y2="25.4" width="0.1524" layer="91"/>
+<junction x="139.7" y="25.4"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -14191,6 +14206,15 @@ physically to board</text>
 <pinref part="R28" gate="G$1" pin="1"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="BUSY"/>
+<wire x1="127" y1="22.86" x2="134.62" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="22.86" x2="134.62" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="R45" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="5.08" x2="134.62" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -14280,6 +14304,7 @@ Reverse (PWM mode B)</text>
 <wire x1="81.28" y1="50.8" x2="81.28" y2="20.32" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
 <wire x1="91.44" y1="50.8" x2="91.44" y2="20.32" width="0.1524" layer="97" grouprefs="BD621F-EF_LOGIC_TABLE"/>
 <wire x1="40.64" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="97" style="shortdash" grouprefs="BD621F-EF_LOGIC_TABLE"/>
+<text x="191.77" y="11.43" size="2.54" layer="94">J. Smith, T. Christison</text>
 </plain>
 <instances>
 <instance part="MH5" gate="G$1" x="106.68" y="175.26" smashed="yes" grouprefs="BOARD_MOUNTING_HOLES">
@@ -14603,6 +14628,7 @@ Trapezoidal control selected. Requires hall sensors unlike sinusoidal</text>
 <text x="261.62" y="7.62" size="2.54" layer="94">A.1</text>
 <text x="17.78" y="22.86" size="1.778" layer="97">3-Pin header Jumper on this Rev for 
 testing both mode configurations</text>
+<text x="191.77" y="11.43" size="2.54" layer="94">J. Smith, T. Christison</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -15389,6 +15415,7 @@ testing both mode configurations</text>
 <text x="261.62" y="7.62" size="2.54" layer="94">A.1</text>
 <text x="175.26" y="208.28" size="1.778" layer="97">Hall sensors on Maxon motor require external pull-up resistor</text>
 <text x="68.58" y="200.66" size="1.778" layer="97">Only Z-axis Reaction wheel mounted physically to PCB</text>
+<text x="191.77" y="11.43" size="2.54" layer="94">J. Smith, T. Christison</text>
 </plain>
 <instances>
 <instance part="P+47" gate="1" x="53.34" y="198.12" smashed="yes">
@@ -15512,22 +15539,22 @@ testing both mode configurations</text>
 <instance part="SUPPLY32" gate="GND" x="124.46" y="106.68" smashed="yes">
 <attribute name="VALUE" x="122.555" y="103.505" size="1.778" layer="96"/>
 </instance>
-<instance part="C23" gate="G$1" x="132.08" y="116.84" smashed="yes">
-<attribute name="NAME" x="135.89" y="114.935" size="1.778" layer="95"/>
-<attribute name="VALUE" x="135.636" y="112.649" size="1.778" layer="96"/>
+<instance part="C23" gate="G$1" x="134.62" y="116.84" smashed="yes">
+<attribute name="NAME" x="138.43" y="114.935" size="1.778" layer="95"/>
+<attribute name="VALUE" x="138.176" y="112.649" size="1.778" layer="96"/>
 </instance>
-<instance part="R14" gate="G$1" x="139.7" y="119.38" smashed="yes">
-<attribute name="NAME" x="135.89" y="123.4186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="140.97" y="122.682" size="1.778" layer="96" rot="R180"/>
+<instance part="R14" gate="G$1" x="144.78" y="119.38" smashed="yes">
+<attribute name="NAME" x="140.97" y="123.4186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="146.05" y="122.682" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY33" gate="GND" x="132.08" y="106.68" smashed="yes">
-<attribute name="VALUE" x="130.175" y="103.505" size="1.778" layer="96"/>
+<instance part="SUPPLY33" gate="GND" x="134.62" y="106.68" smashed="yes">
+<attribute name="VALUE" x="132.715" y="103.505" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V60" gate="G$1" x="33.02" y="127" smashed="yes">
 <attribute name="VALUE" x="35.56" y="129.54" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V65" gate="G$1" x="144.78" y="127" smashed="yes">
-<attribute name="VALUE" x="147.32" y="129.54" size="1.778" layer="96" rot="R180"/>
+<instance part="+3V65" gate="G$1" x="149.86" y="127" smashed="yes">
+<attribute name="VALUE" x="152.4" y="129.54" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY34" gate="GND" x="53.34" y="111.76" smashed="yes">
 <attribute name="VALUE" x="51.435" y="108.585" size="1.778" layer="96"/>
@@ -15730,6 +15757,13 @@ testing both mode configurations</text>
 <instance part="R44" gate="G$1" x="144.78" y="53.34" smashed="yes">
 <attribute name="NAME" x="145.7706" y="50.546" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="142.748" y="50.8" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R46" gate="G$1" x="129.54" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="125.5014" y="95.25" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="126.238" y="100.33" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY47" gate="GND" x="129.54" y="91.44" smashed="yes">
+<attribute name="VALUE" x="127.635" y="88.265" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -15994,7 +16028,7 @@ testing both mode configurations</text>
 <segment>
 <pinref part="SUPPLY33" gate="GND" pin="GND"/>
 <pinref part="C23" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="109.22" x2="132.08" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="109.22" x2="134.62" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C21" gate="G$1" pin="2"/>
@@ -16060,6 +16094,10 @@ testing both mode configurations</text>
 <pinref part="SUPPLY29" gate="GND" pin="GND"/>
 <wire x1="67.31" y1="77.47" x2="67.31" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="67.31" y1="81.28" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R46" gate="G$1" pin="1"/>
+<pinref part="SUPPLY47" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="Z_HALL_B" class="0">
@@ -16255,7 +16293,7 @@ testing both mode configurations</text>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="119.38" x2="144.78" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="119.38" x2="149.86" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="+3V65" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
@@ -16364,10 +16402,10 @@ testing both mode configurations</text>
 <segment>
 <pinref part="C23" gate="G$1" pin="1"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="119.38" x2="139.7" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U3" gate="A" pin="!SHDN"/>
-<wire x1="132.08" y1="119.38" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
-<junction x="132.08" y="119.38"/>
+<wire x1="134.62" y1="119.38" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
+<junction x="134.62" y="119.38"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -16515,6 +16553,14 @@ testing both mode configurations</text>
 <pinref part="R44" gate="G$1" pin="1"/>
 <pinref part="U7" gate="G$1" pin="CMTMOD"/>
 <wire x1="139.7" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U3" gate="A" pin="BUSY"/>
+<wire x1="121.92" y1="116.84" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="104.14" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="R46" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>

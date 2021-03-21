@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -20782,6 +20782,16 @@ Source: www.kingbright.com</description>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="+3V23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="5.1M"/>
+<part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="5.1M"/>
+<part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20790,6 +20800,8 @@ Source: www.kingbright.com</description>
 photodiodes mechanically to board</text>
 <text x="210.82" y="185.42" size="1.778" layer="97" grouprefs="MSP430_BOARD_SENSOR">NC</text>
 <text x="210.82" y="182.88" size="1.778" layer="97" grouprefs="MSP430_BOARD_SENSOR">NC</text>
+<text x="261.62" y="7.62" size="2.54" layer="94">A</text>
+<text x="191.77" y="11.43" size="2.54" layer="94">Thomas Christison</text>
 </plain>
 <instances>
 <instance part="MH5" gate="G$1" x="43.18" y="10.16" smashed="yes">
@@ -20884,12 +20896,12 @@ photodiodes mechanically to board</text>
 <instance part="TP1" gate="G$1" x="127" y="132.08" smashed="yes">
 <attribute name="NAME" x="125.73" y="133.35" size="1.778" layer="95"/>
 </instance>
-<instance part="C22" gate="G$1" x="246.38" y="104.14" smashed="yes">
-<attribute name="NAME" x="240.284" y="104.521" size="1.778" layer="95"/>
-<attribute name="VALUE" x="240.284" y="99.441" size="1.778" layer="96"/>
+<instance part="C22" gate="G$1" x="248.92" y="104.14" smashed="yes">
+<attribute name="NAME" x="242.824" y="104.521" size="1.778" layer="95"/>
+<attribute name="VALUE" x="242.824" y="99.441" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY32" gate="GND" x="246.38" y="96.52" smashed="yes">
-<attribute name="VALUE" x="244.475" y="93.345" size="1.778" layer="96"/>
+<instance part="SUPPLY32" gate="GND" x="248.92" y="96.52" smashed="yes">
+<attribute name="VALUE" x="247.015" y="93.345" size="1.778" layer="96"/>
 </instance>
 <instance part="C25" gate="G$1" x="106.68" y="193.04" smashed="yes">
 <attribute name="NAME" x="108.204" y="193.421" size="1.778" layer="95"/>
@@ -21113,6 +21125,13 @@ photodiodes mechanically to board</text>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="12.7" y="147.32" smashed="yes" grouprefs="POWER">
 <attribute name="VALUE" x="10.795" y="144.145" size="1.778" layer="96"/>
+</instance>
+<instance part="R17" gate="G$1" x="233.68" y="93.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="232.1814" y="92.71" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="236.982" y="92.71" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY17" gate="GND" x="233.68" y="86.36" smashed="yes">
+<attribute name="VALUE" x="231.775" y="83.185" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -21416,6 +21435,10 @@ photodiodes mechanically to board</text>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="12.7" y1="149.86" x2="12.7" y2="152.4" width="0.1524" layer="91" grouprefs="POWER"/>
 </segment>
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="SUPPLY17" gate="GND" pin="GND"/>
+</segment>
 </net>
 <net name="N$7" class="0">
 <segment>
@@ -21582,9 +21605,9 @@ photodiodes mechanically to board</text>
 <segment>
 <pinref part="U2" gate="A" pin="!SHDN"/>
 <pinref part="C22" gate="G$1" pin="1"/>
-<wire x1="246.38" y1="106.68" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
-<junction x="246.38" y="106.68"/>
-<wire x1="251.46" y1="106.68" x2="246.38" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="106.68" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
+<junction x="248.92" y="106.68"/>
+<wire x1="251.46" y1="106.68" x2="248.92" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -21616,6 +21639,8 @@ photodiodes mechanically to board</text>
 <wire x1="228.6" y1="104.14" x2="228.6" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="TP2" gate="G$1" pin="TP"/>
 <wire x1="228.6" y1="99.06" x2="233.68" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<junction x="233.68" y="99.06"/>
 </segment>
 </net>
 <net name="!CS!_SUN_X+" class="0">
@@ -21677,6 +21702,7 @@ photodiodes mechanically to board</text>
 <sheet>
 <plain>
 <text x="261.62" y="7.62" size="2.54" layer="94">A</text>
+<text x="190.5" y="11.43" size="2.54" layer="94">Thomas Christison</text>
 </plain>
 <instances>
 <instance part="U25" gate="A" x="200.66" y="109.22" smashed="yes">
@@ -21731,12 +21757,12 @@ photodiodes mechanically to board</text>
 <instance part="SUPPLY129" gate="GND" x="233.68" y="83.82" smashed="yes">
 <attribute name="VALUE" x="231.775" y="80.645" size="1.778" layer="96"/>
 </instance>
-<instance part="C102" gate="G$1" x="241.3" y="93.98" smashed="yes">
-<attribute name="NAME" x="242.824" y="89.281" size="1.778" layer="95"/>
-<attribute name="VALUE" x="242.824" y="86.741" size="1.778" layer="96"/>
+<instance part="C102" gate="G$1" x="243.84" y="93.98" smashed="yes">
+<attribute name="NAME" x="245.364" y="89.281" size="1.778" layer="95"/>
+<attribute name="VALUE" x="245.364" y="86.741" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY130" gate="GND" x="241.3" y="83.82" smashed="yes">
-<attribute name="VALUE" x="239.395" y="80.645" size="1.778" layer="96"/>
+<instance part="SUPPLY130" gate="GND" x="243.84" y="83.82" smashed="yes">
+<attribute name="VALUE" x="241.935" y="80.645" size="1.778" layer="96"/>
 </instance>
 <instance part="C103" gate="G$1" x="114.3" y="182.88" smashed="yes">
 <attribute name="NAME" x="115.824" y="183.261" size="1.778" layer="95"/>
@@ -21939,6 +21965,13 @@ photodiodes mechanically to board</text>
 <instance part="SUPPLY10" gate="GND" x="35.56" y="99.06" smashed="yes">
 <attribute name="VALUE" x="33.655" y="95.885" size="1.778" layer="96"/>
 </instance>
+<instance part="R16" gate="G$1" x="238.76" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="237.2614" y="69.85" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="242.062" y="69.85" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY16" gate="GND" x="238.76" y="66.04" smashed="yes">
+<attribute name="VALUE" x="236.855" y="62.865" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -22015,7 +22048,7 @@ photodiodes mechanically to board</text>
 <segment>
 <pinref part="C102" gate="G$1" pin="2"/>
 <pinref part="SUPPLY130" gate="GND" pin="GND"/>
-<wire x1="241.3" y1="86.36" x2="241.3" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="86.36" x2="243.84" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C103" gate="G$1" pin="2"/>
@@ -22099,6 +22132,10 @@ photodiodes mechanically to board</text>
 <wire x1="35.56" y1="104.14" x2="35.56" y2="101.6" width="0.1524" layer="91"/>
 <junction x="35.56" y="104.14"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="SUPPLY16" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="N$49" class="0">
@@ -22293,9 +22330,9 @@ photodiodes mechanically to board</text>
 <segment>
 <pinref part="U25" gate="A" pin="!SHDN"/>
 <pinref part="C102" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="96.52" x2="228.6" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="96.52" x2="246.38" y2="96.52" width="0.1524" layer="91"/>
-<junction x="241.3" y="96.52"/>
+<wire x1="243.84" y1="96.52" x2="228.6" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="96.52" x2="246.38" y2="96.52" width="0.1524" layer="91"/>
+<junction x="243.84" y="96.52"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -22372,11 +22409,20 @@ photodiodes mechanically to board</text>
 <wire x1="137.16" y1="111.76" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$51" class="0">
+<segment>
+<pinref part="U25" gate="A" pin="BUSY"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="93.98" x2="238.76" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="93.98" x2="238.76" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
 <plain>
 <text x="261.62" y="7.62" size="2.54" layer="94">A</text>
+<text x="190.5" y="11.43" size="2.54" layer="94">Thomas Christison</text>
 </plain>
 <instances>
 <instance part="U13" gate="A" x="198.12" y="114.3" smashed="yes">
@@ -22431,12 +22477,12 @@ photodiodes mechanically to board</text>
 <instance part="SUPPLY100" gate="GND" x="231.14" y="88.9" smashed="yes">
 <attribute name="VALUE" x="229.235" y="85.725" size="1.778" layer="96"/>
 </instance>
-<instance part="C51" gate="G$1" x="238.76" y="99.06" smashed="yes">
-<attribute name="NAME" x="242.824" y="96.901" size="1.778" layer="95"/>
-<attribute name="VALUE" x="242.824" y="94.361" size="1.778" layer="96"/>
+<instance part="C51" gate="G$1" x="241.3" y="99.06" smashed="yes">
+<attribute name="NAME" x="245.364" y="96.901" size="1.778" layer="95"/>
+<attribute name="VALUE" x="245.364" y="94.361" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY101" gate="GND" x="238.76" y="88.9" smashed="yes">
-<attribute name="VALUE" x="236.855" y="85.725" size="1.778" layer="96"/>
+<instance part="SUPPLY101" gate="GND" x="241.3" y="88.9" smashed="yes">
+<attribute name="VALUE" x="239.395" y="85.725" size="1.778" layer="96"/>
 </instance>
 <instance part="C52" gate="G$1" x="111.76" y="187.96" smashed="yes">
 <attribute name="NAME" x="113.284" y="188.341" size="1.778" layer="95"/>
@@ -22576,9 +22622,9 @@ photodiodes mechanically to board</text>
 <attribute name="NAME" x="95.504" y="23.241" size="1.778" layer="95"/>
 <attribute name="VALUE" x="105.664" y="23.241" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="251.46" y="101.6" smashed="yes">
-<attribute name="NAME" x="247.65" y="103.0986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="247.65" y="98.298" size="1.778" layer="96"/>
+<instance part="R5" gate="G$1" x="256.54" y="101.6" smashed="yes">
+<attribute name="NAME" x="252.73" y="103.0986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="252.73" y="98.298" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V9" gate="G$1" x="63.5" y="190.5" smashed="yes">
 <attribute name="VALUE" x="66.04" y="193.04" size="1.778" layer="96" rot="R180"/>
@@ -22607,8 +22653,8 @@ photodiodes mechanically to board</text>
 <instance part="+3V35" gate="G$1" x="63.5" y="71.12" smashed="yes">
 <attribute name="VALUE" x="66.04" y="73.66" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V36" gate="G$1" x="256.54" y="109.22" smashed="yes">
-<attribute name="VALUE" x="259.08" y="111.76" size="1.778" layer="96" rot="R180"/>
+<instance part="+3V36" gate="G$1" x="261.62" y="109.22" smashed="yes">
+<attribute name="VALUE" x="264.16" y="111.76" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="TP13" gate="G$1" x="132.08" y="124.46" smashed="yes">
 <attribute name="NAME" x="130.81" y="125.73" size="1.778" layer="95"/>
@@ -22638,6 +22684,13 @@ photodiodes mechanically to board</text>
 </instance>
 <instance part="SUPPLY11" gate="GND" x="30.48" y="93.98" smashed="yes">
 <attribute name="VALUE" x="28.575" y="90.805" size="1.778" layer="96"/>
+</instance>
+<instance part="R12" gate="G$1" x="236.22" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="234.7214" y="72.39" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="239.522" y="72.39" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY15" gate="GND" x="236.22" y="68.58" smashed="yes">
+<attribute name="VALUE" x="234.315" y="65.405" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -22763,7 +22816,7 @@ photodiodes mechanically to board</text>
 <segment>
 <pinref part="+3V36" gate="G$1" pin="+3V3"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="256.54" y1="106.68" x2="256.54" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="106.68" x2="261.62" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -22810,7 +22863,7 @@ photodiodes mechanically to board</text>
 <segment>
 <pinref part="C51" gate="G$1" pin="2"/>
 <pinref part="SUPPLY101" gate="GND" pin="GND"/>
-<wire x1="238.76" y1="91.44" x2="238.76" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="91.44" x2="241.3" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C52" gate="G$1" pin="2"/>
@@ -22894,6 +22947,10 @@ photodiodes mechanically to board</text>
 <wire x1="30.48" y1="99.06" x2="30.48" y2="96.52" width="0.1524" layer="91"/>
 <junction x="30.48" y="99.06"/>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="SUPPLY15" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="N$38" class="0">
@@ -22993,9 +23050,9 @@ photodiodes mechanically to board</text>
 <segment>
 <pinref part="U13" gate="A" pin="!SHDN"/>
 <pinref part="C51" gate="G$1" pin="1"/>
-<wire x1="238.76" y1="101.6" x2="226.06" y2="101.6" width="0.1524" layer="91"/>
-<junction x="238.76" y="101.6"/>
-<wire x1="238.76" y1="101.6" x2="246.38" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="101.6" x2="226.06" y2="101.6" width="0.1524" layer="91"/>
+<junction x="241.3" y="101.6"/>
+<wire x1="241.3" y1="101.6" x2="251.46" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -23072,11 +23129,20 @@ photodiodes mechanically to board</text>
 <pinref part="TP13" gate="G$1" pin="TP"/>
 </segment>
 </net>
+<net name="N$50" class="0">
+<segment>
+<pinref part="U13" gate="A" pin="BUSY"/>
+<wire x1="226.06" y1="99.06" x2="236.22" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="236.22" y1="99.06" x2="236.22" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
 <plain>
 <text x="261.62" y="7.62" size="2.54" layer="94">A</text>
+<text x="190.5" y="11.43" size="2.54" layer="94">Thomas Christison</text>
 </plain>
 <instances>
 <instance part="U27" gate="A" x="205.74" y="114.3" smashed="yes">
@@ -23131,12 +23197,12 @@ photodiodes mechanically to board</text>
 <instance part="SUPPLY153" gate="GND" x="238.76" y="88.9" smashed="yes">
 <attribute name="VALUE" x="236.855" y="85.725" size="1.778" layer="96"/>
 </instance>
-<instance part="C95" gate="G$1" x="248.92" y="99.06" smashed="yes">
-<attribute name="NAME" x="250.444" y="94.361" size="1.778" layer="95"/>
-<attribute name="VALUE" x="250.444" y="91.821" size="1.778" layer="96"/>
+<instance part="C95" gate="G$1" x="251.46" y="99.06" smashed="yes">
+<attribute name="NAME" x="252.984" y="94.361" size="1.778" layer="95"/>
+<attribute name="VALUE" x="252.984" y="91.821" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY154" gate="GND" x="248.92" y="88.9" smashed="yes">
-<attribute name="VALUE" x="247.015" y="85.725" size="1.778" layer="96"/>
+<instance part="SUPPLY154" gate="GND" x="251.46" y="88.9" smashed="yes">
+<attribute name="VALUE" x="249.555" y="85.725" size="1.778" layer="96"/>
 </instance>
 <instance part="C96" gate="G$1" x="119.38" y="187.96" smashed="yes">
 <attribute name="NAME" x="120.904" y="188.341" size="1.778" layer="95"/>
@@ -23339,6 +23405,13 @@ photodiodes mechanically to board</text>
 <instance part="SUPPLY13" gate="GND" x="27.94" y="81.28" smashed="yes">
 <attribute name="VALUE" x="26.035" y="78.105" size="1.778" layer="96"/>
 </instance>
+<instance part="R18" gate="G$1" x="246.38" y="78.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="244.8814" y="74.93" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="249.682" y="74.93" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY18" gate="GND" x="246.38" y="71.12" smashed="yes">
+<attribute name="VALUE" x="244.475" y="67.945" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23510,7 +23583,7 @@ photodiodes mechanically to board</text>
 <segment>
 <pinref part="C95" gate="G$1" pin="2"/>
 <pinref part="SUPPLY154" gate="GND" pin="GND"/>
-<wire x1="248.92" y1="91.44" x2="248.92" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="91.44" x2="251.46" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C96" gate="G$1" pin="2"/>
@@ -23595,6 +23668,10 @@ photodiodes mechanically to board</text>
 <wire x1="27.94" y1="86.36" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="SUPPLY18" gate="GND" pin="GND"/>
+</segment>
 </net>
 <net name="N$61" class="0">
 <segment>
@@ -23669,10 +23746,10 @@ photodiodes mechanically to board</text>
 <segment>
 <pinref part="U27" gate="A" pin="!SHDN"/>
 <pinref part="C95" gate="G$1" pin="1"/>
-<wire x1="248.92" y1="101.6" x2="233.68" y2="101.6" width="0.1524" layer="91"/>
-<junction x="248.92" y="101.6"/>
+<wire x1="251.46" y1="101.6" x2="233.68" y2="101.6" width="0.1524" layer="91"/>
+<junction x="251.46" y="101.6"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="254" y1="101.6" x2="248.92" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="254" y1="101.6" x2="251.46" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="Y+_0_DEGREES" class="0">
@@ -23770,11 +23847,20 @@ photodiodes mechanically to board</text>
 <wire x1="50.8" y1="160.02" x2="71.12" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$52" class="0">
+<segment>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="246.38" y1="83.82" x2="246.38" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="U27" gate="A" pin="BUSY"/>
+<wire x1="246.38" y1="99.06" x2="233.68" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
 <plain>
 <text x="261.62" y="7.62" size="2.54" layer="94">A</text>
+<text x="191.77" y="11.43" size="2.54" layer="94">Thomas Christison</text>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="205.74" y="124.46" smashed="yes">
@@ -23829,12 +23915,12 @@ photodiodes mechanically to board</text>
 <instance part="SUPPLY61" gate="GND" x="238.76" y="99.06" smashed="yes">
 <attribute name="VALUE" x="236.855" y="95.885" size="1.778" layer="96"/>
 </instance>
-<instance part="C81" gate="G$1" x="246.38" y="109.22" smashed="yes">
-<attribute name="NAME" x="247.904" y="104.521" size="1.778" layer="95"/>
-<attribute name="VALUE" x="247.904" y="101.981" size="1.778" layer="96"/>
+<instance part="C81" gate="G$1" x="248.92" y="109.22" smashed="yes">
+<attribute name="NAME" x="250.444" y="104.521" size="1.778" layer="95"/>
+<attribute name="VALUE" x="250.444" y="101.981" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY62" gate="GND" x="246.38" y="99.06" smashed="yes">
-<attribute name="VALUE" x="244.475" y="95.885" size="1.778" layer="96"/>
+<instance part="SUPPLY62" gate="GND" x="248.92" y="99.06" smashed="yes">
+<attribute name="VALUE" x="247.015" y="95.885" size="1.778" layer="96"/>
 </instance>
 <instance part="C82" gate="G$1" x="119.38" y="198.12" smashed="yes">
 <attribute name="NAME" x="120.904" y="198.501" size="1.778" layer="95"/>
@@ -23974,9 +24060,9 @@ photodiodes mechanically to board</text>
 <attribute name="NAME" x="103.124" y="33.401" size="1.778" layer="95"/>
 <attribute name="VALUE" x="113.284" y="33.401" size="1.778" layer="96"/>
 </instance>
-<instance part="R10" gate="G$1" x="254" y="111.76" smashed="yes">
-<attribute name="NAME" x="250.19" y="113.2586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="250.19" y="108.458" size="1.778" layer="96"/>
+<instance part="R10" gate="G$1" x="256.54" y="111.76" smashed="yes">
+<attribute name="NAME" x="252.73" y="113.2586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="252.73" y="108.458" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V47" gate="G$1" x="71.12" y="200.66" smashed="yes">
 <attribute name="VALUE" x="73.66" y="203.2" size="1.778" layer="96" rot="R180"/>
@@ -24005,8 +24091,8 @@ photodiodes mechanically to board</text>
 <instance part="+3V55" gate="G$1" x="152.4" y="114.3" smashed="yes">
 <attribute name="VALUE" x="154.94" y="116.84" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V56" gate="G$1" x="259.08" y="119.38" smashed="yes">
-<attribute name="VALUE" x="261.62" y="121.92" size="1.778" layer="96" rot="R180"/>
+<instance part="+3V56" gate="G$1" x="261.62" y="119.38" smashed="yes">
+<attribute name="VALUE" x="264.16" y="121.92" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="TP22" gate="G$1" x="139.7" y="132.08" smashed="yes">
 <attribute name="NAME" x="138.43" y="133.35" size="1.778" layer="95"/>
@@ -24036,6 +24122,13 @@ photodiodes mechanically to board</text>
 </instance>
 <instance part="SUPPLY14" gate="GND" x="33.02" y="91.44" smashed="yes">
 <attribute name="VALUE" x="31.115" y="88.265" size="1.778" layer="96"/>
+</instance>
+<instance part="R21" gate="G$1" x="243.84" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="242.3414" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="247.142" y="85.09" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY19" gate="GND" x="243.84" y="81.28" smashed="yes">
+<attribute name="VALUE" x="241.935" y="78.105" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -24161,7 +24254,7 @@ photodiodes mechanically to board</text>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="+3V56" gate="G$1" pin="+3V3"/>
-<wire x1="259.08" y1="111.76" x2="259.08" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="111.76" x2="261.62" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -24208,7 +24301,7 @@ photodiodes mechanically to board</text>
 <segment>
 <pinref part="C81" gate="G$1" pin="2"/>
 <pinref part="SUPPLY62" gate="GND" pin="GND"/>
-<wire x1="246.38" y1="101.6" x2="246.38" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="101.6" x2="248.92" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C82" gate="G$1" pin="2"/>
@@ -24292,6 +24385,10 @@ photodiodes mechanically to board</text>
 <wire x1="33.02" y1="96.52" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
 <junction x="33.02" y="96.52"/>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="SUPPLY19" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="Y-_240_DEGREES" class="0">
@@ -24434,10 +24531,10 @@ photodiodes mechanically to board</text>
 <segment>
 <pinref part="U1" gate="A" pin="!SHDN"/>
 <pinref part="C81" gate="G$1" pin="1"/>
-<wire x1="246.38" y1="111.76" x2="233.68" y2="111.76" width="0.1524" layer="91"/>
-<junction x="246.38" y="111.76"/>
-<wire x1="246.38" y1="111.76" x2="248.92" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="111.76" x2="233.68" y2="111.76" width="0.1524" layer="91"/>
+<junction x="251.46" y="111.76"/>
 <pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="251.46" y1="111.76" x2="248.92" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -24466,6 +24563,14 @@ photodiodes mechanically to board</text>
 <junction x="71.12" y="111.76"/>
 <pinref part="J5" gate="G$1" pin="3"/>
 <wire x1="33.02" y1="111.76" x2="71.12" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$53" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="BUSY"/>
+<wire x1="233.68" y1="109.22" x2="243.84" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="109.22" x2="243.84" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
