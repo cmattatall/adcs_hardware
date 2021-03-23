@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -11339,7 +11339,7 @@
 <rectangle x1="3.429" y1="-2.921" x2="4.191" y2="-1.905" layer="21"/>
 <rectangle x1="5.969" y1="-2.921" x2="6.731" y2="-1.905" layer="21"/>
 </package>
-<package name="CNC_3221-10-0300-00" library_version="136" library_locally_modified="yes">
+<package name="CNC_3221-10-0300-00" urn="urn:adsk.eagle:footprint:27602898/1" library_version="137" library_locally_modified="yes">
 <smd name="10" x="2.54" y="2.02" dx="0.65" dy="2.76" layer="1"/>
 <smd name="8" x="1.27" y="2.02" dx="0.65" dy="2.76" layer="1"/>
 <smd name="6" x="0" y="2.02" dx="0.65" dy="2.76" layer="1"/>
@@ -11361,7 +11361,7 @@
 <wire x1="-3.175" y1="-4.445" x2="-3.81" y2="-3.81" width="0.127" layer="21"/>
 <text x="-6.35" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 </package>
-<package name="CNC_3221-14-0300-00" library_version="137" library_locally_modified="yes">
+<package name="CNC_3221-14-0300-00" urn="urn:adsk.eagle:footprint:27621414/1" library_version="138">
 <smd name="12" x="2.54" y="2.02" dx="0.65" dy="2.76" layer="1"/>
 <smd name="10" x="1.27" y="2.02" dx="0.65" dy="2.76" layer="1"/>
 <smd name="8" x="0" y="2.02" dx="0.65" dy="2.76" layer="1"/>
@@ -11372,6 +11372,10 @@
 <smd name="7" x="0" y="-2.02" dx="0.65" dy="2.76" layer="1"/>
 <smd name="9" x="1.27" y="-2.02" dx="0.65" dy="2.76" layer="1"/>
 <smd name="11" x="2.54" y="-2.02" dx="0.65" dy="2.76" layer="1"/>
+<smd name="2" x="-3.81" y="2.02" dx="0.65" dy="2.76" layer="1"/>
+<smd name="14" x="3.81" y="2.02" dx="0.65" dy="2.76" layer="1"/>
+<smd name="13" x="3.81" y="-2.02" dx="0.65" dy="2.76" layer="1"/>
+<smd name="1" x="-3.81" y="-2.02" dx="0.65" dy="2.76" layer="1"/>
 <wire x1="-7.62" y1="2.5" x2="-7.62" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="7.62" y1="2.5" x2="7.62" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="7.62" y1="-2.5" x2="4.445" y2="-2.5" width="0.127" layer="21"/>
@@ -11382,10 +11386,6 @@
 <wire x1="-3.81" y1="-3.81" x2="-4.445" y2="-4.445" width="0.127" layer="21"/>
 <wire x1="-4.445" y1="-4.445" x2="-5.08" y2="-3.81" width="0.127" layer="21"/>
 <text x="-3.81" y="3.81" size="1.27" layer="25">&gt;NAME</text>
-<smd name="2" x="-3.81" y="2.02" dx="0.65" dy="2.76" layer="1"/>
-<smd name="14" x="3.81" y="2.02" dx="0.65" dy="2.76" layer="1"/>
-<smd name="13" x="3.81" y="-2.02" dx="0.65" dy="2.76" layer="1"/>
-<smd name="1" x="-3.81" y="-2.02" dx="0.65" dy="2.76" layer="1"/>
 </package>
 <package name="TE-1734829-3" urn="urn:adsk.eagle:footprint:27602900/1" library_version="137" library_locally_modified="yes">
 <pad name="1" x="0" y="0" drill="0.55" shape="square"/>
@@ -11532,9 +11532,19 @@
 <packageinstance name="1X06/90"/>
 </packageinstances>
 </package3d>
-<package3d name="TE-1734829-3" urn="urn:adsk.eagle:package:27602903/1" type="box" library_version="137" library_locally_modified="yes">
+<package3d name="TE-1734829-3" urn="urn:adsk.eagle:package:27602903/2" type="model" library_version="138">
 <packageinstances>
 <packageinstance name="TE-1734829-3"/>
+</packageinstances>
+</package3d>
+<package3d name="CNC_3221-10-0300-00" urn="urn:adsk.eagle:package:27602901/2" type="model" library_version="138">
+<packageinstances>
+<packageinstance name="CNC_3221-10-0300-00"/>
+</packageinstances>
+</package3d>
+<package3d name="CNC_3221-14-0300-00" urn="urn:adsk.eagle:package:27621415/1" type="box" library_version="138">
+<packageinstances>
+<packageinstance name="CNC_3221-14-0300-00"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -12041,7 +12051,7 @@ MOTION CO-PROCESSOR</text>
 <pin name="5" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="6" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
-<symbol name="CNC_3221-10-0300-00" library_version="136" library_locally_modified="yes">
+<symbol name="CNC_3221-10-0300-00" urn="urn:adsk.eagle:symbol:27602895/1" library_version="137" library_locally_modified="yes">
 <pin name="1" x="-10.16" y="10.16" length="middle"/>
 <pin name="2" x="10.16" y="10.16" length="middle" rot="R180"/>
 <pin name="3" x="-10.16" y="5.08" length="middle"/>
@@ -12059,7 +12069,7 @@ MOTION CO-PROCESSOR</text>
 <text x="-5.08" y="17.78" size="1.27" layer="95">&gt;NAME</text>
 <text x="-5.08" y="15.24" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="CNC_3221-14-0300-00" library_version="137" library_locally_modified="yes">
+<symbol name="CNC_3221-14-0300-00" urn="urn:adsk.eagle:symbol:27621412/1" library_version="138">
 <pin name="1" x="-10.16" y="10.16" length="middle"/>
 <pin name="2" x="10.16" y="10.16" length="middle" rot="R180"/>
 <pin name="3" x="-10.16" y="5.08" length="middle"/>
@@ -12070,16 +12080,16 @@ MOTION CO-PROCESSOR</text>
 <pin name="8" x="10.16" y="-5.08" length="middle" rot="R180"/>
 <pin name="9" x="-10.16" y="-10.16" length="middle"/>
 <pin name="10" x="10.16" y="-10.16" length="middle" rot="R180"/>
+<pin name="11" x="-10.16" y="-15.24" length="middle"/>
+<pin name="12" x="10.16" y="-15.24" length="middle" rot="R180"/>
+<pin name="13" x="-10.16" y="-20.32" length="middle"/>
+<pin name="14" x="10.16" y="-20.32" length="middle" rot="R180"/>
 <wire x1="-5.08" y1="12.7" x2="-5.08" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-22.86" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-22.86" x2="5.08" y2="12.7" width="0.254" layer="94"/>
 <wire x1="5.08" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
 <text x="-5.08" y="17.78" size="1.27" layer="95">&gt;NAME</text>
 <text x="-5.08" y="15.24" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="11" x="-10.16" y="-15.24" length="middle"/>
-<pin name="12" x="10.16" y="-15.24" length="middle" rot="R180"/>
-<pin name="13" x="-10.16" y="-20.32" length="middle"/>
-<pin name="14" x="10.16" y="-20.32" length="middle" rot="R180"/>
 </symbol>
 <symbol name="TE-1734829-3" urn="urn:adsk.eagle:symbol:27602896/1" library_version="137" library_locally_modified="yes">
 <pin name="5V" x="-5.08" y="2.54" length="middle"/>
@@ -12800,7 +12810,7 @@ MOTION CO-PROCESSOR</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CNC_3221-10-0300-00" prefix="J" library_version="136" library_locally_modified="yes">
+<deviceset name="CNC_3221-10-0300-00" urn="urn:adsk.eagle:component:27602904/2" prefix="J" library_version="138">
 <gates>
 <gate name="G$1" symbol="CNC_3221-10-0300-00" x="0" y="0"/>
 </gates>
@@ -12818,13 +12828,16 @@ MOTION CO-PROCESSOR</text>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27602901/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CNC_3221-14-0300-00" prefix="J" library_version="137" library_locally_modified="yes">
+<deviceset name="CNC_3221-14-0300-00" urn="urn:adsk.eagle:component:27621416/1" prefix="J" library_version="138">
 <gates>
 <gate name="G$1" symbol="CNC_3221-14-0300-00" x="0" y="5.08"/>
 </gates>
@@ -12846,13 +12859,16 @@ MOTION CO-PROCESSOR</text>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27621415/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TE-1734829-3" urn="urn:adsk.eagle:component:27602906/1" prefix="J" library_version="137" library_locally_modified="yes">
+<deviceset name="TE-1734829-3" urn="urn:adsk.eagle:component:27602906/2" prefix="J" library_version="138">
 <gates>
 <gate name="G$1" symbol="TE-1734829-3" x="-2.54" y="0"/>
 </gates>
@@ -12864,7 +12880,7 @@ MOTION CO-PROCESSOR</text>
 <connect gate="G$1" pin="GND" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27602903/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27602903/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -23405,22 +23421,24 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY66" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="J3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="CNC_3221-10-0300-00" device=""/>
-<part name="J9" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="CNC_3221-14-0300-00" device=""/>
-<part name="J8" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="CNC_3221-10-0300-00" device=""/>
-<part name="J11" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="CNC_3221-10-0300-00" device=""/>
+<part name="J3" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="CNC_3221-10-0300-00" device="" package3d_urn="urn:adsk.eagle:package:27602901/2"/>
+<part name="J9" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="CNC_3221-14-0300-00" device="" package3d_urn="urn:adsk.eagle:package:27621415/1"/>
+<part name="J8" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="CNC_3221-10-0300-00" device="" package3d_urn="urn:adsk.eagle:package:27602901/2"/>
+<part name="J11" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="CNC_3221-10-0300-00" device="" package3d_urn="urn:adsk.eagle:package:27602901/2"/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="J7" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TE-1734829-3" device="" package3d_urn="urn:adsk.eagle:package:27602903/1"/>
+<part name="J7" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TE-1734829-3" device="" package3d_urn="urn:adsk.eagle:package:27602903/2"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="J5" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="CNC_3221-10-0300-00" device=""/>
+<part name="J5" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="CNC_3221-10-0300-00" device="" package3d_urn="urn:adsk.eagle:package:27602901/2"/>
 <part name="J6" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:24583855/1"/>
 <part name="R55" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="5.1M"/>
 <part name="R56" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="5.1M"/>
 <part name="SUPPLY45" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY57" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="JP2" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:26872615/1"/>
+<part name="TP18" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/3"/>
+<part name="TP19" library="my_library" library_urn="urn:adsk.eagle:library:22876504" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:24605432/3"/>
 </parts>
 <sheets>
 <sheet>
@@ -23596,9 +23614,15 @@ Source: www.kingbright.com</description>
 <instance part="SUPPLY46" gate="GND" x="215.9" y="124.46" smashed="yes" rot="R90">
 <attribute name="VALUE" x="219.075" y="122.555" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP2" gate="A" x="266.7" y="86.36" smashed="yes">
-<attribute name="NAME" x="260.35" y="97.155" size="1.778" layer="95"/>
-<attribute name="VALUE" x="260.35" y="76.2" size="1.778" layer="96"/>
+<instance part="JP2" gate="A" x="269.24" y="86.36" smashed="yes">
+<attribute name="NAME" x="262.89" y="97.155" size="1.778" layer="95"/>
+<attribute name="VALUE" x="262.89" y="76.2" size="1.778" layer="96"/>
+</instance>
+<instance part="TP18" gate="G$1" x="210.82" y="60.96" smashed="yes">
+<attribute name="NAME" x="209.55" y="62.23" size="1.778" layer="95"/>
+</instance>
+<instance part="TP19" gate="G$1" x="208.28" y="55.88" smashed="yes">
+<attribute name="NAME" x="207.01" y="57.15" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -24099,8 +24123,11 @@ Source: www.kingbright.com</description>
 <pinref part="U1" gate="G$1" pin="P4.2/PM_UCB1SOMI/PM_UCB1SCL"/>
 <wire x1="170.18" y1="73.66" x2="208.28" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="73.66" x2="208.28" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="58.42" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="58.42" x2="210.82" y2="58.42" width="0.1524" layer="91"/>
 <label x="213.36" y="58.42" size="1.778" layer="95" xref="yes"/>
+<pinref part="TP18" gate="G$1" pin="TP"/>
+<wire x1="210.82" y1="58.42" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
+<junction x="210.82" y="58.42"/>
 </segment>
 </net>
 <net name="UCB1_I2C_SDA" class="0">
@@ -24109,8 +24136,11 @@ Source: www.kingbright.com</description>
 <pinref part="U1" gate="G$1" pin="P4.1/PM_UCB1SIMO/PM_UCB1SDA"/>
 <wire x1="170.18" y1="71.12" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="71.12" x2="205.74" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="53.34" x2="213.36" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="53.34" x2="208.28" y2="53.34" width="0.1524" layer="91"/>
 <label x="213.36" y="53.34" size="1.778" layer="95" xref="yes"/>
+<pinref part="TP19" gate="G$1" pin="TP"/>
+<wire x1="208.28" y1="53.34" x2="213.36" y2="53.34" width="0.1524" layer="91"/>
+<junction x="208.28" y="53.34"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -24159,20 +24189,24 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="U1" gate="G$1" pin="P7.5/TB0.3"/>
 <wire x1="170.18" y1="101.6" x2="226.06" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="101.6" x2="226.06" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="91.44" x2="264.16" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="2"/>
-<label x="248.92" y="91.44" size="1.778" layer="95"/>
+<label x="175.26" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="251.46" y1="83.82" x2="266.7" y2="83.82" width="0.1524" layer="91"/>
+<label x="251.46" y="83.82" size="1.778" layer="95"/>
+<pinref part="JP2" gate="A" pin="5"/>
 </segment>
 </net>
 <net name="TB0.4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P7.6/TB0.4"/>
 <wire x1="170.18" y1="104.14" x2="228.6" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="104.14" x2="228.6" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="93.98" x2="264.16" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="1"/>
-<label x="248.92" y="93.98" size="1.778" layer="95"/>
+<label x="175.26" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="251.46" y1="81.28" x2="266.7" y2="81.28" width="0.1524" layer="91"/>
+<label x="251.46" y="81.28" size="1.778" layer="95"/>
+<pinref part="JP2" gate="A" pin="6"/>
 </segment>
 </net>
 <net name="TB0.6" class="0">
@@ -24181,10 +24215,12 @@ Source: www.kingbright.com</description>
 <wire x1="170.18" y1="63.5" x2="198.12" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="63.5" x2="198.12" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="48.26" x2="238.76" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="48.26" x2="238.76" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="88.9" x2="264.16" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="3"/>
-<label x="248.92" y="88.9" size="1.778" layer="95"/>
+<label x="175.26" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="4"/>
+<wire x1="241.3" y1="86.36" x2="266.7" y2="86.36" width="0.1524" layer="91"/>
+<label x="248.92" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TB0.5" class="0">
@@ -24193,10 +24229,12 @@ Source: www.kingbright.com</description>
 <wire x1="170.18" y1="60.96" x2="195.58" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="60.96" x2="195.58" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="45.72" x2="241.3" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="45.72" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="86.36" x2="264.16" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="4"/>
-<label x="248.92" y="86.36" size="1.778" layer="95"/>
+<label x="175.26" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="3"/>
+<wire x1="238.76" y1="88.9" x2="266.7" y2="88.9" width="0.1524" layer="91"/>
+<label x="248.92" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P1.1" class="0">
@@ -24206,9 +24244,9 @@ Source: www.kingbright.com</description>
 <label x="78.74" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="251.46" y1="83.82" x2="264.16" y2="83.82" width="0.1524" layer="91"/>
-<label x="251.46" y="83.82" size="1.778" layer="95"/>
-<pinref part="JP2" gate="A" pin="5"/>
+<pinref part="JP2" gate="A" pin="2"/>
+<wire x1="226.06" y1="91.44" x2="266.7" y2="91.44" width="0.1524" layer="91"/>
+<label x="248.92" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P1.0" class="0">
@@ -24218,9 +24256,9 @@ Source: www.kingbright.com</description>
 <label x="78.74" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="251.46" y1="81.28" x2="264.16" y2="81.28" width="0.1524" layer="91"/>
-<label x="251.46" y="81.28" size="1.778" layer="95"/>
-<pinref part="JP2" gate="A" pin="6"/>
+<pinref part="JP2" gate="A" pin="1"/>
+<wire x1="228.6" y1="93.98" x2="266.7" y2="93.98" width="0.1524" layer="91"/>
+<label x="248.92" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -26735,24 +26773,10 @@ software configurable</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="103,3,236.22,170.18,U5,NC,N$40,,,"/>
 <approved hash="104,3,63.5,40.64,U3,VCC+_2,+3V3,,,"/>
 <approved hash="104,3,63.5,43.18,U3,VCC+,+3V3,,,"/>
 <approved hash="113,1,139.596,107.846,FRAME1,,,,,"/>
 <approved hash="113,3,139.596,107.846,FRAME2,,,,,"/>
-<approved hash="113,3,99.06,186.464,JP1,,,,,"/>
-<approved hash="113,4,139.596,107.846,FRAME4,,,,,"/>
-<approved hash="113,1,209.508,48.4861,JP4,,,,,"/>
-<approved hash="113,4,246.617,56.1061,JP5,,,,,"/>
-<approved hash="113,4,228.837,176.756,JP7,,,,,"/>
-<approved hash="113,1,160.257,190.726,JP8,,,,,"/>
-<approved hash="113,1,53.5771,190.726,JP9,,,,,"/>
-<approved hash="113,1,59.6477,48.4861,JP2,,,,,"/>
-<approved hash="113,1,59.6477,20.5461,JP3,,,,,"/>
-<approved hash="113,4,251.697,100.556,JP6,,,,,"/>
-<approved hash="113,1,257.81,43.5017,LED1,,,,,"/>
-<approved hash="113,4,191.77,61.2817,LED2,,,,,"/>
-<approved hash="113,4,191.77,51.1217,LED3,,,,,"/>
 </errors>
 </schematic>
 </drawing>

@@ -68,3 +68,4 @@ releases/AcutuatorBoardRevA_2021.02.19/AcutuatorBoardRevA_2021.02.19/ActuatorBoa
 *.log
 *.raw
 releases/ADCS_SensorBoard_RevA.1_2020-11-19/ADCS_SensorBoard_RevA_2020-11-15/~$ADCS_SensorBoard_BOM.xlsx
+simulation/Current sense with RC filter.net
