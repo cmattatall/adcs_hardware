@@ -24334,14 +24334,14 @@ Source: www.kingbright.com</description>
 <label x="175.26" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="!CS!_CURRENT_SENSE_1" class="0">
+<net name="!CS!_CURR_SENSE_RW" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P5.0/A8/VREF+/VEREF+"/>
 <wire x1="88.9" y1="137.16" x2="58.42" y2="137.16" width="0.1524" layer="91"/>
 <label x="58.42" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="!CS!_CURRENT_SENSE_2" class="0">
+<net name="!CS!_CURR_SENSE_MTQR" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P5.1/A9/VREF-/VEREF-"/>
 <wire x1="88.9" y1="134.62" x2="58.42" y2="134.62" width="0.1524" layer="91"/>
@@ -24918,14 +24918,14 @@ Lauchpad eval board emulator with Code Composer Studio</text>
 <label x="-137.16" y="215.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="!CS!_CURRENT_SENSE_1" class="0">
+<net name="!CS!_CURR_SENSE_RW" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="3"/>
 <wire x1="-109.22" y1="195.58" x2="-139.7" y2="195.58" width="0.1524" layer="91"/>
 <label x="-137.16" y="195.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="!CS!_CURRENT_SENSE_2" class="0">
+<net name="!CS!_CURR_SENSE_MTQR" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="5"/>
 <wire x1="-109.22" y1="190.5" x2="-139.7" y2="190.5" width="0.1524" layer="91"/>
